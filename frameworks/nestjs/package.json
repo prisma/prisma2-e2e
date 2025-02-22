@@ -27,7 +27,7 @@
     "@prisma/client": "6.5.0-dev.12",
     "reflect-metadata": "0.2.2",
     "rimraf": "5.0.10",
-    "rxjs": "7.8.1"
+    "rxjs": "7.8.2"
   },
   "devDependencies": {
     "@nestjs/cli": "10.4.9",
