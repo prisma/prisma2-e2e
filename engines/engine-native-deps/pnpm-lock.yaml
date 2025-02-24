@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 6.5.0-dev.14
-    version: 6.5.0-dev.14
+    specifier: 6.5.0-dev.15
+    version: 6.5.0-dev.15
   zx:
     specifier: 8.3.2
     version: 8.3.2
 
 packages:
 
-  /@prisma/client@6.5.0-dev.14:
-    resolution: {integrity: sha512-J9IOrzx2g9rtn7vOSq0R15DVZlbh8GCuMWmVsziXLy0/BaHrijD5zYtx5doW5LS8rwsh7YTiicMuSxqnXXNLxQ==}
+  /@prisma/client@6.5.0-dev.15:
+    resolution: {integrity: sha512-+izGSZ666Pm0K7gi6WACdvuHhYWSJORrH+tU9d9vEcDLnIOhbd2p/QW6I8CNRkc56GnW5KZ4c173AhcYJWXTzA==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
