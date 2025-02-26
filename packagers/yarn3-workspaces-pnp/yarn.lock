@@ -306,9 +306,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:6.5.0-dev.32":
-  version: 6.5.0-dev.32
-  resolution: "@prisma/client@npm:6.5.0-dev.32"
+"@prisma/client@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1":
+  version: 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  resolution: "@prisma/client@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -317,14 +317,14 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: a05303b24247d1092d3a2262bfa4ac30e32e2b805e6f498efa176b9ed6e36314c85e709c8efbb450c6a88ed5791b21583e8013be23e0417a86e4948cd0c241a1
+  checksum: 73591769d48a34d09a7377fdbee3dd571ba5553ad26ec2e479bf3f79295e4368b9eb4fa8c7eee81e011a87137a5810de045c833e5d5cbdc5d85919fad8136cec
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.5.0-dev.32":
-  version: 6.5.0-dev.32
-  resolution: "@prisma/debug@npm:6.5.0-dev.32"
-  checksum: 6e34be00342fd68ed6158ce482b498fb3a2f671759ff92a99aa5995ec3fa6bb48a7f98a40a5ddb419aadb781da17ada06792a10ec124d3e81c013c0b4310d326
+"@prisma/debug@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1":
+  version: 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  resolution: "@prisma/debug@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1"
+  checksum: 799acc9c6b8775c9ca0b0b7f86fc6b4b68a700a51d5cd63426c09c501576d933b708841842320129256c6ee95ca635f9b41e9e2347707cf4bf9c08c86a59f40e
   languageName: node
   linkType: hard
 
@@ -335,35 +335,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.5.0-dev.32":
-  version: 6.5.0-dev.32
-  resolution: "@prisma/engines@npm:6.5.0-dev.32"
+"@prisma/engines@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1":
+  version: 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  resolution: "@prisma/engines@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.32
+    "@prisma/debug": 6.5.0-integration-fix-improve-global-omit-api-performance.1
     "@prisma/engines-version": 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-    "@prisma/fetch-engine": 6.5.0-dev.32
-    "@prisma/get-platform": 6.5.0-dev.32
-  checksum: e274a600482c83f266a09621aaf2e5a3c3e25b84f27918504f4a4af3a95e86c798baed55053bb61524d35b6b90e1c83d9fcfe8119544b6e1b7caa22befb92e96
+    "@prisma/fetch-engine": 6.5.0-integration-fix-improve-global-omit-api-performance.1
+    "@prisma/get-platform": 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  checksum: d52f9a2896df6181d0c43d03e238ffb731212b67ef915269f6e5c8e433d9638e289d34f1455e5544422f90292b5a3d46c835aea56179ac38c1f993dd5dcbb2ec
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.5.0-dev.32":
-  version: 6.5.0-dev.32
-  resolution: "@prisma/fetch-engine@npm:6.5.0-dev.32"
+"@prisma/fetch-engine@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1":
+  version: 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  resolution: "@prisma/fetch-engine@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.32
+    "@prisma/debug": 6.5.0-integration-fix-improve-global-omit-api-performance.1
     "@prisma/engines-version": 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-    "@prisma/get-platform": 6.5.0-dev.32
-  checksum: 7621e6cd10a8b316851d537ae6f6714db1c8fe78c89235a3bd8cf6a4b95c579096f5efd78160dc116e2e4b300026bd5eb31d33a8ee63e935a6fa8f8d25ecdcf6
+    "@prisma/get-platform": 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  checksum: d80c5cb7a157b8fabd5c3f550c88f09edeb236d7327041f704b3c650237b1064cc084c99dd2b3b5b5272380b5046389150efa728cee430bcd233576164beb307
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.5.0-dev.32":
-  version: 6.5.0-dev.32
-  resolution: "@prisma/get-platform@npm:6.5.0-dev.32"
+"@prisma/get-platform@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1":
+  version: 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  resolution: "@prisma/get-platform@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.32
-  checksum: 5d893c682cc88d66b1adfdd3c29f48b6e434a0cf821c91925c6e76d99a280abded327be4c1ac14637717f2db2934622d3ce3bffbd9a5d012e17698f5bc470fe7
+    "@prisma/debug": 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  checksum: 49c9cebd4fbe7f3d1d404cb43beed5088bb5370706dc8830e0d46e681827c8da549b8a968f934d138d4b4958cf410b8886484692b71d3f0d4106c14af59e5ae2
   languageName: node
   linkType: hard
 
@@ -1800,11 +1800,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.5.0-dev.32":
-  version: 6.5.0-dev.32
-  resolution: "prisma@npm:6.5.0-dev.32"
+"prisma@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1":
+  version: 6.5.0-integration-fix-improve-global-omit-api-performance.1
+  resolution: "prisma@npm:6.5.0-integration-fix-improve-global-omit-api-performance.1"
   dependencies:
-    "@prisma/engines": 6.5.0-dev.32
+    "@prisma/engines": 6.5.0-integration-fix-improve-global-omit-api-performance.1
     esbuild: ">=0.12 <1"
     esbuild-register: 3.6.0
     fsevents: 2.3.3
@@ -1818,7 +1818,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: 475e2aad0556abc3d5276cbc3eeb88ed898cff5a24bca5b50fcad9454689379e92f49416f5ec776efbd55d75e2ab10e0416bc6ec826f077e2b2fbbc9b8978418
+  checksum: ef21d0a9cebb7dd7def5467c9bb0b3bc7b47658f1be5540f22dbb863cb699851a474a21d4e0a70920038c214dabc3d160dc6d775917cf76453895b55543eb108
   languageName: node
   linkType: hard
 
@@ -1904,8 +1904,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@prisma/client": 6.5.0-dev.32
-    prisma: 6.5.0-dev.32
+    "@prisma/client": 6.5.0-integration-fix-improve-global-omit-api-performance.1
+    prisma: 6.5.0-integration-fix-improve-global-omit-api-performance.1
   languageName: unknown
   linkType: soft
 
@@ -2070,10 +2070,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sub-project-1@workspace:packages/sub-project-1"
   dependencies:
-    "@prisma/client": 6.5.0-dev.32
+    "@prisma/client": 6.5.0-integration-fix-improve-global-omit-api-performance.1
     "@types/node": 18.19.76
     "@yarnpkg/pnpify": 3.1.8
-    prisma: 6.5.0-dev.32
+    prisma: 6.5.0-integration-fix-improve-global-omit-api-performance.1
     ts-node: 10.9.2
     typescript: 5.7.3
   languageName: unknown

@@ -1,1 +1,1 @@
-6.5.0-dev.32
+6.5.0-integration-fix-improve-global-omit-api-performance.1
