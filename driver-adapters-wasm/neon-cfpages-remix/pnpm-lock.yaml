@@ -27,8 +27,8 @@ dependencies:
     specifier: 5.1.23
     version: 5.1.23
   miniflare:
-    specifier: 3.20250214.0
-    version: 3.20250214.0
+    specifier: 3.20250214.1
+    version: 3.20250214.1
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -5708,6 +5708,28 @@ packages:
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
+    dev: true
+
+  /miniflare@3.20250214.1:
+    resolution: {integrity: sha512-NE66QV+2n9ZndaP5jgPlcVref3Arvizb+l2QqhgeXtKM5Orhi8UU2mijoiN3mHEUexKaBES2S1VubT4LDPqkxQ==}
+    engines: {node: '>=16.13'}
+    hasBin: true
+    dependencies:
+      '@cspotcode/source-map-support': 0.8.1
+      acorn: 8.14.0
+      acorn-walk: 8.3.2
+      exit-hook: 2.2.1
+      glob-to-regexp: 0.4.1
+      stoppable: 1.1.0
+      undici: 5.28.5
+      workerd: 1.20250214.0
+      ws: 8.18.0
+      youch: 3.2.3
+      zod: 3.22.3
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+    dev: false
 
   /minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
