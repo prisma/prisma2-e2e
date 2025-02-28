@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   '@prisma/client':
-    specifier: 6.5.0-dev.39
-    version: 6.5.0-dev.39
+    specifier: 6.5.0-integration-fix-improve-global-omit-api-performance-2.1
+    version: 6.5.0-integration-fix-improve-global-omit-api-performance-2.1
   zx:
     specifier: 8.3.2
     version: 8.3.2
 
 packages:
 
-  /@prisma/client@6.5.0-dev.39:
-    resolution: {integrity: sha512-5NiZlDu2mRxvP77cjcTfs96yfTBblRr8fvv/TVnopyCEoC2I0C/K+mF9pQuSge3W+9V/2nFBT2/HUtcm6UOX+Q==}
+  /@prisma/client@6.5.0-integration-fix-improve-global-omit-api-performance-2.1:
+    resolution: {integrity: sha512-JoTYBv14K5TH/MsxczylyGAjbF59EMG/MBMfJN7gEj7LsM7aTr952IEbZp7w3ibGj+W6UL0aCYWyUBoI2oG6uw==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:

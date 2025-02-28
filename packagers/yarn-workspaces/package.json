@@ -4,7 +4,7 @@
     "prisma-project"
   ],
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.39",
-    "prisma": "6.5.0-dev.39"
+    "@prisma/client": "6.5.0-integration-fix-improve-global-omit-api-performance-2.1",
+    "prisma": "6.5.0-integration-fix-improve-global-omit-api-performance-2.1"
   }
 }
