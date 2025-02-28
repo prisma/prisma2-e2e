@@ -15,7 +15,7 @@
     "@prisma/client": "6.5.0-dev.35"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "0.7.3",
+    "@cloudflare/vitest-pool-workers": "0.7.4",
     "@cloudflare/workers-types": "4.20250214.0",
     "prisma": "6.5.0-dev.35",
     "typescript": "^5.5.0",
