@@ -306,9 +306,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:6.5.0-dev.41":
-  version: 6.5.0-dev.41
-  resolution: "@prisma/client@npm:6.5.0-dev.41"
+"@prisma/client@npm:6.5.0-dev.42":
+  version: 6.5.0-dev.42
+  resolution: "@prisma/client@npm:6.5.0-dev.42"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -317,53 +317,53 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: eb9192259bc896ac1b400bfe384aef8c3b3768c3add2ee919b6196c7ae05f7d8e646145adf53ea22c99d0c4fda46328ce319866ff2beb948a219993abb14a5af
+  checksum: a9dcd3ae32f867605371f9925dbd426e5949a768360320f49cb0058d77cd4fd4d2fbff2b791e853ccf97e351072574d51c05be45342d09415be40de01ac48a85
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.5.0-dev.41":
-  version: 6.5.0-dev.41
-  resolution: "@prisma/debug@npm:6.5.0-dev.41"
-  checksum: e3b7268d6b1121cae6c3d4a3748a61a63a6070eaca7e3ae85445633392ad015b694eaa03c356591a66e87c147597284920cd0efc6f147eaaf9f4550c877996f5
+"@prisma/debug@npm:6.5.0-dev.42":
+  version: 6.5.0-dev.42
+  resolution: "@prisma/debug@npm:6.5.0-dev.42"
+  checksum: b5ac23e71fb2beb8f5a2dc081207288c9d8ddb5494f3378dba4801e1daeceacb092386f4b3318da895e39a529f1bcb9c7c7262145d003a4f8481a976ea0ca40e
   languageName: node
   linkType: hard
 
-"@prisma/engines-version@npm:6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d":
-  version: 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-  resolution: "@prisma/engines-version@npm:6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d"
-  checksum: dc01f7b54d105e83fab9f941e28be4c34dcd2f9f5118f4ea54ed091ed4054490dd2715d4ea7f23b52d8fd235c59f0bb9d45e0ecbe2330be42713eddcb9e2c4a5
+"@prisma/engines-version@npm:6.5.0-35.c4e2705a07520fd27af6feba131ff83c38cd0c5c":
+  version: 6.5.0-35.c4e2705a07520fd27af6feba131ff83c38cd0c5c
+  resolution: "@prisma/engines-version@npm:6.5.0-35.c4e2705a07520fd27af6feba131ff83c38cd0c5c"
+  checksum: 5d47b86634b63bbac2f0a4f0be5183178435794c15de1f6a1fe730be8ff17a9a90722d8b2ee43e23d0e87970b1e7093aab44b3c649b0b5ceb76491fa0a174fbe
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.5.0-dev.41":
-  version: 6.5.0-dev.41
-  resolution: "@prisma/engines@npm:6.5.0-dev.41"
+"@prisma/engines@npm:6.5.0-dev.42":
+  version: 6.5.0-dev.42
+  resolution: "@prisma/engines@npm:6.5.0-dev.42"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.41
-    "@prisma/engines-version": 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-    "@prisma/fetch-engine": 6.5.0-dev.41
-    "@prisma/get-platform": 6.5.0-dev.41
-  checksum: b6aff39de05bd359cfc56c84dd08f35e32e4ee1fd3cbb6be7891065ba608d72b5eaac48e87418b92be9124e7780442fcb4b5d6d70a9be201c9f15483a0a460c4
+    "@prisma/debug": 6.5.0-dev.42
+    "@prisma/engines-version": 6.5.0-35.c4e2705a07520fd27af6feba131ff83c38cd0c5c
+    "@prisma/fetch-engine": 6.5.0-dev.42
+    "@prisma/get-platform": 6.5.0-dev.42
+  checksum: b0093bb2c36bae142fadceea788a7d522cde201a02da0712204673b0071614db3dca0938d0f910628e05b8d749dc989b2ffbf28afeeab3c4c3439ad593f5f42d
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.5.0-dev.41":
-  version: 6.5.0-dev.41
-  resolution: "@prisma/fetch-engine@npm:6.5.0-dev.41"
+"@prisma/fetch-engine@npm:6.5.0-dev.42":
+  version: 6.5.0-dev.42
+  resolution: "@prisma/fetch-engine@npm:6.5.0-dev.42"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.41
-    "@prisma/engines-version": 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
-    "@prisma/get-platform": 6.5.0-dev.41
-  checksum: 85fdce522426ab6a92df1a27f0fa182fa28013f09e5af0bf640432dff61b5e902c5d005b8eb7ce3092d86bf34ce9d3863d91838350481349f36fae3d89ad98ad
+    "@prisma/debug": 6.5.0-dev.42
+    "@prisma/engines-version": 6.5.0-35.c4e2705a07520fd27af6feba131ff83c38cd0c5c
+    "@prisma/get-platform": 6.5.0-dev.42
+  checksum: ca666e4be4d249c48f121535467d8e135f2a102c95bc45f93b3b947ea2a93cfb8b8a5fd41b1b319ba667bdc686eaf46ee0021ce4323563397c71c1945ed929a7
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.5.0-dev.41":
-  version: 6.5.0-dev.41
-  resolution: "@prisma/get-platform@npm:6.5.0-dev.41"
+"@prisma/get-platform@npm:6.5.0-dev.42":
+  version: 6.5.0-dev.42
+  resolution: "@prisma/get-platform@npm:6.5.0-dev.42"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.41
-  checksum: 55eab28febe425a7e66deec2afabdaa13048cf6eedff1dc71d673e7f09c47b4813326689b06607770a3036e9c345680ed38cc5ca8c5af14b9a4b9d512e4b4750
+    "@prisma/debug": 6.5.0-dev.42
+  checksum: 07f29ae01d2561066dd3a28c603124e9b9ed9475ce43bd8b49849272c2b277fa92e0f2d3c8d4b8f8ddc905335897c2b9bedd8b20ba2f98c12173239b606202f3
   languageName: node
   linkType: hard
 
@@ -1800,11 +1800,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.5.0-dev.41":
-  version: 6.5.0-dev.41
-  resolution: "prisma@npm:6.5.0-dev.41"
+"prisma@npm:6.5.0-dev.42":
+  version: 6.5.0-dev.42
+  resolution: "prisma@npm:6.5.0-dev.42"
   dependencies:
-    "@prisma/engines": 6.5.0-dev.41
+    "@prisma/engines": 6.5.0-dev.42
     esbuild: ">=0.12 <1"
     esbuild-register: 3.6.0
     fsevents: 2.3.3
@@ -1818,7 +1818,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: 0df07653d1fbd17921cd6af745173d9df64a8201c27a0d14543f42282bcc1e038d3e76cc7cd914161f1fb9e10d9465dac54441fb28379eff4fed1d1fa12775f7
+  checksum: 7b495d80315d95bbe32bbce476202942a45fd16e5a2c006d81c6c281667e8d79f3ba0f6cd48abc769295e34c4dbb50846e208fa2f4b41750bc2c49cb1406c575
   languageName: node
   linkType: hard
 
@@ -1904,8 +1904,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@prisma/client": 6.5.0-dev.41
-    prisma: 6.5.0-dev.41
+    "@prisma/client": 6.5.0-dev.42
+    prisma: 6.5.0-dev.42
   languageName: unknown
   linkType: soft
 
@@ -2070,10 +2070,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sub-project-1@workspace:packages/sub-project-1"
   dependencies:
-    "@prisma/client": 6.5.0-dev.41
+    "@prisma/client": 6.5.0-dev.42
     "@types/node": 18.19.78
     "@yarnpkg/pnpify": 3.1.8
-    prisma: 6.5.0-dev.41
+    prisma: 6.5.0-dev.42
     ts-node: 10.9.2
     typescript: 5.7.3
   languageName: unknown
