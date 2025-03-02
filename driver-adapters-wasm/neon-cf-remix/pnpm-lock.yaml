@@ -19,7 +19,7 @@ dependencies:
     version: 6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.3.3)
   '@remix-run/cloudflare':
     specifier: ^2.8.0
-    version: 2.15.3(@cloudflare/workers-types@4.20250214.0)(typescript@5.3.3)
+    version: 2.15.3(@cloudflare/workers-types@4.20250224.0)(typescript@5.3.3)
   '@remix-run/css-bundle':
     specifier: ^2.8.0
     version: 2.15.3
@@ -39,7 +39,7 @@ dependencies:
 devDependencies:
   '@cloudflare/workers-types':
     specifier: ^4.20230518.0
-    version: 4.20250214.0
+    version: 4.20250224.0
   '@jest/globals':
     specifier: 29.7.0
     version: 29.7.0
@@ -90,7 +90,7 @@ devDependencies:
     version: 5.3.3
   wrangler:
     specifier: ^3.24.0
-    version: 3.109.2(@cloudflare/workers-types@4.20250214.0)
+    version: 3.109.2(@cloudflare/workers-types@4.20250224.0)
 
 packages:
 
@@ -572,8 +572,8 @@ packages:
     dev: true
     optional: true
 
-  /@cloudflare/workers-types@4.20250214.0:
-    resolution: {integrity: sha512-+M8oOFVbyXT5GeJrYLWMUGyPf5wGB4+k59PPqdedtOig7NjZ5r4S79wMdaZ/EV5IV8JPtZBSNjTKpDnNmfxjaQ==}
+  /@cloudflare/workers-types@4.20250224.0:
+    resolution: {integrity: sha512-j6ZwQ5G2moQRaEtGI2u5TBQhVXv/XwOS5jfBAheZHcpCM07zm8j0i8jZHHLq/6VA8e6VRjKohOyj5j6tZ1KHLQ==}
 
   /@cspotcode/source-map-support@0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -1929,7 +1929,7 @@ packages:
     dependencies:
       '@prisma/debug': 6.5.0-dev.42
 
-  /@remix-run/cloudflare@2.15.3(@cloudflare/workers-types@4.20250214.0)(typescript@5.3.3):
+  /@remix-run/cloudflare@2.15.3(@cloudflare/workers-types@4.20250224.0)(typescript@5.3.3):
     resolution: {integrity: sha512-L5O+ejspTcAffp979BwE2tDR1KkMblYiCjV87hfjYu1ktjWCLXcizeiOl65msljOE8yrMcF+cGzl75QQGw753w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -1940,7 +1940,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.1.3
-      '@cloudflare/workers-types': 4.20250214.0
+      '@cloudflare/workers-types': 4.20250224.0
       '@remix-run/server-runtime': 2.15.3(typescript@5.3.3)
       typescript: 5.3.3
     dev: false
@@ -2026,7 +2026,7 @@ packages:
       typescript: 5.3.3
       valibot: 0.41.0(typescript@5.3.3)
       vite-node: 1.6.1
-      wrangler: 3.109.2(@cloudflare/workers-types@4.20250214.0)
+      wrangler: 3.109.2(@cloudflare/workers-types@4.20250224.0)
       ws: 7.5.10
     transitivePeerDependencies:
       - '@types/node'
@@ -2654,7 +2654,7 @@ packages:
       '@babel/plugin-syntax-typescript': 7.25.9(@babel/core@7.26.8)
       '@vanilla-extract/babel-plugin-debug-ids': 1.2.0
       '@vanilla-extract/css': 1.17.1
-      esbuild: 0.17.19
+      esbuild: 0.17.6
       eval: 0.1.8
       find-up: 5.0.0
       javascript-stringify: 2.1.0
@@ -3318,6 +3318,7 @@ packages:
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    requiresBuild: true
     dev: true
 
   /color-string@1.9.1:
@@ -8778,7 +8779,7 @@ packages:
       '@cloudflare/workerd-windows-64': 1.20250214.0
     dev: true
 
-  /wrangler@3.109.2(@cloudflare/workers-types@4.20250214.0):
+  /wrangler@3.109.2(@cloudflare/workers-types@4.20250224.0):
     resolution: {integrity: sha512-CT8izugPBth5o1o4gLNcQrDkHKSX2Jthy6gkyhaWiy2pFrx+536NMn/atWilLA1t1uhIgddEI5BXDNudIkPPHA==}
     engines: {node: '>=16.17.0'}
     hasBin: true
@@ -8789,7 +8790,7 @@ packages:
         optional: true
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
-      '@cloudflare/workers-types': 4.20250214.0
+      '@cloudflare/workers-types': 4.20250224.0
       '@esbuild-plugins/node-globals-polyfill': 0.2.3(esbuild@0.17.19)
       '@esbuild-plugins/node-modules-polyfill': 0.2.2(esbuild@0.17.19)
       blake3-wasm: 2.1.5
