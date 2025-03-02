@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   firebase-tools:
-    specifier: 13.31.2
-    version: 13.31.2
+    specifier: 13.32.0
+    version: 13.32.0
 
 packages:
 
@@ -1549,8 +1549,8 @@ packages:
       - supports-color
     dev: true
 
-  /firebase-tools@13.31.2:
-    resolution: {integrity: sha512-y88vAQ8L2Bm5kkYKUyiXmUlvOs/kikE7pbVgEsoX/0CiwFqqoN8+TAi7ZwsOkB/dRlNlR4WztAa7Od6LQ0GhuQ==}
+  /firebase-tools@13.32.0:
+    resolution: {integrity: sha512-KkrZ4+Mlj4aV81cJsgXmabWfbanmYSiSONv2B0m/bVpMcVhKCcT0DupBYcD7WOTyNA6f6M8m6E8yPOO/acwchA==}
     engines: {node: '>=18.0.0 || >=20.0.0 || >=22.0.0'}
     hasBin: true
     dependencies:
