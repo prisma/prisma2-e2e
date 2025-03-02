@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@prisma/client':
     specifier: 6.5.0-dev.42
-    version: 6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.7.3)
+    version: 6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.8.2)
 
 devDependencies:
   '@sveltejs/adapter-auto':
@@ -18,7 +18,7 @@ devDependencies:
     version: 1.30.4(svelte@4.2.19)(vite@5.4.14)
   prisma:
     specifier: 6.5.0-dev.42
-    version: 6.5.0-dev.42(typescript@5.7.3)
+    version: 6.5.0-dev.42(typescript@5.8.2)
   svelte:
     specifier: 4.2.19
     version: 4.2.19
@@ -27,13 +27,13 @@ devDependencies:
     version: 3.8.6(svelte@4.2.19)
   svelte-preprocess:
     specifier: 5.1.4
-    version: 5.1.4(svelte@4.2.19)(typescript@5.7.3)
+    version: 5.1.4(svelte@4.2.19)(typescript@5.8.2)
   tslib:
     specifier: 2.8.1
     version: 2.8.1
   typescript:
-    specifier: 5.7.3
-    version: 5.7.3
+    specifier: 5.8.2
+    version: 5.8.2
   vite:
     specifier: 5.4.14
     version: 5.4.14
@@ -271,7 +271,7 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@prisma/client@6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.7.3):
+  /@prisma/client@6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.8.2):
     resolution: {integrity: sha512-O9sHKjx+ZMhbHdAAJMRVv3oN1wl79GxpNF7eyMibMWgzA4RqBUlSHlbtaS7o1A3PGelToBLdY06TXtkyRIOiQQ==}
     engines: {node: '>=18.18'}
     requiresBuild: true
@@ -284,8 +284,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.5.0-dev.42(typescript@5.7.3)
-      typescript: 5.7.3
+      prisma: 6.5.0-dev.42(typescript@5.8.2)
+      typescript: 5.8.2
     dev: false
 
   /@prisma/debug@6.5.0-dev.42:
@@ -909,7 +909,7 @@ packages:
       source-map-js: 1.2.0
     dev: true
 
-  /prisma@6.5.0-dev.42(typescript@5.7.3):
+  /prisma@6.5.0-dev.42(typescript@5.8.2):
     resolution: {integrity: sha512-z+5HNsJgaMYP/rW1c0Vr44AoTfB15hgt5o/M5ZNKV3vlG7F5CPbXfmYpWVozduGlk4ucvxzmhI0PxApPNk015Q==}
     engines: {node: '>=18.18'}
     hasBin: true
@@ -923,7 +923,7 @@ packages:
       '@prisma/engines': 6.5.0-dev.42
       esbuild: 0.21.5
       esbuild-register: 3.6.0(esbuild@0.21.5)
-      typescript: 5.7.3
+      typescript: 5.8.2
     optionalDependencies:
       fsevents: 2.3.3
     transitivePeerDependencies:
@@ -1031,8 +1031,8 @@ packages:
       picocolors: 1.0.1
       sade: 1.8.1
       svelte: 4.2.19
-      svelte-preprocess: 5.1.4(svelte@4.2.19)(typescript@5.7.3)
-      typescript: 5.7.3
+      svelte-preprocess: 5.1.4(svelte@4.2.19)(typescript@5.8.2)
+      typescript: 5.8.2
     transitivePeerDependencies:
       - '@babel/core'
       - coffeescript
@@ -1054,7 +1054,7 @@ packages:
       svelte: 4.2.19
     dev: true
 
-  /svelte-preprocess@5.1.4(svelte@4.2.19)(typescript@5.7.3):
+  /svelte-preprocess@5.1.4(svelte@4.2.19)(typescript@5.8.2):
     resolution: {integrity: sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==}
     engines: {node: '>= 16.0.0'}
     requiresBuild: true
@@ -1098,7 +1098,7 @@ packages:
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.19
-      typescript: 5.7.3
+      typescript: 5.8.2
     dev: true
 
   /svelte@4.2.19:
@@ -1144,8 +1144,8 @@ packages:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
     dev: true
 
-  /typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  /typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
