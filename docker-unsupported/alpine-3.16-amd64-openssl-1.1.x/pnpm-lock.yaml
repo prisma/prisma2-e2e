@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@prisma/client':
     specifier: 6.5.0-dev.42
-    version: 6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.7.3)
+    version: 6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.8.2)
   express:
     specifier: 4.21.2
     version: 4.21.2
@@ -18,13 +18,13 @@ devDependencies:
     version: 18.19.78
   prisma:
     specifier: 6.5.0-dev.42
-    version: 6.5.0-dev.42(typescript@5.7.3)
+    version: 6.5.0-dev.42(typescript@5.8.2)
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@18.19.78)(typescript@5.7.3)
+    version: 10.9.2(@types/node@18.19.78)(typescript@5.8.2)
   typescript:
-    specifier: 5.7.3
-    version: 5.7.3
+    specifier: 5.8.2
+    version: 5.8.2
 
 packages:
 
@@ -251,7 +251,7 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@prisma/client@6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.7.3):
+  /@prisma/client@6.5.0-dev.42(prisma@6.5.0-dev.42)(typescript@5.8.2):
     resolution: {integrity: sha512-O9sHKjx+ZMhbHdAAJMRVv3oN1wl79GxpNF7eyMibMWgzA4RqBUlSHlbtaS7o1A3PGelToBLdY06TXtkyRIOiQQ==}
     engines: {node: '>=18.18'}
     requiresBuild: true
@@ -264,8 +264,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.5.0-dev.42(typescript@5.7.3)
-      typescript: 5.7.3
+      prisma: 6.5.0-dev.42(typescript@5.8.2)
+      typescript: 5.8.2
     dev: false
 
   /@prisma/debug@6.5.0-dev.42:
@@ -738,7 +738,7 @@ packages:
     resolution: {integrity: sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==}
     dev: false
 
-  /prisma@6.5.0-dev.42(typescript@5.7.3):
+  /prisma@6.5.0-dev.42(typescript@5.8.2):
     resolution: {integrity: sha512-z+5HNsJgaMYP/rW1c0Vr44AoTfB15hgt5o/M5ZNKV3vlG7F5CPbXfmYpWVozduGlk4ucvxzmhI0PxApPNk015Q==}
     engines: {node: '>=18.18'}
     hasBin: true
@@ -752,7 +752,7 @@ packages:
       '@prisma/engines': 6.5.0-dev.42
       esbuild: 0.25.0
       esbuild-register: 3.6.0(esbuild@0.25.0)
-      typescript: 5.7.3
+      typescript: 5.8.2
     optionalDependencies:
       fsevents: 2.3.3
     transitivePeerDependencies:
@@ -865,7 +865,7 @@ packages:
     engines: {node: '>=0.6'}
     dev: false
 
-  /ts-node@10.9.2(@types/node@18.19.78)(typescript@5.7.3):
+  /ts-node@10.9.2(@types/node@18.19.78)(typescript@5.8.2):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -891,7 +891,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.7.3
+      typescript: 5.8.2
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -904,8 +904,8 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  /typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
