@@ -20,6 +20,6 @@
     "firebase-functions-test": "3.4.0",
     "prisma": "6.5.0-dev.42",
     "ts-node": "10.9.2",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   }
 }
