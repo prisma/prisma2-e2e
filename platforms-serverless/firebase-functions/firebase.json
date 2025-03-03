@@ -1,6 +1,6 @@
 {
   "functions": {
-    "codebase": "firebase-functions"
-  },
-  "runtime": "nodejs22"
+    "codebase": "firebase-functions",
+    "runtime": "nodejs22"
+  }
 }
