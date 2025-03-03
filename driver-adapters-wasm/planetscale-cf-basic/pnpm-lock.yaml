@@ -9,11 +9,11 @@ dependencies:
     specifier: 1.19.0
     version: 1.19.0
   '@prisma/adapter-planetscale':
-    specifier: 6.5.0-dev.49
-    version: 6.5.0-dev.49(@planetscale/database@1.19.0)
+    specifier: 6.5.0-dev.50
+    version: 6.5.0-dev.50(@planetscale/database@1.19.0)
   '@prisma/client':
-    specifier: 6.5.0-dev.49
-    version: 6.5.0-dev.49(prisma@6.5.0-dev.49)
+    specifier: 6.5.0-dev.50
+    version: 6.5.0-dev.50(prisma@6.5.0-dev.50)
 
 devDependencies:
   '@jest/globals':
@@ -26,8 +26,8 @@ devDependencies:
     specifier: 2.7.0
     version: 2.7.0
   prisma:
-    specifier: 6.5.0-dev.49
-    version: 6.5.0-dev.49
+    specifier: 6.5.0-dev.50
+    version: 6.5.0-dev.50
   wrangler:
     specifier: 3.109.2
     version: 3.109.2
@@ -1234,17 +1234,17 @@ packages:
     engines: {node: '>=16'}
     dev: false
 
-  /@prisma/adapter-planetscale@6.5.0-dev.49(@planetscale/database@1.19.0):
-    resolution: {integrity: sha512-gQpEyP0vu/UAXMHNb9rrxxY89aCFPQDB0TgmXsS7oO2AFR4JzdjpWUVbT9X8yBft+cYlJ2vPEjFIfcumvMRjIg==}
+  /@prisma/adapter-planetscale@6.5.0-dev.50(@planetscale/database@1.19.0):
+    resolution: {integrity: sha512-2HtWNRnUg9GrgTptBslq/QEA2xrh64SzZonu2gUj1UNDYOw7gd5p4P1iFo0WZkFr+xRkO5mQHppiOW72IRCOYA==}
     peerDependencies:
       '@planetscale/database': ^1.15.0
     dependencies:
       '@planetscale/database': 1.19.0
-      '@prisma/driver-adapter-utils': 6.5.0-dev.49
+      '@prisma/driver-adapter-utils': 6.5.0-dev.50
     dev: false
 
-  /@prisma/client@6.5.0-dev.49(prisma@6.5.0-dev.49):
-    resolution: {integrity: sha512-spfw0uDLXVeXYKY0VefVb/NlkouSR7U4nTA1wq8em/Wb7OTNQmNBEF9houeBuFzt8DboYqacgXHm1i5SkftOsw==}
+  /@prisma/client@6.5.0-dev.50(prisma@6.5.0-dev.50):
+    resolution: {integrity: sha512-06ZrvmA6qL9eqH0J2/BBWjB23Fb8XKqSEzv7r4R9jfkE0RhIihHJaF3LDMMbF5yCHugz+y9oaW1peg98ENdURw==}
     engines: {node: '>=18.18'}
     requiresBuild: true
     peerDependencies:
@@ -1256,41 +1256,41 @@ packages:
       typescript:
         optional: true
     dependencies:
-      prisma: 6.5.0-dev.49
+      prisma: 6.5.0-dev.50
     dev: false
 
-  /@prisma/debug@6.5.0-dev.49:
-    resolution: {integrity: sha512-rRAXUPYpzDjQP/1YkcUsTwqxoa/ozXXjjMx5/whbB7z++X6/xksciftDas4Daisl+9pYec96vI8ARxvy9oZoSQ==}
+  /@prisma/debug@6.5.0-dev.50:
+    resolution: {integrity: sha512-HrbgVpkBth4fStTd6VmIe7d9GcuDHBzHLfoVTSQ867KkFpSSM0ZhPD1Gw8QhpXoB9/Y4wH0mn+LB+EA+6q+nxQ==}
 
-  /@prisma/driver-adapter-utils@6.5.0-dev.49:
-    resolution: {integrity: sha512-19tm2/3rKnND3znCgc1mQy3V3S3peOOZ620/chOotufcqNkwhvMQLMAAd4L6J8S1XJfcrVoDJ44wCO6rUzpQrQ==}
+  /@prisma/driver-adapter-utils@6.5.0-dev.50:
+    resolution: {integrity: sha512-1RSCj2gJam5sSFv4h+IegzCkckWFL9tuaZQ3lV7cf+VDyLkhPgHKVA+EK4w4CyjZUkS+Kt7FhW0vL2lAU6hICQ==}
     dependencies:
-      '@prisma/debug': 6.5.0-dev.49
+      '@prisma/debug': 6.5.0-dev.50
     dev: false
 
-  /@prisma/engines-version@6.5.0-36.3f077f0c2a07647acf7cda7dc8e24e0ce3a3812a:
-    resolution: {integrity: sha512-4z/F1HYOsrkLHRKfrAru424i9PzTvyMTyLcNjmMvj3xwzJ53e3N/x1PwAaxVtPe3e1ZggtGxXHqr65kT6d2xow==}
+  /@prisma/engines-version@6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb:
+    resolution: {integrity: sha512-3H2QNJOronqqWg5njkGf44auokPK5akzHDC+mi2BsSC+mpUZ4ptqSEdzKtKLxagFaZ5fZj/C464Hb+wVy0EEbw==}
 
-  /@prisma/engines@6.5.0-dev.49:
-    resolution: {integrity: sha512-yXg60PzeFlTKKJJX8ZZB4DxoQMhmWIOVAVvrQzgNVwDJ/g3LaXww2nXYVCufcsIlDVoxgx+0Ny4qLcghWJDT1Q==}
+  /@prisma/engines@6.5.0-dev.50:
+    resolution: {integrity: sha512-ey1v9G/64j/cikWy22DBDdC441/3UWzr2Hr39YQG37WhzIRg1oBr7A1kISEoi271cuOrjygbQNJpSuLzLGk1+g==}
     requiresBuild: true
     dependencies:
-      '@prisma/debug': 6.5.0-dev.49
-      '@prisma/engines-version': 6.5.0-36.3f077f0c2a07647acf7cda7dc8e24e0ce3a3812a
-      '@prisma/fetch-engine': 6.5.0-dev.49
-      '@prisma/get-platform': 6.5.0-dev.49
+      '@prisma/debug': 6.5.0-dev.50
+      '@prisma/engines-version': 6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb
+      '@prisma/fetch-engine': 6.5.0-dev.50
+      '@prisma/get-platform': 6.5.0-dev.50
 
-  /@prisma/fetch-engine@6.5.0-dev.49:
-    resolution: {integrity: sha512-ttS+wNMZz+VMHVWll8wVZikaTkRpFwGUZ3F2TwcJAq6s3tgVKs7ZcgNxdPbrpQB6/gotb6dDinvHIHRVb7Xd6A==}
+  /@prisma/fetch-engine@6.5.0-dev.50:
+    resolution: {integrity: sha512-CYb79JnG9kUSOId6eXiiyDvRp68O9DTlx6P5P2vqdoERAUZgclIz7xTrBqHkuMCKb5p6DBRUVOPK3APdLsUC8A==}
     dependencies:
-      '@prisma/debug': 6.5.0-dev.49
-      '@prisma/engines-version': 6.5.0-36.3f077f0c2a07647acf7cda7dc8e24e0ce3a3812a
-      '@prisma/get-platform': 6.5.0-dev.49
+      '@prisma/debug': 6.5.0-dev.50
+      '@prisma/engines-version': 6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb
+      '@prisma/get-platform': 6.5.0-dev.50
 
-  /@prisma/get-platform@6.5.0-dev.49:
-    resolution: {integrity: sha512-Udi1HJEZjFy+kdQEOHWLlcUxMPtQant437y7MEDJYHaqNGrHojZ3d5XizXielTgWAiAAFGGY89SJEPAYEij5zA==}
+  /@prisma/get-platform@6.5.0-dev.50:
+    resolution: {integrity: sha512-OAs3uyCkQIrsyGPq0y/vH7nlt2EYCsw5aRppqqFjl1GsZgb0ax0l/ZWFCmPJ8Hpxntw1rNIAvA7zFIIcVUtvlA==}
     dependencies:
-      '@prisma/debug': 6.5.0-dev.49
+      '@prisma/debug': 6.5.0-dev.50
 
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -2867,8 +2867,8 @@ packages:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
     dev: true
 
-  /prisma@6.5.0-dev.49:
-    resolution: {integrity: sha512-PbG9tsIIHbuU/Lm2UVTxsbPuMH6l++DHKfp6VCeF8LF9i5AmrGnFtJlvqhwDwMc/p3wBUIcX0ZwB3wqkKh7h4g==}
+  /prisma@6.5.0-dev.50:
+    resolution: {integrity: sha512-gMcGHoD2MF5MqPEX1O9Oag/OzZtnBhqCqE0Hoe7BlIt9TlOYqlZ/nE/Y6pIyg6adofiaiS4x6khuIpG42Qah4g==}
     engines: {node: '>=18.18'}
     hasBin: true
     requiresBuild: true
@@ -2878,7 +2878,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@prisma/engines': 6.5.0-dev.49
+      '@prisma/engines': 6.5.0-dev.50
       esbuild: 0.17.19
       esbuild-register: 3.6.0(esbuild@0.17.19)
     optionalDependencies:
