@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -eu
+set -x
 
 echo "Disabling StrictHostKeyChecking"
 mkdir -p ~/.ssh
