@@ -27,7 +27,7 @@ jobs:
           - mongodb-azure-cosmosdb
         # Since it fails, we can test only library
         clientEngine: ['library']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
 
     runs-on: ${{ matrix.os }}
 
