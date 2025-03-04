@@ -13,14 +13,14 @@ importers:
         version: 6.5.0-dev.50(prisma@6.5.0-dev.50)
       jest:
         specifier: 29.7.0
-        version: 29.7.0
+        version: 29.7.0(@types/node@18.15.11)
     devDependencies:
       prisma:
         specifier: 6.5.0-dev.50
         version: 6.5.0-dev.50
       prisma-nestjs-graphql:
-        specifier: 20.1.0
-        version: 20.1.0
+        specifier: 21.1.1
+        version: 21.1.1
 
 packages:
 
@@ -1292,8 +1292,8 @@ packages:
     resolution: {integrity: sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==}
     engines: {node: '>=6'}
 
-  outmatch@0.7.0:
-    resolution: {integrity: sha512-w1ybiTBffGiwxOO7JJBVVOsIiWwzcfSl/D80amWAU2UDe1o9/SySOUzAwDuN3+jGKQRs0UCDTS8rndFiroJgVQ==}
+  outmatch@1.0.0:
+    resolution: {integrity: sha512-Dro+1hlvosA7DUKFqeHUA2g+xdWGoGTGZ+19go5vwxqS7iSTXQtajrEdhTdBXdahzGBEV2NH89vouFWpLyOuPg==}
 
   p-limit@2.3.0:
     resolution: {integrity: sha512-//88mFWSJx8lxCzwdAABTJL2MyWB12+eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w==}
@@ -1356,8 +1356,8 @@ packages:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  prisma-nestjs-graphql@20.1.0:
-    resolution: {integrity: sha512-NQzQErAeNH8HgGRk96XCYrUkR+TMLVrq4ufbz87dA3NyrU02uuKhbiFZdWPS8Fb20+9qDY8JtE2cFmM7dm+LlA==}
+  prisma-nestjs-graphql@21.1.1:
+    resolution: {integrity: sha512-XoCPekDvEKrIzASI6AlbMQYZMyOUuo1rrCD6Go3E4b+uttE9pHPXw+k3m/oQsr7MJXYsmYNCBor6sm0OgTirVA==}
     hasBin: true
 
   prisma@6.5.0-dev.50:
@@ -2214,7 +2214,7 @@ snapshots:
       fastq: 1.15.0
 
   '@prisma/client@6.5.0-dev.50(prisma@6.5.0-dev.50)':
-    dependencies:
+    optionalDependencies:
       prisma: 6.5.0-dev.50
 
   '@prisma/debug@5.14.0': {}
@@ -2479,7 +2479,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  create-jest@29.7.0:
+  create-jest@29.7.0(@types/node@18.15.11):
     dependencies:
       '@jest/types': 29.6.3
       chalk: 4.1.2
@@ -2785,13 +2785,13 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.7.0:
+  jest-cli@29.7.0(@types/node@18.15.11):
     dependencies:
       '@jest/core': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0
+      create-jest: 29.7.0(@types/node@18.15.11)
       exit: 0.1.2
       import-local: 3.1.0
       jest-config: 29.7.0(@types/node@18.15.11)
@@ -2809,7 +2809,6 @@ snapshots:
       '@babel/core': 7.21.3
       '@jest/test-sequencer': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 18.15.11
       babel-jest: 29.7.0(@babel/core@7.21.3)
       chalk: 4.1.2
       ci-info: 3.8.0
@@ -2829,6 +2828,8 @@ snapshots:
       pretty-format: 29.7.0
       slash: 3.0.0
       strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 18.15.11
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -2910,7 +2911,7 @@ snapshots:
       jest-util: 29.7.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@29.7.0):
-    dependencies:
+    optionalDependencies:
       jest-resolve: 29.7.0
 
   jest-regex-util@29.6.3: {}
@@ -3048,12 +3049,12 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@29.7.0:
+  jest@29.7.0(@types/node@18.15.11):
     dependencies:
       '@jest/core': 29.7.0
       '@jest/types': 29.6.3
       import-local: 3.1.0
-      jest-cli: 29.7.0
+      jest-cli: 29.7.0(@types/node@18.15.11)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -3146,7 +3147,7 @@ snapshots:
     dependencies:
       mimic-fn: 2.1.0
 
-  outmatch@0.7.0: {}
+  outmatch@1.0.0: {}
 
   p-limit@2.3.0:
     dependencies:
@@ -3197,7 +3198,7 @@ snapshots:
       ansi-styles: 5.2.0
       react-is: 18.2.0
 
-  prisma-nestjs-graphql@20.1.0:
+  prisma-nestjs-graphql@21.1.1:
     dependencies:
       '@prisma/generator-helper': 5.14.0
       await-event-emitter: 2.0.2
@@ -3207,7 +3208,7 @@ snapshots:
       graceful-fs: 4.2.11
       json5: 2.2.3
       lodash: 4.17.21
-      outmatch: 0.7.0
+      outmatch: 1.0.0
       pluralize: 8.0.0
       pupa: 2.1.1
       ts-morph: 16.0.0
