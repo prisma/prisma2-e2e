@@ -7,7 +7,7 @@ COPY --from=app . ./
 COPY --from=utils . ./
 
 # Install Node.js
-RUN npm i -g pnpm@8
+RUN npm i -g pnpm@9
 
 # Only OpenSSL 3 is expected to be on this system
 RUN ldconfig -p | grep ssl | sed "s/.*=>\s*//"
@@ -31,7 +31,7 @@ ENV DEBUG=$DEBUG
 ENV PRISMA_TELEMETRY_INFORMATION=$PRISMA_TELEMETRY_INFORMATION
 ENV EXPECTED_PRISMA_TARGET_PLATFORM=$EXPECTED_PRISMA_TARGET_PLATFORM
 
-RUN npm i -g pnpm@8
+RUN npm i -g pnpm@9
 RUN pnpm install
 RUN ./version.sh
 RUN pnpm prisma generate
