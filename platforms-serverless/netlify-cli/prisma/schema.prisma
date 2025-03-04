@@ -5,12 +5,12 @@ datasource db {
 
 generator client {
   provider      = "prisma-client-js"
-  binaryTargets = ["rhel-openssl-1.0.x"]
+  binaryTargets = ["rhel-openssl-3.0.x"]
   output        = "../functions/generated/client" // Why does this need/use a custom output?
 }
 
 model User {
-  id    String  @default(cuid()) @id
+  id    String  @id @default(cuid())
   email String  @unique
   name  String?
 }
