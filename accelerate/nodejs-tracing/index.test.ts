@@ -67,7 +67,7 @@ function cleanSpansForSnapshot(spans: ReadableSpan[]) {
 
       if (key[0] === '_') return undefined
       if (key === 'itx_id') return '<itxId>'
-      if (key === 'db.statement') return '<dbStatement>'
+      if (key === 'db.query.text') return '<dbQuery>'
       if (key === 'spanId') return '<spanId>'
       if (key === 'traceId') return '<traceId>'
       if (key === 'parentSpanId') return '<parentSpanId>'
@@ -118,7 +118,17 @@ test('accelerate tracing with postgres', async () => {
   },
   {
     "attributes": {
-      "db.statement": "<dbStatement>",
+      "db.query.text": "<dbQuery>",
+      "db.system": "postgresql",
+    },
+    "kind": 2,
+    "links": [],
+    "name": "prisma:engine:db_query",
+    "parentSpanId": "<parentSpanId>",
+  },
+  {
+    "attributes": {
+      "db.query.text": "<dbQuery>",
       "db.system": "postgresql",
     },
     "kind": 2,
