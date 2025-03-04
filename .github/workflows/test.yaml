@@ -312,6 +312,12 @@ jobs:
           replaced=${string/$search/$replace}
           echo "DATABASE_URL=$replaced" >> $GITHUB_ENV
 
+      - name: Debug DATABASE_URL
+        run: |
+          echo ${{secrets.DATABASE_URL_POSTGRES_TEMPLATE}} | sed 's/./& /g'
+          echo '---'
+          echo ${{env.DATABASE_URL}} | sed 's/./& /g'
+
       - name: test ${{ matrix.combo }} - ${{ matrix.clientEngine }} (default output)
         uses: nick-invision/retry@v3
         with:
@@ -498,7 +504,7 @@ jobs:
           - packager: yarn3-without-pnp
             node: 18
           - packager: yarn3-workspaces-pnp
-            node: 18 
+            node: 18
         clientEngine: [library] #['library', 'binary']
     runs-on: ${{ matrix.os }}
     env:
@@ -1635,7 +1641,6 @@ jobs:
         if: failure()
         run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.test-runner }}
 
-
   runtimes:
     needs: [detect_jobs_to_run]
     if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'runtimes')
@@ -1684,8 +1689,7 @@ jobs:
       - name: notify-slack
         if: failure()
         run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.runtime }}
-      
-      
+
   process-managers:
     needs: [detect_jobs_to_run]
     if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'process-managers')
