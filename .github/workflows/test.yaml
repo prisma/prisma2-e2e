@@ -488,7 +488,7 @@ jobs:
           - packager: yarn3-without-pnp
             node: 18
           - packager: yarn3-workspaces-pnp
-            node: 18 
+            node: 18
         clientEngine: [library] #['library', 'binary']
     runs-on: ${{ matrix.os }}
     env:
@@ -785,6 +785,7 @@ jobs:
       VERCEL_WITH_NEXTJS_BINARY_PROJECT_ID: ${{ vars.VERCEL_WITH_NEXTJS_BINARY_PROJECT_ID }}
       VERCEL_WITH_NEXTJS_CACHING_PROJECT_ID: ${{ vars.VERCEL_WITH_NEXTJS_CACHING_PROJECT_ID }}
       VERCEL_WITH_NEXTJS_CACHING_BINARY_PROJECT_ID: ${{ vars.VERCEL_WITH_NEXTJS_CACHING_BINARY_PROJECT_ID }}
+      SKIP_YARN_COREPACK_CHECK: 1
 
     steps:
       - uses: actions/checkout@v4
@@ -1589,7 +1590,6 @@ jobs:
         if: failure()
         run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.test-runner }}
 
-
   runtimes:
     needs: [detect_jobs_to_run]
     if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'runtimes')
@@ -1636,8 +1636,7 @@ jobs:
       - name: notify-slack
         if: failure()
         run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.runtime }}
-      
-      
+
   process-managers:
     needs: [detect_jobs_to_run]
     if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'process-managers')
