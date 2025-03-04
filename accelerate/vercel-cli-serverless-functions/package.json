@@ -25,5 +25,8 @@
   "scripts": {
     "test": "jest",
     "postinstall": "prisma generate --data-proxy"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
