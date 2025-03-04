@@ -49,7 +49,7 @@ jobs:
   # # which is a common feature in most CI systems but currently not possible with GitHub actions.
   # cleanup-runs:
   #   continue-on-error: true
-  #   runs-on: ubuntu-20.04
+  #   runs-on: ubuntu-22.04
   # contains(github.actor, 'renovate')
   #   if: (!startsWith(github.ref, 'refs/tags/') && github.ref != 'refs/heads/dev' && github.ref != 'refs/heads/integration' && github.ref != 'refs/heads/patch-dev' && github.ref != 'refs/heads/latest')
   #   steps:
@@ -224,9 +224,8 @@ jobs:
           - turso-node-basic-esm
           - turso-vercel-nextjs
           - tidb-node-basic
-          - pglite-node-basic
         clientEngine: ['library']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     # To avoid race conditions when running tests, we need to avoid concurrency
     # The tests should not be run concurrently for a given "combo"
@@ -363,7 +362,7 @@ jobs:
           - d1-cfpages-nuxt
           - d1-vitest
         clientEngine: ['wasm']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     # To avoid race conditions when running tests, we need to avoid concurrency
     # The tests should not be run concurrently for a given "combo"
@@ -469,7 +468,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
         packager:
           - npm
           - npm-global
@@ -556,7 +555,7 @@ jobs:
           - nextjs
           - sveltekit
         clientEngine: [library] #['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -607,7 +606,7 @@ jobs:
           - heroku
           - aws-graviton
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     concurrency: ${{ matrix.platform }}-${{ matrix.clientEngine }}
 
@@ -670,7 +669,7 @@ jobs:
           - azure-functions-windows
           - serverless-framework-lambda
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
         include:
           - platform: firebase-functions
             node: '18'
@@ -763,7 +762,7 @@ jobs:
           - vercel-with-nextjs-caching
           - vercel-with-redwood
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
         include:
           - platform: vercel-with-redwood
             node: 18
@@ -857,7 +856,7 @@ jobs:
             generate-client-install-on-sub-project-yarn,
           ]
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     env:
       SKIP_YARN_COREPACK_CHECK: 1
@@ -917,7 +916,7 @@ jobs:
       matrix:
         feature: [db-seed-commonjs-pkg, db-seed-esm-pkg]
         clientEngine: ['library']
-        os: [ubuntu-20.04, windows-latest, macos-latest]
+        os: [ubuntu-22.04, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -967,7 +966,7 @@ jobs:
         # macos-13 is pinned because engine-types test
         # need to be updated before running on macos-14 because the engines
         # names are different because macos-latest is now arm64 / M1 CPU
-        os: [ubuntu-20.04, windows-latest, macos-13]
+        os: [ubuntu-22.04, windows-latest, macos-13]
         exclude:
           - feature: engine-native-deps
             os: windows-latest
@@ -1012,7 +1011,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-20.04, macos-latest, windows-latest]
+        os: [ubuntu-22.04, macos-latest, windows-latest]
         clientEngine: ['library', 'binary']
     runs-on: ${{ matrix.os }}
 
@@ -1112,7 +1111,7 @@ jobs:
           - 22
           - 23 # we expect this to fail
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -1161,7 +1160,7 @@ jobs:
       matrix:
         binary: [pkg]
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04, macos-latest, windows-latest]
+        os: [ubuntu-22.04, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
 
     env:
@@ -1228,7 +1227,7 @@ jobs:
           - nodejs-mongodb-logs
           - nodejs-tracing
         clientEngine: [<accelerate>] # value for script logic
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     concurrency: ${{ github.job }}-${{ matrix.platform }}-${{ matrix.clientEngine }}
     env:
@@ -1324,7 +1323,7 @@ jobs:
           - parcel
           - rollup
         clientEngine: [library] #['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -1375,7 +1374,7 @@ jobs:
           - apollo-server
           - type-graphql
         clientEngine: [library] #['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -1442,7 +1441,7 @@ jobs:
           - planetscale
           - cockroach-cloud
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
 
     runs-on: ${{ matrix.os }}
 
@@ -1553,7 +1552,7 @@ jobs:
         test-runner:
           - jest-with-multiple-generators
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -1604,7 +1603,7 @@ jobs:
           - deno
           #- bun
         clientEngine: ['library', 'binary']
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
     concurrency: ${{ github.job }}-${{ matrix.runtime }}-${{ matrix.clientEngine }}
     env:
@@ -1648,7 +1647,7 @@ jobs:
       matrix:
         feature: [pm2]
         clientEngine: [library]
-        os: [ubuntu-20.04, windows-latest, macos-latest]
+        os: [ubuntu-22.04, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
 
     steps:
@@ -1723,7 +1722,7 @@ jobs:
           - ubuntu-latest-amd64-openssl-3.0.x
           - ubuntu-latest-arm64-openssl-3.0.x
         clientEngine: [library, binary]
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     env:
@@ -1795,7 +1794,7 @@ jobs:
           - amazonlinux-2-amd64-openssl-1.0.x
           - amazonlinux-2-arm64-openssl-1.0.x
         clientEngine: [library, binary]
-        os: [ubuntu-20.04]
+        os: [ubuntu-22.04]
     runs-on: ${{ matrix.os }}
 
     steps:
