@@ -1,6 +1,7 @@
 name = "d1-cf-basic"
 main = "src/index.js"
 compatibility_date = "2023-10-30"
+compatibility_flags = [ "nodejs_compat" ]
 
 [[d1_databases]]
 binding = "MY_DATABASE"    # i.e. available in the Worker on env.MY_DATABASE
