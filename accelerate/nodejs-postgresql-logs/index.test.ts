@@ -21,8 +21,7 @@ test('accelerate logs with postgres', async () => {
   // Sometimes there's another "SELECT 1" before the actual query we're testing for.
   const lastQueryIndex = onQuery.mock.calls.length - 1
 
-  // See https://github.com/prisma/prisma/issues/18480 regarding trailing space at the end of query.
   expect(onQuery.mock.calls[lastQueryIndex][0].query).toMatchInlineSnapshot(
-    `"SELECT "public"."User"."user_id", "public"."User"."email", "public"."User"."name" FROM "public"."User" WHERE 1=1 OFFSET $1 "`,
+    `"SELECT "public"."User"."user_id", "public"."User"."email", "public"."User"."name" FROM "public"."User" WHERE 1=1 OFFSET $1"`,
   )
 })
