@@ -55,7 +55,7 @@ function cleanSpansForSnapshot(spans: ReadableSpan[]) {
   const sortedSpans = spans.sort((a, b) => a.name.localeCompare(b.name, 'en-US'))
 
   // Remove spans about "SELECT 1" query which is sometimes issued and sometimes isn't
-  const filteredSpans = sortedSpans.filter((span) => span.attributes?.['db.statement'] !== 'SELECT 1')
+  const filteredSpans = sortedSpans.filter((span) => span.attributes?.['db.query.text'] !== 'SELECT 1')
 
   return JSON.parse(
     JSON.stringify(filteredSpans, (key, value) => {
