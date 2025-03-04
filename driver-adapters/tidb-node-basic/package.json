@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@prisma/client": "6.5.0-dev.50",
-    "@tidbcloud/prisma-adapter": "5.20.0",
+    "@tidbcloud/prisma-adapter": "git://github.com/jacek-prisma/tidbcloud-prisma-adapter#d34fd3a",
     "@tidbcloud/serverless": "0.2.0"
   }
 }
