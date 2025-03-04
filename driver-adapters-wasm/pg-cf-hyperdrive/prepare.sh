@@ -40,22 +40,11 @@ fi
 # Example output of `wrangler hyperdrive create hyperdrive-orm-tests-foo --connection-string=$DATABASE_URL`:
 #
 # ```
-# 🚧 Creating 'hyperdrive-orm-tests-foo'
-# ✅ Created new Hyperdrive config
-#  {
-#   "id": "427135cd3b954fd89a264977a457f32d",
-#   "name": "hyperdrive-orm-tests-foo",
-#   "origin": {
-#     "host": "db-provision-postgres0000000.0123456789ABC.us-east-1.rds.amazonaws.com",
-#     "port": 5432,
-#     "database": "maroon_raccoon",
-#     "user": "plum_colonial_alexia"
-#   },
-#   "caching": {
-#     "disabled": false
-#   }
-# }
+# 🚧 Creating 'hyperdrive-pg-cf-hyperdrive'
+# ✅ Created new Hyperdrive config: 9b94003290f9432c9c59681505b62395
+# 📋 To start using your config from a Worker, add the following binding configuration to your Wrangler configuration file:
 # ```
+# WARN: The ouput seems pretty inconistent. Sometimes you get soem JSON afterwards, soemtimes some YAML. Safest seem to be to grep for the id.
 
 # if DATABASE_URL is not set, exit
 if [ -z "$DATABASE_URL" ]; then
@@ -64,7 +53,7 @@ if [ -z "$DATABASE_URL" ]; then
 fi
 
 npx wrangler hyperdrive create $HYPERDRIVE_NAME --connection-string=\"$DATABASE_URL\" | tee $TMP_FILE
-export HYPERDRIVE_ID=$(cat $TMP_FILE | sed 1,2d | jq .id)
+export HYPERDRIVE_ID=$(cat $TMP_FILE | grep -oE 'Hyperdrive config: [a-zA-Z0-9]+' | awk '{print $3}')
 
 cat <<EOF > wrangler.toml
 name = "pg-cf-hyperdrive"
@@ -74,7 +63,7 @@ node_compat = true
 
 [[hyperdrive]]
 binding = "HYPERDRIVE"
-id = $HYPERDRIVE_ID
+id = "$HYPERDRIVE_ID"
 EOF
 
 echo "✅ Configured wrangler.toml with hyperdrive id $HYPERDRIVE_ID"
