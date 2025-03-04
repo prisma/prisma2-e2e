@@ -12,8 +12,8 @@ importers:
         specifier: 6.5.0-dev.50
         version: 6.5.0-dev.50(prisma@6.5.0-dev.50)
       '@tidbcloud/prisma-adapter':
-        specifier: 5.20.0
-        version: 5.20.0(@tidbcloud/serverless@0.2.0)
+        specifier: git://github.com/jacek-prisma/tidbcloud-prisma-adapter#44fbdd6
+        version: https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6(@tidbcloud/serverless@0.2.0)
       '@tidbcloud/serverless':
         specifier: 0.2.0
         version: 0.2.0
@@ -23,7 +23,7 @@ importers:
         version: 29.7.0
       jest:
         specifier: 29.7.0
-        version: 29.7.0
+        version: 29.7.0(@types/node@20.7.0)
       prisma:
         specifier: 6.5.0-dev.50
         version: 6.5.0-dev.50
@@ -514,14 +514,11 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/debug@5.20.0':
-    resolution: {integrity: sha512-oCx79MJ4HSujokA8S1g0xgZUGybD4SyIOydoHMngFYiwEwYDQ5tBQkK5XoEHuwOYDKUOKRn/J0MEymckc4IgsQ==}
-
   '@prisma/debug@6.5.0-dev.50':
     resolution: {integrity: sha512-HrbgVpkBth4fStTd6VmIe7d9GcuDHBzHLfoVTSQ867KkFpSSM0ZhPD1Gw8QhpXoB9/Y4wH0mn+LB+EA+6q+nxQ==}
 
-  '@prisma/driver-adapter-utils@5.20.0':
-    resolution: {integrity: sha512-xORRckszVdB8pgh8jcCsEdAniknu2RLzpHmjPQwFHoacMDF44JcbUbtNijFPiZMWRCeLxd1QZkhxgWn2xJB1tQ==}
+  '@prisma/driver-adapter-utils@6.5.0-dev.50':
+    resolution: {integrity: sha512-1RSCj2gJam5sSFv4h+IegzCkckWFL9tuaZQ3lV7cf+VDyLkhPgHKVA+EK4w4CyjZUkS+Kt7FhW0vL2lAU6hICQ==}
 
   '@prisma/engines-version@6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb':
     resolution: {integrity: sha512-3H2QNJOronqqWg5njkGf44auokPK5akzHDC+mi2BsSC+mpUZ4ptqSEdzKtKLxagFaZ5fZj/C464Hb+wVy0EEbw==}
@@ -544,8 +541,9 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@tidbcloud/prisma-adapter@5.20.0':
-    resolution: {integrity: sha512-m5ZnpkdCVdxCaKUh5WopoNVEKe0aiQQg+f/PtQrQQxIAH2SE38ou6Enjl6CqmIs5T2TMcRi1sU+8la3lc/9fjQ==}
+  '@tidbcloud/prisma-adapter@https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6':
+    resolution: {tarball: https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6}
+    version: 5.20.0
     peerDependencies:
       '@tidbcloud/serverless': '>= 0.1.0'
 
@@ -2006,16 +2004,14 @@ snapshots:
       '@jridgewell/sourcemap-codec': 1.4.15
 
   '@prisma/client@6.5.0-dev.50(prisma@6.5.0-dev.50)':
-    dependencies:
+    optionalDependencies:
       prisma: 6.5.0-dev.50
-
-  '@prisma/debug@5.20.0': {}
 
   '@prisma/debug@6.5.0-dev.50': {}
 
-  '@prisma/driver-adapter-utils@5.20.0':
+  '@prisma/driver-adapter-utils@6.5.0-dev.50':
     dependencies:
-      '@prisma/debug': 5.20.0
+      '@prisma/debug': 6.5.0-dev.50
 
   '@prisma/engines-version@6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb': {}
 
@@ -2046,9 +2042,9 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.0
 
-  '@tidbcloud/prisma-adapter@5.20.0(@tidbcloud/serverless@0.2.0)':
+  '@tidbcloud/prisma-adapter@https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6(@tidbcloud/serverless@0.2.0)':
     dependencies:
-      '@prisma/driver-adapter-utils': 5.20.0
+      '@prisma/driver-adapter-utils': 6.5.0-dev.50
       '@tidbcloud/serverless': 0.2.0
 
   '@tidbcloud/serverless@0.2.0': {}
@@ -2261,7 +2257,7 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  create-jest@29.7.0:
+  create-jest@29.7.0(@types/node@20.7.0):
     dependencies:
       '@jest/types': 29.6.3
       chalk: 4.1.2
@@ -2529,13 +2525,13 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.7.0:
+  jest-cli@29.7.0(@types/node@20.7.0):
     dependencies:
       '@jest/core': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0
+      create-jest: 29.7.0(@types/node@20.7.0)
       exit: 0.1.2
       import-local: 3.1.0
       jest-config: 29.7.0(@types/node@20.7.0)
@@ -2553,7 +2549,6 @@ snapshots:
       '@babel/core': 7.23.0
       '@jest/test-sequencer': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.7.0
       babel-jest: 29.7.0(@babel/core@7.23.0)
       chalk: 4.1.2
       ci-info: 3.8.0
@@ -2573,6 +2568,8 @@ snapshots:
       pretty-format: 29.7.0
       slash: 3.0.0
       strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 20.7.0
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -2654,7 +2651,7 @@ snapshots:
       jest-util: 29.7.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@29.7.0):
-    dependencies:
+    optionalDependencies:
       jest-resolve: 29.7.0
 
   jest-regex-util@29.6.3: {}
@@ -2792,12 +2789,12 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@29.7.0:
+  jest@29.7.0(@types/node@20.7.0):
     dependencies:
       '@jest/core': 29.7.0
       '@jest/types': 29.6.3
       import-local: 3.1.0
-      jest-cli: 29.7.0
+      jest-cli: 29.7.0(@types/node@20.7.0)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
