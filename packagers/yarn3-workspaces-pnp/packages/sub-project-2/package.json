@@ -6,7 +6,7 @@
     "sub-project-1": "workspace:packages/sub-project-1"
   },
   "devDependencies": {
-    "@types/node": "18.19.78",
+    "@types/node": "18.19.79",
     "ts-node": "10.9.2",
     "typescript": "5.8.2"
   }

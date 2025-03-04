@@ -2,7 +2,7 @@
   "name": "prisma-project",
   "version": "0.0.0",
   "devDependencies": {
-    "@types/node": "18.19.78",
+    "@types/node": "18.19.79",
     "prisma": "6.5.0-dev.50",
     "ts-node": "10.9.2",
     "typescript": "5.8.2"
