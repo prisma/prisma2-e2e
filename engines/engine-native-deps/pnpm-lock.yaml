@@ -1,23 +1,25 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  '@prisma/client':
-    specifier: 6.5.0-dev.50
-    version: 6.5.0-dev.50
-  zx:
-    specifier: 8.3.2
-    version: 8.3.2
+importers:
+
+  .:
+    dependencies:
+      '@prisma/client':
+        specifier: 6.5.0-dev.50
+        version: 6.5.0-dev.50
+      zx:
+        specifier: 8.3.2
+        version: 8.3.2
 
 packages:
 
-  /@prisma/client@6.5.0-dev.50:
+  '@prisma/client@6.5.0-dev.50':
     resolution: {integrity: sha512-06ZrvmA6qL9eqH0J2/BBWjB23Fb8XKqSEzv7r4R9jfkE0RhIihHJaF3LDMMbF5yCHugz+y9oaW1peg98ENdURw==}
     engines: {node: '>=18.18'}
-    requiresBuild: true
     peerDependencies:
       prisma: '*'
       typescript: '>=5.1.0'
@@ -26,44 +28,48 @@ packages:
         optional: true
       typescript:
         optional: true
-    dev: false
 
-  /@types/fs-extra@11.0.4:
+  '@types/fs-extra@11.0.4':
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
-    requiresBuild: true
-    dependencies:
-      '@types/jsonfile': 6.1.1
-      '@types/node': 20.12.12
-    dev: false
-    optional: true
 
-  /@types/jsonfile@6.1.1:
+  '@types/jsonfile@6.1.1':
     resolution: {integrity: sha512-GSgiRCVeapDN+3pqA35IkQwasaCh/0YFH5dEF6S88iDvEn901DjOeH3/QPY+XYP1DFzDZPvIvfeEgk+7br5png==}
-    requiresBuild: true
-    dependencies:
-      '@types/node': 20.12.12
-    dev: false
-    optional: true
 
-  /@types/node@20.12.12:
+  '@types/node@20.12.12':
     resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
-    requiresBuild: true
-    dependencies:
-      undici-types: 5.26.5
-    dev: false
-    optional: true
 
-  /undici-types@5.26.5:
+  undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-    requiresBuild: true
-    dev: false
-    optional: true
 
-  /zx@8.3.2:
+  zx@8.3.2:
     resolution: {integrity: sha512-qjTunv1NClO05jDaUjrNZfpqC9yvNCchge/bzOcQevsh1aM5qE3TG6MY24kuQKlOWx+7vNuhqO2wa9nQCIGvZA==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
+
+snapshots:
+
+  '@prisma/client@6.5.0-dev.50': {}
+
+  '@types/fs-extra@11.0.4':
+    dependencies:
+      '@types/jsonfile': 6.1.1
+      '@types/node': 20.12.12
+    optional: true
+
+  '@types/jsonfile@6.1.1':
+    dependencies:
+      '@types/node': 20.12.12
+    optional: true
+
+  '@types/node@20.12.12':
+    dependencies:
+      undici-types: 5.26.5
+    optional: true
+
+  undici-types@5.26.5:
+    optional: true
+
+  zx@8.3.2:
     optionalDependencies:
       '@types/fs-extra': 11.0.4
       '@types/node': 20.12.12
-    dev: false
