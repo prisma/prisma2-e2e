@@ -17,5 +17,8 @@
   "scripts": {
     "start": "node index.js",
     "postinstall": "pnpm prisma generate"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }
