@@ -17,8 +17,8 @@ devDependencies:
     specifier: 6.5.0-dev.50
     version: 6.5.0-dev.50
   prisma-nestjs-graphql:
-    specifier: 20.1.0
-    version: 20.1.0
+    specifier: 21.1.1
+    version: 21.1.1
 
 packages:
 
@@ -2529,8 +2529,8 @@ packages:
       mimic-fn: 2.1.0
     dev: false
 
-  /outmatch@0.7.0:
-    resolution: {integrity: sha512-w1ybiTBffGiwxOO7JJBVVOsIiWwzcfSl/D80amWAU2UDe1o9/SySOUzAwDuN3+jGKQRs0UCDTS8rndFiroJgVQ==}
+  /outmatch@1.0.0:
+    resolution: {integrity: sha512-Dro+1hlvosA7DUKFqeHUA2g+xdWGoGTGZ+19go5vwxqS7iSTXQtajrEdhTdBXdahzGBEV2NH89vouFWpLyOuPg==}
     dev: true
 
   /p-limit@2.3.0:
@@ -2626,8 +2626,8 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /prisma-nestjs-graphql@20.1.0:
-    resolution: {integrity: sha512-NQzQErAeNH8HgGRk96XCYrUkR+TMLVrq4ufbz87dA3NyrU02uuKhbiFZdWPS8Fb20+9qDY8JtE2cFmM7dm+LlA==}
+  /prisma-nestjs-graphql@21.1.1:
+    resolution: {integrity: sha512-XoCPekDvEKrIzASI6AlbMQYZMyOUuo1rrCD6Go3E4b+uttE9pHPXw+k3m/oQsr7MJXYsmYNCBor6sm0OgTirVA==}
     hasBin: true
     dependencies:
       '@prisma/generator-helper': 5.14.0
@@ -2638,7 +2638,7 @@ packages:
       graceful-fs: 4.2.11
       json5: 2.2.3
       lodash: 4.17.21
-      outmatch: 0.7.0
+      outmatch: 1.0.0
       pluralize: 8.0.0
       pupa: 2.1.1
       ts-morph: 16.0.0
