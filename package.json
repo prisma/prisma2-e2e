@@ -16,7 +16,8 @@
     "typescript": "5.8.2"
   },
   "engines": {
-    "pnpm": "8"
+    "node": ">=18.18",
+    "pnpm": ">=9.14.4 <10"
   },
   "scripts": {
     "fetch-retry": "pnpm exec ts-node utils/fetch-retry-and-confirm-version.ts",
@@ -27,5 +28,5 @@
     "reset-json-and-lockfiles": "pnpm reset-lockfiles; git restore --source=origin/dev '*.json'",
     "test:detect-jobs-to-run": "pnpm exec jest detect-jobs-to-run"
   },
-  "packageManager": "pnpm@8.15.9+sha512.499434c9d8fdd1a2794ebf4552b3b25c0a633abcee5bb15e7b5de90f32f47b513aca98cd5cfd001c31f0db454bc3804edccd578501e4ca293a6816166bbd9f81"
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }
