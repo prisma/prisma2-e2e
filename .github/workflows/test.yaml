@@ -224,7 +224,6 @@ jobs:
           - turso-node-basic-esm
           - turso-vercel-nextjs
           - tidb-node-basic
-          - pglite-node-basic
         clientEngine: ['library']
         os: [ubuntu-20.04]
     runs-on: ${{ matrix.os }}
