@@ -5,7 +5,7 @@ set -eu
 export PRISMA_TELEMETRY_INFORMATION='ecosystem-tests platforms-serverless netlify-github-with-nextjs-caching build'
 
 rm -fr .git # because cannot currently be done in finally.sh if failure happens
-pnpm install
+npm install
 
 # create ssh key
 mkdir -p ~/.ssh
