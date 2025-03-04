@@ -1716,7 +1716,7 @@ jobs:
           - debian-latest-arm64-openssl-3.0.x
           - opensuse-tumbleweed-amd64-openssl-3.0.x
           - redhat-ubi9-amd64-openssl-3.0.x
-          - ubuntu-22.04-amd64-openssl-1.1.x
+          - ubuntu-20.04-amd64-openssl-1.1.x
           - ubuntu-22.04-amd64-openssl-3.0.x
           - ubuntu-22.04-amd64-openssl-1.1.x
           - ubuntu-latest-amd64-openssl-3.0.x
