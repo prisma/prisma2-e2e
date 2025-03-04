@@ -12,8 +12,8 @@ importers:
         specifier: 6.5.0-dev.50
         version: 6.5.0-dev.50(prisma@6.5.0-dev.50)
       '@tidbcloud/prisma-adapter':
-        specifier: git://github.com/jacek-prisma/tidbcloud-prisma-adapter#d34fd3a
-        version: https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/d34fd3a(@tidbcloud/serverless@0.2.0)
+        specifier: git://github.com/jacek-prisma/tidbcloud-prisma-adapter#44fbdd6
+        version: https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6(@tidbcloud/serverless@0.2.0)
       '@tidbcloud/serverless':
         specifier: 0.2.0
         version: 0.2.0
@@ -541,8 +541,8 @@ packages:
   '@sinonjs/fake-timers@10.3.0':
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
 
-  '@tidbcloud/prisma-adapter@https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/d34fd3a':
-    resolution: {tarball: https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/d34fd3a}
+  '@tidbcloud/prisma-adapter@https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6':
+    resolution: {tarball: https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6}
     version: 5.20.0
     peerDependencies:
       '@tidbcloud/serverless': '>= 0.1.0'
@@ -2042,7 +2042,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.0
 
-  '@tidbcloud/prisma-adapter@https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/d34fd3a(@tidbcloud/serverless@0.2.0)':
+  '@tidbcloud/prisma-adapter@https://codeload.github.com/jacek-prisma/tidbcloud-prisma-adapter/tar.gz/44fbdd6(@tidbcloud/serverless@0.2.0)':
     dependencies:
       '@prisma/driver-adapter-utils': 6.5.0-dev.50
       '@tidbcloud/serverless': 0.2.0
