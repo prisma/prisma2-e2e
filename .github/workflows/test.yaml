@@ -712,6 +712,7 @@ jobs:
               contains(matrix.platform, 'azure') && 'npm' ||
               contains(matrix.platform, 'serverless-framework') && 'npm' ||
               contains(matrix.platform, 'gcp-functions') && 'npm' ||
+              contains(matrix.platform, 'netlify-github-with-nextjs-caching') && 'npm' ||
               'pnpm'
             }}
           cache-dependency-path: |
@@ -719,6 +720,7 @@ jobs:
               contains(matrix.platform, 'azure') && 'package-lock.json' ||
               contains(matrix.platform, 'serverless-framework') && 'package-lock.json' ||
               contains(matrix.platform, 'gcp-functions') && 'package-lock.json' ||
+              contains(matrix.platform, 'netlify-github-with-nextjs-caching') && 'package-lock.json' ||
               'pnpm-lock.yaml'
             }}
 
