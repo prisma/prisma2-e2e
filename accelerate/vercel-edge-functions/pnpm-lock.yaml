@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.50
-        version: 6.5.0-dev.50(prisma@6.5.0-dev.50)(typescript@5.8.2)
+        specifier: 6.5.0-dev.51
+        version: 6.5.0-dev.51(prisma@6.5.0-dev.51(typescript@5.8.2))(typescript@5.8.2)
       '@prisma/extension-accelerate':
         specifier: 1.2.2
-        version: 1.2.2(@prisma/client@6.5.0-dev.50)
+        version: 1.2.2(@prisma/client@6.5.0-dev.51(prisma@6.5.0-dev.51(typescript@5.8.2))(typescript@5.8.2))
       next:
         specifier: 14.2.24
-        version: 14.2.24(@babel/core@7.22.8)(react-dom@18.3.1)(react@18.3.1)
+        version: 14.2.24(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -38,16 +38,16 @@ importers:
         version: 18.3.18
       jest:
         specifier: 29.7.0
-        version: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+        version: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       node-fetch:
         specifier: 2.7.0
         version: 2.7.0
       prisma:
-        specifier: 6.5.0-dev.50
-        version: 6.5.0-dev.50(typescript@5.8.2)
+        specifier: 6.5.0-dev.51
+        version: 6.5.0-dev.51(typescript@5.8.2)
       ts-jest:
         specifier: 29.2.6
-        version: 29.2.6(@babel/core@7.22.8)(esbuild@0.14.47)(jest@29.7.0)(typescript@5.8.2)
+        version: 29.2.6(@babel/core@7.24.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.0))(esbuild@0.14.47)(jest@29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2)))(typescript@5.8.2)
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@18.19.79)(typescript@5.8.2)
@@ -513,8 +513,8 @@ packages:
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
 
-  '@prisma/client@6.5.0-dev.50':
-    resolution: {integrity: sha512-06ZrvmA6qL9eqH0J2/BBWjB23Fb8XKqSEzv7r4R9jfkE0RhIihHJaF3LDMMbF5yCHugz+y9oaW1peg98ENdURw==}
+  '@prisma/client@6.5.0-dev.51':
+    resolution: {integrity: sha512-YbLFthFgW0oicuhw04jheRZbe8QQZtq80eK+wripjmM3Jy30G2RJXvemxVVlTCvxKK0OCGFd9TttVLI7W/3Y/g==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -525,14 +525,14 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/debug@6.5.0-dev.50':
-    resolution: {integrity: sha512-HrbgVpkBth4fStTd6VmIe7d9GcuDHBzHLfoVTSQ867KkFpSSM0ZhPD1Gw8QhpXoB9/Y4wH0mn+LB+EA+6q+nxQ==}
+  '@prisma/debug@6.5.0-dev.51':
+    resolution: {integrity: sha512-DzCEyRYUEAg/T4GX0uXUGx5KD2dfb1OvREOH5/PwthOCXDRHsgQIfEo7fTkLEXAkfc4SG8aIcRTw0uhr4wD2sA==}
 
   '@prisma/engines-version@6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb':
     resolution: {integrity: sha512-3H2QNJOronqqWg5njkGf44auokPK5akzHDC+mi2BsSC+mpUZ4ptqSEdzKtKLxagFaZ5fZj/C464Hb+wVy0EEbw==}
 
-  '@prisma/engines@6.5.0-dev.50':
-    resolution: {integrity: sha512-ey1v9G/64j/cikWy22DBDdC441/3UWzr2Hr39YQG37WhzIRg1oBr7A1kISEoi271cuOrjygbQNJpSuLzLGk1+g==}
+  '@prisma/engines@6.5.0-dev.51':
+    resolution: {integrity: sha512-qJm8EI2fP1C1qPToK+WGkIkOkO2d1FTr+rKrLMcUUFirvJ3OZvXSndNgkOOIonibBO9K5A+tYZfIlNgwiYYizQ==}
 
   '@prisma/extension-accelerate@1.2.2':
     resolution: {integrity: sha512-LOlfkG6If+o8PFRzLzp26ackP/d+j2HrkTJaxuV/Wd+sdAHz/AkmzEDGbo2UpHFpxEM9hWMBe3ScSwUKYUDOXg==}
@@ -540,11 +540,11 @@ packages:
     peerDependencies:
       '@prisma/client': '>=4.16.1'
 
-  '@prisma/fetch-engine@6.5.0-dev.50':
-    resolution: {integrity: sha512-CYb79JnG9kUSOId6eXiiyDvRp68O9DTlx6P5P2vqdoERAUZgclIz7xTrBqHkuMCKb5p6DBRUVOPK3APdLsUC8A==}
+  '@prisma/fetch-engine@6.5.0-dev.51':
+    resolution: {integrity: sha512-PRoPuloWbGrOTzfaqKYPIqARfFz1EceNUwfAST6rG1wYzJ1dtuAnkynIlfCfoCHss9lhtGmtiSv14TwufbF1aw==}
 
-  '@prisma/get-platform@6.5.0-dev.50':
-    resolution: {integrity: sha512-OAs3uyCkQIrsyGPq0y/vH7nlt2EYCsw5aRppqqFjl1GsZgb0ax0l/ZWFCmPJ8Hpxntw1rNIAvA7zFIIcVUtvlA==}
+  '@prisma/get-platform@6.5.0-dev.51':
+    resolution: {integrity: sha512-dmCyE0mTC/d783G8WJl3WQsCSRf9PSOndbidig8hlJdbU7waXsZ+fbT2oysiCkrwXWtPhCFCencAJL+mr2bqkg==}
 
   '@rollup/pluginutils@4.2.1':
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
@@ -1349,6 +1349,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -1410,6 +1411,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.1:
     resolution: {integrity: sha512-8nWq2nLTAwd02jTqJExUYFSD/fKq6VH9Y/oG2accc/kdI0V98Bag8d5a4gi3XHz73rDWa2PvTtvcWYquKqSENA==}
@@ -1953,8 +1955,8 @@ packages:
     resolution: {integrity: sha512-973driJZvxiGOQ5ONsFhOF/DtzPMOMtgC11kCpUrPGMTgqp2q/1gwzCquocrN33is0VZ5GFHXZYMM9l6h67v2Q==}
     engines: {node: '>=10'}
 
-  prisma@6.5.0-dev.50:
-    resolution: {integrity: sha512-gMcGHoD2MF5MqPEX1O9Oag/OzZtnBhqCqE0Hoe7BlIt9TlOYqlZ/nE/Y6pIyg6adofiaiS4x6khuIpG42Qah4g==}
+  prisma@6.5.0-dev.51:
+    resolution: {integrity: sha512-9Yo3/Qr0D6OHnIYIe3XLkqySq4lYh1Uy3ordNxAJ0J3X1fm1Nfj5e1GbDJyKNl2BllDzQIBnjFIfEuZsc7tWHQ==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -2647,25 +2649,55 @@ snapshots:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-async-generators@7.8.4(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-bigint@7.8.3(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
+
+  '@babel/plugin-syntax-bigint@7.8.3(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
 
   '@babel/plugin-syntax-class-properties@7.12.13(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-class-properties@7.12.13(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-import-meta@7.10.4(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-import-meta@7.10.4(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-json-strings@7.8.3(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
+
+  '@babel/plugin-syntax-json-strings@7.8.3(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
 
   '@babel/plugin-syntax-jsx@7.23.3(@babel/core@7.22.8)':
     dependencies:
@@ -2677,35 +2709,77 @@ snapshots:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-logical-assignment-operators@7.10.4(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-nullish-coalescing-operator@7.8.3(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
+
+  '@babel/plugin-syntax-nullish-coalescing-operator@7.8.3(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
 
   '@babel/plugin-syntax-numeric-separator@7.10.4(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-numeric-separator@7.10.4(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-object-rest-spread@7.8.3(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
+
+  '@babel/plugin-syntax-object-rest-spread@7.8.3(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
 
   '@babel/plugin-syntax-optional-catch-binding@7.8.3(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-optional-catch-binding@7.8.3(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-optional-chaining@7.8.3(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
 
+  '@babel/plugin-syntax-optional-chaining@7.8.3(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
+
   '@babel/plugin-syntax-top-level-await@7.14.5(@babel/core@7.22.8)':
     dependencies:
       '@babel/core': 7.22.8
       '@babel/helper-plugin-utils': 7.22.5
+
+  '@babel/plugin-syntax-top-level-await@7.14.5(@babel/core@7.24.0)':
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/helper-plugin-utils': 7.22.5
+    optional: true
 
   '@babel/plugin-syntax-typescript@7.22.5(@babel/core@7.22.8)':
     dependencies:
@@ -2805,7 +2879,7 @@ snapshots:
       jest-util: 29.7.0
       slash: 3.0.0
 
-  '@jest/core@29.7.0(ts-node@10.9.2)':
+  '@jest/core@29.7.0(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))':
     dependencies:
       '@jest/console': 29.7.0
       '@jest/reporters': 29.7.0
@@ -2819,7 +2893,7 @@ snapshots:
       exit: 0.1.2
       graceful-fs: 4.2.11
       jest-changed-files: 29.7.0
-      jest-config: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+      jest-config: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       jest-haste-map: 29.7.0
       jest-message-util: 29.7.0
       jest-regex-util: 29.6.3
@@ -3042,35 +3116,35 @@ snapshots:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
 
-  '@prisma/client@6.5.0-dev.50(prisma@6.5.0-dev.50)(typescript@5.8.2)':
-    dependencies:
-      prisma: 6.5.0-dev.50(typescript@5.8.2)
+  '@prisma/client@6.5.0-dev.51(prisma@6.5.0-dev.51(typescript@5.8.2))(typescript@5.8.2)':
+    optionalDependencies:
+      prisma: 6.5.0-dev.51(typescript@5.8.2)
       typescript: 5.8.2
 
-  '@prisma/debug@6.5.0-dev.50': {}
+  '@prisma/debug@6.5.0-dev.51': {}
 
   '@prisma/engines-version@6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb': {}
 
-  '@prisma/engines@6.5.0-dev.50':
+  '@prisma/engines@6.5.0-dev.51':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.50
+      '@prisma/debug': 6.5.0-dev.51
       '@prisma/engines-version': 6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb
-      '@prisma/fetch-engine': 6.5.0-dev.50
-      '@prisma/get-platform': 6.5.0-dev.50
+      '@prisma/fetch-engine': 6.5.0-dev.51
+      '@prisma/get-platform': 6.5.0-dev.51
 
-  '@prisma/extension-accelerate@1.2.2(@prisma/client@6.5.0-dev.50)':
+  '@prisma/extension-accelerate@1.2.2(@prisma/client@6.5.0-dev.51(prisma@6.5.0-dev.51(typescript@5.8.2))(typescript@5.8.2))':
     dependencies:
-      '@prisma/client': 6.5.0-dev.50(prisma@6.5.0-dev.50)(typescript@5.8.2)
+      '@prisma/client': 6.5.0-dev.51(prisma@6.5.0-dev.51(typescript@5.8.2))(typescript@5.8.2)
 
-  '@prisma/fetch-engine@6.5.0-dev.50':
+  '@prisma/fetch-engine@6.5.0-dev.51':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.50
+      '@prisma/debug': 6.5.0-dev.51
       '@prisma/engines-version': 6.5.0-39.84310176c3f15859928b573ea73f2c1ec30188eb
-      '@prisma/get-platform': 6.5.0-dev.50
+      '@prisma/get-platform': 6.5.0-dev.51
 
-  '@prisma/get-platform@6.5.0-dev.50':
+  '@prisma/get-platform@6.5.0-dev.51':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.50
+      '@prisma/debug': 6.5.0-dev.51
 
   '@rollup/pluginutils@4.2.1':
     dependencies:
@@ -3422,6 +3496,20 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  babel-jest@29.7.0(@babel/core@7.24.0):
+    dependencies:
+      '@babel/core': 7.24.0
+      '@jest/transform': 29.7.0
+      '@types/babel__core': 7.20.1
+      babel-plugin-istanbul: 6.1.1
+      babel-preset-jest: 29.6.3(@babel/core@7.24.0)
+      chalk: 4.1.2
+      graceful-fs: 4.2.11
+      slash: 3.0.0
+    transitivePeerDependencies:
+      - supports-color
+    optional: true
+
   babel-plugin-istanbul@6.1.1:
     dependencies:
       '@babel/helper-plugin-utils': 7.22.5
@@ -3455,11 +3543,35 @@ snapshots:
       '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.22.8)
       '@babel/plugin-syntax-top-level-await': 7.14.5(@babel/core@7.22.8)
 
+  babel-preset-current-node-syntax@1.0.1(@babel/core@7.24.0):
+    dependencies:
+      '@babel/core': 7.24.0
+      '@babel/plugin-syntax-async-generators': 7.8.4(@babel/core@7.24.0)
+      '@babel/plugin-syntax-bigint': 7.8.3(@babel/core@7.24.0)
+      '@babel/plugin-syntax-class-properties': 7.12.13(@babel/core@7.24.0)
+      '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.0)
+      '@babel/plugin-syntax-json-strings': 7.8.3(@babel/core@7.24.0)
+      '@babel/plugin-syntax-logical-assignment-operators': 7.10.4(@babel/core@7.24.0)
+      '@babel/plugin-syntax-nullish-coalescing-operator': 7.8.3(@babel/core@7.24.0)
+      '@babel/plugin-syntax-numeric-separator': 7.10.4(@babel/core@7.24.0)
+      '@babel/plugin-syntax-object-rest-spread': 7.8.3(@babel/core@7.24.0)
+      '@babel/plugin-syntax-optional-catch-binding': 7.8.3(@babel/core@7.24.0)
+      '@babel/plugin-syntax-optional-chaining': 7.8.3(@babel/core@7.24.0)
+      '@babel/plugin-syntax-top-level-await': 7.14.5(@babel/core@7.24.0)
+    optional: true
+
   babel-preset-jest@29.6.3(@babel/core@7.22.8):
     dependencies:
       '@babel/core': 7.22.8
       babel-plugin-jest-hoist: 29.6.3
       babel-preset-current-node-syntax: 1.0.1(@babel/core@7.22.8)
+
+  babel-preset-jest@29.6.3(@babel/core@7.24.0):
+    dependencies:
+      '@babel/core': 7.24.0
+      babel-plugin-jest-hoist: 29.6.3
+      babel-preset-current-node-syntax: 1.0.1(@babel/core@7.24.0)
+    optional: true
 
   balanced-match@1.0.2: {}
 
@@ -3599,13 +3711,13 @@ snapshots:
 
   convert-source-map@2.0.0: {}
 
-  create-jest@29.7.0(@types/node@18.19.79)(ts-node@10.9.2):
+  create-jest@29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2)):
     dependencies:
       '@jest/types': 29.6.3
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
-      jest-config: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+      jest-config: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       jest-util: 29.7.0
       prompts: 2.4.2
     transitivePeerDependencies:
@@ -4109,16 +4221,16 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.7.0(@types/node@18.19.79)(ts-node@10.9.2):
+  jest-cli@29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2)):
     dependencies:
-      '@jest/core': 29.7.0(ts-node@10.9.2)
+      '@jest/core': 29.7.0(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+      create-jest: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       exit: 0.1.2
       import-local: 3.1.0
-      jest-config: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+      jest-config: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       jest-util: 29.7.0
       jest-validate: 29.7.0
       yargs: 17.7.2
@@ -4128,12 +4240,11 @@ snapshots:
       - supports-color
       - ts-node
 
-  jest-config@29.7.0(@types/node@18.19.79)(ts-node@10.9.2):
+  jest-config@29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2)):
     dependencies:
       '@babel/core': 7.22.8
       '@jest/test-sequencer': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 18.19.79
       babel-jest: 29.7.0(@babel/core@7.22.8)
       chalk: 4.1.2
       ci-info: 3.8.0
@@ -4153,6 +4264,8 @@ snapshots:
       pretty-format: 29.7.0
       slash: 3.0.0
       strip-json-comments: 3.1.1
+    optionalDependencies:
+      '@types/node': 18.19.79
       ts-node: 10.9.2(@types/node@18.19.79)(typescript@5.8.2)
     transitivePeerDependencies:
       - babel-plugin-macros
@@ -4235,7 +4348,7 @@ snapshots:
       jest-util: 29.7.0
 
   jest-pnp-resolver@1.2.3(jest-resolve@29.7.0):
-    dependencies:
+    optionalDependencies:
       jest-resolve: 29.7.0
 
   jest-regex-util@29.6.3: {}
@@ -4373,12 +4486,12 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@29.7.0(@types/node@18.19.79)(ts-node@10.9.2):
+  jest@29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2)):
     dependencies:
-      '@jest/core': 29.7.0(ts-node@10.9.2)
+      '@jest/core': 29.7.0(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       '@jest/types': 29.6.3
       import-local: 3.1.0
-      jest-cli: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+      jest-cli: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -4521,7 +4634,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@14.2.24(@babel/core@7.22.8)(react-dom@18.3.1)(react@18.3.1):
+  next@14.2.24(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 14.2.24
       '@swc/helpers': 0.5.5
@@ -4531,7 +4644,7 @@ snapshots:
       postcss: 8.4.31
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      styled-jsx: 5.1.1(@babel/core@7.22.8)(react@18.3.1)
+      styled-jsx: 5.1.1(@babel/core@7.24.0)(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.24
       '@next/swc-darwin-x64': 14.2.24
@@ -4675,14 +4788,14 @@ snapshots:
     dependencies:
       parse-ms: 2.1.0
 
-  prisma@6.5.0-dev.50(typescript@5.8.2):
+  prisma@6.5.0-dev.51(typescript@5.8.2):
     dependencies:
-      '@prisma/engines': 6.5.0-dev.50
+      '@prisma/engines': 6.5.0-dev.51
       esbuild: 0.14.47
       esbuild-register: 3.6.0(esbuild@0.14.47)
-      typescript: 5.8.2
     optionalDependencies:
       fsevents: 2.3.3
+      typescript: 5.8.2
     transitivePeerDependencies:
       - supports-color
 
@@ -4857,11 +4970,12 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.1(@babel/core@7.22.8)(react@18.3.1):
+  styled-jsx@5.1.1(@babel/core@7.24.0)(react@18.3.1):
     dependencies:
-      '@babel/core': 7.22.8
       client-only: 0.0.1
       react: 18.3.1
+    optionalDependencies:
+      '@babel/core': 7.24.0
 
   supports-color@5.5.0:
     dependencies:
@@ -4920,14 +5034,12 @@ snapshots:
 
   tree-kill@1.2.2: {}
 
-  ts-jest@29.2.6(@babel/core@7.22.8)(esbuild@0.14.47)(jest@29.7.0)(typescript@5.8.2):
+  ts-jest@29.2.6(@babel/core@7.24.0)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.24.0))(esbuild@0.14.47)(jest@29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2)))(typescript@5.8.2):
     dependencies:
-      '@babel/core': 7.22.8
       bs-logger: 0.2.6
       ejs: 3.1.10
-      esbuild: 0.14.47
       fast-json-stable-stringify: 2.1.0
-      jest: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2)
+      jest: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
       jest-util: 29.7.0
       json5: 2.2.3
       lodash.memoize: 4.1.2
@@ -4935,6 +5047,12 @@ snapshots:
       semver: 7.7.1
       typescript: 5.8.2
       yargs-parser: 21.1.1
+    optionalDependencies:
+      '@babel/core': 7.24.0
+      '@jest/transform': 29.7.0
+      '@jest/types': 29.6.3
+      babel-jest: 29.7.0(@babel/core@7.24.0)
+      esbuild: 0.14.47
 
   ts-morph@12.0.0:
     dependencies:
