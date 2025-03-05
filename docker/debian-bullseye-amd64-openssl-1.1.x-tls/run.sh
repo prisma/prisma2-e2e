@@ -20,7 +20,9 @@ if [ ! -f "server-ca.pem" ]; then
     echo "$GCP_POSTGRESQL_SSL_SERVER_CA" >> server-ca.pem
 fi
 
-openssl pkcs12 -export -out client-identity.p12 -inkey client-key.pem -in client-cert.pem -password pass:prisma
+openssl pkcs12 -export -out client-identity.p12 \
+  -inkey client-key.pem -in client-cert.pem -password pass:prisma \
+  -keypbe AES-256-CBC -certpbe AES-256-CBC -macalg SHA256
 
 docker buildx build --load \
   --platform="${DOCKER_PLATFORM_ARCH}" \
