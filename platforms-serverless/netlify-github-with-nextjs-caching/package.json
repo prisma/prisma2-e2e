@@ -22,7 +22,6 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "prisma",
       "@prisma/client"
     ]
   }
