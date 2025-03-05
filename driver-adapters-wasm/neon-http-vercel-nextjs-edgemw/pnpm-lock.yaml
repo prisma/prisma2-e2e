@@ -12,14 +12,14 @@ importers:
         specifier: 0.10.4
         version: 0.10.4
       '@prisma/adapter-neon':
-        specifier: 6.5.0-dev.55
-        version: 6.5.0-dev.55(@neondatabase/serverless@0.10.4)
+        specifier: 6.5.0-dev.56
+        version: 6.5.0-dev.56(@neondatabase/serverless@0.10.4)
       '@prisma/client':
-        specifier: 6.5.0-dev.55
-        version: 6.5.0-dev.55(prisma@6.5.0-dev.55(typescript@4.9.5))(typescript@4.9.5)
+        specifier: 6.5.0-dev.56
+        version: 6.5.0-dev.56(prisma@6.5.0-dev.56(typescript@4.9.5))(typescript@4.9.5)
       next:
         specifier: 14.2.24
-        version: 14.2.24(@babel/core@7.22.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 14.2.24(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       node-fetch:
         specifier: 2.7.0
         version: 2.7.0
@@ -40,8 +40,8 @@ importers:
         specifier: 29.7.0
         version: 29.7.0(@types/node@16.18.11)(ts-node@10.9.1(@types/node@16.18.11)(typescript@4.9.5))
       prisma:
-        specifier: 6.5.0-dev.55
-        version: 6.5.0-dev.55(typescript@4.9.5)
+        specifier: 6.5.0-dev.56
+        version: 6.5.0-dev.56(typescript@4.9.5)
       vercel:
         specifier: 41.3.1
         version: 41.3.1
@@ -517,13 +517,13 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@prisma/adapter-neon@6.5.0-dev.55':
-    resolution: {integrity: sha512-LwkPiHImi+gJxMrKeB7Z7D+ik8XkQaghXKCa93ayJc2smOoHefudA1MFntTVr8s2DbJbX0DLS/YaYY3odf9a8A==}
+  '@prisma/adapter-neon@6.5.0-dev.56':
+    resolution: {integrity: sha512-WS+p/bDjNMj3O3si+d4DLrhLWnnp055+tyDgpljRz95cwlEYHfMLD57m8M3uvCF0tVLIpfvQfJZCUxzjnwOLWQ==}
     peerDependencies:
       '@neondatabase/serverless': ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
 
-  '@prisma/client@6.5.0-dev.55':
-    resolution: {integrity: sha512-+se9wE8II+CC0KHmbJ6YBmq26Zs33epcxjOJQcuWLJdpLkUZ7HX2exGrHAK7fhvWnt59zn8QYRHVOwmsIcvYVw==}
+  '@prisma/client@6.5.0-dev.56':
+    resolution: {integrity: sha512-fXDPv1SpFJoYfd3kzMClVIdqur5f6EGpb+P3LVOfuzhLHCONFE48m87gySuWjIRfQJRK2eSmRWOEHmJgVoxdaQ==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -534,23 +534,23 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/debug@6.5.0-dev.55':
-    resolution: {integrity: sha512-lLv5+JYzVqVTNJzMPm/bGNSaJdgm1nxfRu1w+hAwbfKZnT4Pde7f2QFVCnCAATeVKepyOXgbhXjInsBxlamYlQ==}
+  '@prisma/debug@6.5.0-dev.56':
+    resolution: {integrity: sha512-PgIDN9+Tqwi7wOlgkRuSKQd9tP3Bzro+gzDo0ZGIxy+wvv1EJuqDDc1V+RphtFMemiicvfOSUJcNhHLLjsdliA==}
 
-  '@prisma/driver-adapter-utils@6.5.0-dev.55':
-    resolution: {integrity: sha512-a28su1yZNXDlusOubIHlT8vdZyhzzcr/Uo9eWXKqOHpw1DkBfXRuoKQ+FPm+2ugo8FjVMMzCkMnBvpvXPl1vBw==}
+  '@prisma/driver-adapter-utils@6.5.0-dev.56':
+    resolution: {integrity: sha512-hucQO2xfB4jAqVd5zu69j/8CrUvBzbc5oTMJ3z6hrPUq4uKqUGAbp/0GGzB8aajZYTIcOKFa2KEetfRQikN3Xg==}
 
   '@prisma/engines-version@6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a':
     resolution: {integrity: sha512-BBzeD9vW/qCd3pwRxZYYZHOBzLsyupNIxnuor5yD8Jay+cIUejO3bPM330swDWdDT5Wg/vGxNW5qO8kkqm4tZw==}
 
-  '@prisma/engines@6.5.0-dev.55':
-    resolution: {integrity: sha512-/XCDETlLI4UYczM8fUDR1PT2pDBlRkbXg333DcudCKvLIQAaTcIMJO5pgCZvyuobdGKuS0qRx5fFu9NZp9b7qg==}
+  '@prisma/engines@6.5.0-dev.56':
+    resolution: {integrity: sha512-0VUSiNxmSDdIJoodOyMeAqAnXoDU5GV2POZ0GAnz9Dd6id9EoL2QnAO/mk7l2feAM6WXjfkjINKP8Wy5qgQCvQ==}
 
-  '@prisma/fetch-engine@6.5.0-dev.55':
-    resolution: {integrity: sha512-sfx65XhYnPGFmM0C6KovqJxH8UrNncN9qK0/WpI2Bn+wWVO4fy7oQezxFDcHAPhOSJ451Go+aEjSCSKI4mKMjQ==}
+  '@prisma/fetch-engine@6.5.0-dev.56':
+    resolution: {integrity: sha512-792pAEck/ntSrIaFwh8447iAhKYrVcVVCitZC/pgtej/sV5iVkARaLWi6m758r5ZwgffhCzRw8Jw2zdsaIo08g==}
 
-  '@prisma/get-platform@6.5.0-dev.55':
-    resolution: {integrity: sha512-Pg1WlkNEZG6LILBwTJ2EZx8FfzRd3av/OmAthoxF4lXTbSpVYIi/J50P4ziSLAYAYYzQn2yu1RGWTKtJnoYtEQ==}
+  '@prisma/get-platform@6.5.0-dev.56':
+    resolution: {integrity: sha512-Vt88yosdM14z/tv0BwuYy64sTz+LOYQNa79GbTY5IRKoqHQUKzb/aTI/WYBD6amIVWyMjRtb7JltOX3fXCs69Q==}
 
   '@rollup/pluginutils@5.1.4':
     resolution: {integrity: sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==}
@@ -1908,8 +1908,8 @@ packages:
     resolution: {integrity: sha512-973driJZvxiGOQ5ONsFhOF/DtzPMOMtgC11kCpUrPGMTgqp2q/1gwzCquocrN33is0VZ5GFHXZYMM9l6h67v2Q==}
     engines: {node: '>=10'}
 
-  prisma@6.5.0-dev.55:
-    resolution: {integrity: sha512-KSgT1kAwbHn1iQYZicLM82JXkK0fXC+4gsfx+T38oSr8h2yPAuuCgmEJorsx64iLvSW5Byofs5QxiJxhR5diTQ==}
+  prisma@6.5.0-dev.56:
+    resolution: {integrity: sha512-yAs0j8FlRclYAFEL2d+8/dD4+tgzNkppb2JlsrjgnTo9NuQjA+CZitcY84uunOVTxItzR2RskfF9a6Pd+abubw==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -2953,41 +2953,41 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@prisma/adapter-neon@6.5.0-dev.55(@neondatabase/serverless@0.10.4)':
+  '@prisma/adapter-neon@6.5.0-dev.56(@neondatabase/serverless@0.10.4)':
     dependencies:
       '@neondatabase/serverless': 0.10.4
-      '@prisma/driver-adapter-utils': 6.5.0-dev.55
+      '@prisma/driver-adapter-utils': 6.5.0-dev.56
       postgres-array: 3.0.2
 
-  '@prisma/client@6.5.0-dev.55(prisma@6.5.0-dev.55(typescript@4.9.5))(typescript@4.9.5)':
+  '@prisma/client@6.5.0-dev.56(prisma@6.5.0-dev.56(typescript@4.9.5))(typescript@4.9.5)':
     optionalDependencies:
-      prisma: 6.5.0-dev.55(typescript@4.9.5)
+      prisma: 6.5.0-dev.56(typescript@4.9.5)
       typescript: 4.9.5
 
-  '@prisma/debug@6.5.0-dev.55': {}
+  '@prisma/debug@6.5.0-dev.56': {}
 
-  '@prisma/driver-adapter-utils@6.5.0-dev.55':
+  '@prisma/driver-adapter-utils@6.5.0-dev.56':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.55
+      '@prisma/debug': 6.5.0-dev.56
 
   '@prisma/engines-version@6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a': {}
 
-  '@prisma/engines@6.5.0-dev.55':
+  '@prisma/engines@6.5.0-dev.56':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.55
+      '@prisma/debug': 6.5.0-dev.56
       '@prisma/engines-version': 6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a
-      '@prisma/fetch-engine': 6.5.0-dev.55
-      '@prisma/get-platform': 6.5.0-dev.55
+      '@prisma/fetch-engine': 6.5.0-dev.56
+      '@prisma/get-platform': 6.5.0-dev.56
 
-  '@prisma/fetch-engine@6.5.0-dev.55':
+  '@prisma/fetch-engine@6.5.0-dev.56':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.55
+      '@prisma/debug': 6.5.0-dev.56
       '@prisma/engines-version': 6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a
-      '@prisma/get-platform': 6.5.0-dev.55
+      '@prisma/get-platform': 6.5.0-dev.56
 
-  '@prisma/get-platform@6.5.0-dev.55':
+  '@prisma/get-platform@6.5.0-dev.56':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.55
+      '@prisma/debug': 6.5.0-dev.56
 
   '@rollup/pluginutils@5.1.4':
     dependencies:
@@ -4352,7 +4352,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@14.2.24(@babel/core@7.22.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next@14.2.24(@babel/core@7.24.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       '@next/env': 14.2.24
       '@swc/helpers': 0.5.5
@@ -4362,7 +4362,7 @@ snapshots:
       postcss: 8.4.31
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      styled-jsx: 5.1.1(@babel/core@7.22.8)(react@18.3.1)
+      styled-jsx: 5.1.1(@babel/core@7.24.0)(react@18.3.1)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.24
       '@next/swc-darwin-x64': 14.2.24
@@ -4534,9 +4534,9 @@ snapshots:
     dependencies:
       parse-ms: 2.1.0
 
-  prisma@6.5.0-dev.55(typescript@4.9.5):
+  prisma@6.5.0-dev.56(typescript@4.9.5):
     dependencies:
-      '@prisma/engines': 6.5.0-dev.55
+      '@prisma/engines': 6.5.0-dev.56
       esbuild: 0.14.47
       esbuild-register: 3.6.0(esbuild@0.14.47)
     optionalDependencies:
@@ -4697,12 +4697,12 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.1(@babel/core@7.22.8)(react@18.3.1):
+  styled-jsx@5.1.1(@babel/core@7.24.0)(react@18.3.1):
     dependencies:
       client-only: 0.0.1
       react: 18.3.1
     optionalDependencies:
-      '@babel/core': 7.22.8
+      '@babel/core': 7.24.0
 
   supports-color@5.5.0:
     dependencies:
