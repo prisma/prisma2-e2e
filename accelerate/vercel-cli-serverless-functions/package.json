@@ -14,7 +14,7 @@
     "ts-jest": "29.2.6",
     "ts-node": "10.9.2",
     "typescript": "5.8.2",
-    "vercel": "34.4.0"
+    "vercel": "41.3.1"
   },
   "dependencies": {
     "@prisma/client": "6.5.0-dev.55",

@@ -4,8 +4,8 @@ set -eu
 
 if [ $PRISMA_CLIENT_ENGINE_TYPE == "binary" ]; then
   echo "Binary"
-  pnpm vercel logs e2e-vercel-with-nextjs-binary.vercel.app --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID
+  pnpm vercel inspect --logs e2e-vercel-with-nextjs-binary.vercel.app --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID
 else
   echo "Library (Default)"
-  pnpm vercel logs e2e-vercel-with-nextjs.vercel.app --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID
-fi 
+  pnpm vercel inspect --logs e2e-vercel-with-nextjs.vercel.app --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID
+fi
