@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.57
-        version: 6.5.0-dev.57(prisma@6.5.0-dev.57(typescript@5.8.2))(typescript@5.8.2)
+        specifier: 6.5.0-dev.58
+        version: 6.5.0-dev.58(prisma@6.5.0-dev.58(typescript@5.8.2))(typescript@5.8.2)
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: 2.1.1
@@ -19,8 +19,8 @@ importers:
         specifier: 1.30.4
         version: 1.30.4(svelte@4.2.19)(vite@5.4.14)
       prisma:
-        specifier: 6.5.0-dev.57
-        version: 6.5.0-dev.57(typescript@5.8.2)
+        specifier: 6.5.0-dev.58
+        version: 6.5.0-dev.58(typescript@5.8.2)
       svelte:
         specifier: 4.2.19
         version: 4.2.19
@@ -209,8 +209,8 @@ packages:
   '@polka/url@1.0.0-next.21':
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
 
-  '@prisma/client@6.5.0-dev.57':
-    resolution: {integrity: sha512-NWhkVCYERH8UwDhMpXdXlIkefa/BDGr9Ob81ThNO3UnnlsXFwTbKlVhnkkaGgoJZ2CJHSNW4HPlVyndMYVHy+w==}
+  '@prisma/client@6.5.0-dev.58':
+    resolution: {integrity: sha512-YxMQzYgTvG7Iw25CSJEiYGiXjdVxqLLoMbk99peoHAMB09vR/ZiGjK6P2BjVT1CcQ1c54EuNSA1xXKlCjSZJdA==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -221,20 +221,20 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/debug@6.5.0-dev.57':
-    resolution: {integrity: sha512-F3a5XHRQmYiyP+22K1tlm0o92XONl+IYdaathgsOF7rsjdmI8pCGOTvrM1xUQMtJanSUvRnhfysrFoSN6b9reg==}
+  '@prisma/debug@6.5.0-dev.58':
+    resolution: {integrity: sha512-6TrEx5HjEdNjdx7tVC+7QHWO1K/OA6xS7kbRLR2Sflygl1aL2D3xdHWsZiAZ2IohJ6W78KngiQ+G/sbzHQwisQ==}
 
   '@prisma/engines-version@6.5.0-43.56bd63f620196b375ea597255b04817886e98eca':
     resolution: {integrity: sha512-bk4o0H2kXJBWGKVHedfiTqd6y8TCpQgYNTSph9tCP470XF4jQXJLvM5OqQXvsTsxjtQaVG7ep1mEHPjXS/WNAg==}
 
-  '@prisma/engines@6.5.0-dev.57':
-    resolution: {integrity: sha512-l4hNdK/O6jV7CdxxWx+doHgqhUdAgIkMOJbbZvNhm1kd08mumgU4xrrN6MQFAXiglpUO3HY/PdMtOSGGdNZAIw==}
+  '@prisma/engines@6.5.0-dev.58':
+    resolution: {integrity: sha512-FmAaHwYu45tHcaHXr2UBFKxzTaas3t2o2Kmr6UlWnxq0rv5swu6tTXZhNRadEP/mIZNMVjKsDjg+HwUaMk7JHg==}
 
-  '@prisma/fetch-engine@6.5.0-dev.57':
-    resolution: {integrity: sha512-+aBFgu349dCLTP4sPGDOPCm2Kok3JgAW9mgWM4q1Vfudln6l7k3mrZ20CaIwHc1o6fslpHibT/EwuSQ/kFv4XA==}
+  '@prisma/fetch-engine@6.5.0-dev.58':
+    resolution: {integrity: sha512-R0QwQQ7AXHsuuxiEKHANp/xHfdopr1LllmEXxo0LFIMkP5MKIQ70JT0DnAtzbSMbp2TMepTkKaXwJBKDtAiqWw==}
 
-  '@prisma/get-platform@6.5.0-dev.57':
-    resolution: {integrity: sha512-jMNeEF0P4f12KMwLEHszBt7g4hWOsPM7harqQRyAgtNpH8rrgc2RZLmN5CmN2pKcYd96E/E/xc8KZIoF8YcX3g==}
+  '@prisma/get-platform@6.5.0-dev.58':
+    resolution: {integrity: sha512-K0p8bI3Klql/IU1d/248/9UC8aY4zurz7M1Luny+K2KQw2SQJjmVrdPdEDNoQSVoUoiNPufzkpVHj+oiyO/PNg==}
 
   '@rollup/rollup-android-arm-eabi@4.21.0':
     resolution: {integrity: sha512-WTWD8PfoSAJ+qL87lE7votj3syLavxunWhzCnx3XFxFiI/BA/r3X7MUM8dVrH8rb2r4AiO8jJsr3ZjdaftmnfA==}
@@ -576,8 +576,8 @@ packages:
     resolution: {integrity: sha512-7KTLTdzdZZYscUc65XmjFiB73vBhBfbPztCYdUNvlaso9PrzjzcmjqBPR0lNGkcVlcO4BjiO5rK/qNz+XAen1Q==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prisma@6.5.0-dev.57:
-    resolution: {integrity: sha512-/tmmICoE/RIVnUyfMWbTe2kYoKsHUTrTaBh4SOb34lSv5eO13eZZtncXGixGMUz47rNJEfKPV8e8KsG/SdUOKw==}
+  prisma@6.5.0-dev.58:
+    resolution: {integrity: sha512-PHH78qLf2GFBQ0AAUUn4h+jPTOKNmNb+VwG7H8rPKso1ZAjC3LOKiR/Ib5TlBK5pPl720cVkYwL1sW83++d5rQ==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -841,31 +841,31 @@ snapshots:
 
   '@polka/url@1.0.0-next.21': {}
 
-  '@prisma/client@6.5.0-dev.57(prisma@6.5.0-dev.57(typescript@5.8.2))(typescript@5.8.2)':
+  '@prisma/client@6.5.0-dev.58(prisma@6.5.0-dev.58(typescript@5.8.2))(typescript@5.8.2)':
     optionalDependencies:
-      prisma: 6.5.0-dev.57(typescript@5.8.2)
+      prisma: 6.5.0-dev.58(typescript@5.8.2)
       typescript: 5.8.2
 
-  '@prisma/debug@6.5.0-dev.57': {}
+  '@prisma/debug@6.5.0-dev.58': {}
 
   '@prisma/engines-version@6.5.0-43.56bd63f620196b375ea597255b04817886e98eca': {}
 
-  '@prisma/engines@6.5.0-dev.57':
+  '@prisma/engines@6.5.0-dev.58':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.57
+      '@prisma/debug': 6.5.0-dev.58
       '@prisma/engines-version': 6.5.0-43.56bd63f620196b375ea597255b04817886e98eca
-      '@prisma/fetch-engine': 6.5.0-dev.57
-      '@prisma/get-platform': 6.5.0-dev.57
+      '@prisma/fetch-engine': 6.5.0-dev.58
+      '@prisma/get-platform': 6.5.0-dev.58
 
-  '@prisma/fetch-engine@6.5.0-dev.57':
+  '@prisma/fetch-engine@6.5.0-dev.58':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.57
+      '@prisma/debug': 6.5.0-dev.58
       '@prisma/engines-version': 6.5.0-43.56bd63f620196b375ea597255b04817886e98eca
-      '@prisma/get-platform': 6.5.0-dev.57
+      '@prisma/get-platform': 6.5.0-dev.58
 
-  '@prisma/get-platform@6.5.0-dev.57':
+  '@prisma/get-platform@6.5.0-dev.58':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.57
+      '@prisma/debug': 6.5.0-dev.58
 
   '@rollup/rollup-android-arm-eabi@4.21.0':
     optional: true
@@ -1192,9 +1192,9 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  prisma@6.5.0-dev.57(typescript@5.8.2):
+  prisma@6.5.0-dev.58(typescript@5.8.2):
     dependencies:
-      '@prisma/engines': 6.5.0-dev.57
+      '@prisma/engines': 6.5.0-dev.58
       esbuild: 0.21.5
       esbuild-register: 3.6.0(esbuild@0.21.5)
     optionalDependencies:
