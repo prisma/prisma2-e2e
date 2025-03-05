@@ -12,13 +12,13 @@
   "devDependencies": {
     "@jest/globals": "29.7.0",
     "jest": "29.7.0",
-    "prisma": "6.5.0-dev.64",
+    "prisma": "6.5.0-dev.65",
     "vercel": "41.3.1"
   },
   "dependencies": {
     "@neondatabase/serverless": "0.10.4",
-    "@prisma/adapter-neon": "6.5.0-dev.64",
-    "@prisma/client": "6.5.0-dev.64",
+    "@prisma/adapter-neon": "6.5.0-dev.65",
+    "@prisma/client": "6.5.0-dev.65",
     "next": "14.2.24",
     "node-fetch": "2.7.0",
     "react": "18.3.1",
