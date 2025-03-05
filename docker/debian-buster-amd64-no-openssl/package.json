@@ -1,5 +1,5 @@
 {
-  "name": "@prisma/fail-debian-buster-amd64-openssl-1.1.x",
+  "name": "@prisma/debian-buster-amd64-no-openssl",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "18.19.79",
