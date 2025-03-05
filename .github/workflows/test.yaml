@@ -662,7 +662,6 @@ jobs:
           - lambda-node-20
           - netlify-cli
           - netlify-github
-          - netlify-github-with-nextjs-caching
           - gcp-functions
           - firebase-functions
           - azure-functions-linux
