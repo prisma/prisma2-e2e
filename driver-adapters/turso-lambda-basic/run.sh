@@ -15,7 +15,7 @@ GENERATED_CLIENT=$(node -e "
   )
 ")
 
-pnpm esbuild index.js --bundle --platform=node --target=node18 --outfile=dist/index.js --format=cjs
+pnpm esbuild index.js --bundle --platform=node --target=node18 --outfile=dist/index.js --format=cjs --external:libsql
 cp "$GENERATED_CLIENT"/libquery_engine-rhel-openssl-1.0.x.so.node dist
 cp "$GENERATED_CLIENT"/schema.prisma dist
 zip -rj lambda.zip dist
