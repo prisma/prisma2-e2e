@@ -1710,6 +1710,7 @@ jobs:
           - archlinux-latest-amd64-openssl-3.0.x
           - debian-bullseye-amd64-openssl-1.1.x
           - debian-bullseye-amd64-openssl-1.1.x-tls
+          - debian-buster-amd64-no-openssl
           - debian-buster-amd64-openssl-1.1.x
           - debian-latest-amd64-openssl-3.0.x
           - debian-latest-arm64-openssl-3.0.x
@@ -1788,7 +1789,6 @@ jobs:
           - alpine-3.16-amd64-openssl-1.1.x
           - alpine-3.16-arm64-openssl-1.1.x
           - alpine-3.16-arm64-openssl-1.1.x-with-libc
-          - debian-buster-amd64-openssl-1.1.x
           - debian-latest-arm-openssl-1.1.x
           - amazonlinux-2-amd64-openssl-1.0.x
           - amazonlinux-2-arm64-openssl-1.0.x
