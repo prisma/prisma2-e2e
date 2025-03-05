@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.62
-        version: 6.5.0-dev.62(prisma@6.5.0-dev.62(typescript@5.8.2))(typescript@5.8.2)
+        specifier: 6.5.0-dev.64
+        version: 6.5.0-dev.64(prisma@6.5.0-dev.64(typescript@5.8.2))(typescript@5.8.2)
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: 2.1.1
@@ -19,8 +19,8 @@ importers:
         specifier: 1.30.4
         version: 1.30.4(svelte@4.2.19)(vite@5.4.14)
       prisma:
-        specifier: 6.5.0-dev.62
-        version: 6.5.0-dev.62(typescript@5.8.2)
+        specifier: 6.5.0-dev.64
+        version: 6.5.0-dev.64(typescript@5.8.2)
       svelte:
         specifier: 4.2.19
         version: 4.2.19
@@ -209,8 +209,8 @@ packages:
   '@polka/url@1.0.0-next.21':
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
 
-  '@prisma/client@6.5.0-dev.62':
-    resolution: {integrity: sha512-3GnroT81QRq2f2km2PjuCU8+TBTCa0NKml2CS7DwfaKwssCeK+zFBXsKLLOc0D7L/lpNjWjNi/ks+LnV4EnwlQ==}
+  '@prisma/client@6.5.0-dev.64':
+    resolution: {integrity: sha512-w4IDFAGrP2fwqiq4gpGD+up7UBpyiYWthjrhokeryY96HEdcitEyUT23cktl5EW9zvAwO13QH6W1uLxG+P7ZnA==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -221,23 +221,23 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/config@6.5.0-dev.62':
-    resolution: {integrity: sha512-eCqkEJ6bebx0cjNXKQG7nAR5TmnLREteyslkGKD7AoaKW6Mz0pdJHRXPTN9GfgOkvEj3TzEigtzLdEfrJG/Meg==}
+  '@prisma/config@6.5.0-dev.64':
+    resolution: {integrity: sha512-ZwmTk45xRIVaXab8ipPm9eyIglhg5JxCsc3tiH1zom/mLzmumlAVeE+f0GxH8Q5jYIhyrU5ftNdX5JOBNEkcrw==}
 
-  '@prisma/debug@6.5.0-dev.62':
-    resolution: {integrity: sha512-WJxtjUMYwHLqUr5jkhPqU56JiGC8s2/mo/kiyXtk+KU+x8Ir4pW1O9xEqRLzVhw3cmfzSr6YQSbcUyOcwETOvg==}
+  '@prisma/debug@6.5.0-dev.64':
+    resolution: {integrity: sha512-y+pZHedETnoGnuvRrlj++E/VTPutrx7T2LjOYpHYsoT8NrxvEUrJufT+w0jjznJNba4roXfu3xiQ5/nF78h9Dw==}
 
   '@prisma/engines-version@6.5.0-43.56bd63f620196b375ea597255b04817886e98eca':
     resolution: {integrity: sha512-bk4o0H2kXJBWGKVHedfiTqd6y8TCpQgYNTSph9tCP470XF4jQXJLvM5OqQXvsTsxjtQaVG7ep1mEHPjXS/WNAg==}
 
-  '@prisma/engines@6.5.0-dev.62':
-    resolution: {integrity: sha512-379iY+Txy0XjcVVOrQMTDrK2QxPp9YPYOBMQ6wm1yeZKk5F6Zx9QpdzLUrW+JntPLJ66xzp24W/oOzP/H0h2eA==}
+  '@prisma/engines@6.5.0-dev.64':
+    resolution: {integrity: sha512-V9aqLDCkir7QAhg9tW3d/b2YC/xMrF6qISB9K4YNNcY6S5uHvhEsCcu+2Wjf7wi9NqHAF1nl9mB0eKeGdam8vQ==}
 
-  '@prisma/fetch-engine@6.5.0-dev.62':
-    resolution: {integrity: sha512-/yx8/tkiFbTKbwjlRLv6gI9Qp+YAPBWkp8Be8SKA7kN+eGtV5LN6SRhzX61HYQtxdM6azWNSh1PPER81VZb0Hg==}
+  '@prisma/fetch-engine@6.5.0-dev.64':
+    resolution: {integrity: sha512-f7xrkmHQ7wCtB02HYV4Vjm/jcl9dNkuys9Y+f0bJMsHw30KDuIaQeuHgT2jNeZFbV1TlQpZc/57+51vJXbaewQ==}
 
-  '@prisma/get-platform@6.5.0-dev.62':
-    resolution: {integrity: sha512-9Fcey+pRnbyeYAkT7FgUvK5SKCTX5HFtuX8hctFHGRZ3KNv0GmtkD4fdgtDyK4W28o1eQLDHltWsNUdYKzSk6A==}
+  '@prisma/get-platform@6.5.0-dev.64':
+    resolution: {integrity: sha512-w4j3mC0Sc55n5no+RWxSa+sG6GYVlo5SYyQDzNS/myhovPKE+IvdMZwvtvYrXR0adM+mdgFGyg2EwrJS8Ob2ZA==}
 
   '@rollup/rollup-android-arm-eabi@4.21.0':
     resolution: {integrity: sha512-WTWD8PfoSAJ+qL87lE7votj3syLavxunWhzCnx3XFxFiI/BA/r3X7MUM8dVrH8rb2r4AiO8jJsr3ZjdaftmnfA==}
@@ -579,8 +579,8 @@ packages:
     resolution: {integrity: sha512-7KTLTdzdZZYscUc65XmjFiB73vBhBfbPztCYdUNvlaso9PrzjzcmjqBPR0lNGkcVlcO4BjiO5rK/qNz+XAen1Q==}
     engines: {node: ^10 || ^12 || >=14}
 
-  prisma@6.5.0-dev.62:
-    resolution: {integrity: sha512-oA2AKYWWRnddELKHECA9V2otbHJrXZXK6BN11sjvKJM9dF50WeKDwqdihVYeqyaB7vImM0cA8tp9/UfyKgfgQg==}
+  prisma@6.5.0-dev.64:
+    resolution: {integrity: sha512-XNFZvhSTL5ZfqhwbTXam5WUxvaKJbtBg4Epp7dRrMciX6/GD/Ql8XZR6I+HUeLBM7MJcAdWMwZFj5NyW0MHYCw==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -844,38 +844,38 @@ snapshots:
 
   '@polka/url@1.0.0-next.21': {}
 
-  '@prisma/client@6.5.0-dev.62(prisma@6.5.0-dev.62(typescript@5.8.2))(typescript@5.8.2)':
+  '@prisma/client@6.5.0-dev.64(prisma@6.5.0-dev.64(typescript@5.8.2))(typescript@5.8.2)':
     optionalDependencies:
-      prisma: 6.5.0-dev.62(typescript@5.8.2)
+      prisma: 6.5.0-dev.64(typescript@5.8.2)
       typescript: 5.8.2
 
-  '@prisma/config@6.5.0-dev.62':
+  '@prisma/config@6.5.0-dev.64':
     dependencies:
       esbuild: 0.21.5
       esbuild-register: 3.6.0(esbuild@0.21.5)
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/debug@6.5.0-dev.62': {}
+  '@prisma/debug@6.5.0-dev.64': {}
 
   '@prisma/engines-version@6.5.0-43.56bd63f620196b375ea597255b04817886e98eca': {}
 
-  '@prisma/engines@6.5.0-dev.62':
+  '@prisma/engines@6.5.0-dev.64':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.62
+      '@prisma/debug': 6.5.0-dev.64
       '@prisma/engines-version': 6.5.0-43.56bd63f620196b375ea597255b04817886e98eca
-      '@prisma/fetch-engine': 6.5.0-dev.62
-      '@prisma/get-platform': 6.5.0-dev.62
+      '@prisma/fetch-engine': 6.5.0-dev.64
+      '@prisma/get-platform': 6.5.0-dev.64
 
-  '@prisma/fetch-engine@6.5.0-dev.62':
+  '@prisma/fetch-engine@6.5.0-dev.64':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.62
+      '@prisma/debug': 6.5.0-dev.64
       '@prisma/engines-version': 6.5.0-43.56bd63f620196b375ea597255b04817886e98eca
-      '@prisma/get-platform': 6.5.0-dev.62
+      '@prisma/get-platform': 6.5.0-dev.64
 
-  '@prisma/get-platform@6.5.0-dev.62':
+  '@prisma/get-platform@6.5.0-dev.64':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.62
+      '@prisma/debug': 6.5.0-dev.64
 
   '@rollup/rollup-android-arm-eabi@4.21.0':
     optional: true
@@ -1202,10 +1202,10 @@ snapshots:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
-  prisma@6.5.0-dev.62(typescript@5.8.2):
+  prisma@6.5.0-dev.64(typescript@5.8.2):
     dependencies:
-      '@prisma/config': 6.5.0-dev.62
-      '@prisma/engines': 6.5.0-dev.62
+      '@prisma/config': 6.5.0-dev.64
+      '@prisma/engines': 6.5.0-dev.64
     optionalDependencies:
       fsevents: 2.3.3
       typescript: 5.8.2
