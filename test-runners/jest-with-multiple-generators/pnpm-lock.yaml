@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.56
-        version: 6.5.0-dev.56(prisma@6.5.0-dev.56(typescript@5.8.2))(typescript@5.8.2)
+        specifier: 6.5.0-dev.57
+        version: 6.5.0-dev.57(prisma@6.5.0-dev.57(typescript@5.8.2))(typescript@5.8.2)
       jest:
         specifier: 29.7.0
         version: 29.7.0(@types/node@18.19.79)(ts-node@10.9.2(@types/node@18.19.79)(typescript@5.8.2))
@@ -25,8 +25,8 @@ importers:
         specifier: 18.19.79
         version: 18.19.79
       prisma:
-        specifier: 6.5.0-dev.56
-        version: 6.5.0-dev.56(typescript@5.8.2)
+        specifier: 6.5.0-dev.57
+        version: 6.5.0-dev.57(typescript@5.8.2)
       ts-node:
         specifier: 10.9.2
         version: 10.9.2(@types/node@18.19.79)(typescript@5.8.2)
@@ -554,8 +554,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@prisma/client@6.5.0-dev.56':
-    resolution: {integrity: sha512-fXDPv1SpFJoYfd3kzMClVIdqur5f6EGpb+P3LVOfuzhLHCONFE48m87gySuWjIRfQJRK2eSmRWOEHmJgVoxdaQ==}
+  '@prisma/client@6.5.0-dev.57':
+    resolution: {integrity: sha512-NWhkVCYERH8UwDhMpXdXlIkefa/BDGr9Ob81ThNO3UnnlsXFwTbKlVhnkkaGgoJZ2CJHSNW4HPlVyndMYVHy+w==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -566,20 +566,20 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/debug@6.5.0-dev.56':
-    resolution: {integrity: sha512-PgIDN9+Tqwi7wOlgkRuSKQd9tP3Bzro+gzDo0ZGIxy+wvv1EJuqDDc1V+RphtFMemiicvfOSUJcNhHLLjsdliA==}
+  '@prisma/debug@6.5.0-dev.57':
+    resolution: {integrity: sha512-F3a5XHRQmYiyP+22K1tlm0o92XONl+IYdaathgsOF7rsjdmI8pCGOTvrM1xUQMtJanSUvRnhfysrFoSN6b9reg==}
 
-  '@prisma/engines-version@6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a':
-    resolution: {integrity: sha512-BBzeD9vW/qCd3pwRxZYYZHOBzLsyupNIxnuor5yD8Jay+cIUejO3bPM330swDWdDT5Wg/vGxNW5qO8kkqm4tZw==}
+  '@prisma/engines-version@6.5.0-43.56bd63f620196b375ea597255b04817886e98eca':
+    resolution: {integrity: sha512-bk4o0H2kXJBWGKVHedfiTqd6y8TCpQgYNTSph9tCP470XF4jQXJLvM5OqQXvsTsxjtQaVG7ep1mEHPjXS/WNAg==}
 
-  '@prisma/engines@6.5.0-dev.56':
-    resolution: {integrity: sha512-0VUSiNxmSDdIJoodOyMeAqAnXoDU5GV2POZ0GAnz9Dd6id9EoL2QnAO/mk7l2feAM6WXjfkjINKP8Wy5qgQCvQ==}
+  '@prisma/engines@6.5.0-dev.57':
+    resolution: {integrity: sha512-l4hNdK/O6jV7CdxxWx+doHgqhUdAgIkMOJbbZvNhm1kd08mumgU4xrrN6MQFAXiglpUO3HY/PdMtOSGGdNZAIw==}
 
-  '@prisma/fetch-engine@6.5.0-dev.56':
-    resolution: {integrity: sha512-792pAEck/ntSrIaFwh8447iAhKYrVcVVCitZC/pgtej/sV5iVkARaLWi6m758r5ZwgffhCzRw8Jw2zdsaIo08g==}
+  '@prisma/fetch-engine@6.5.0-dev.57':
+    resolution: {integrity: sha512-+aBFgu349dCLTP4sPGDOPCm2Kok3JgAW9mgWM4q1Vfudln6l7k3mrZ20CaIwHc1o6fslpHibT/EwuSQ/kFv4XA==}
 
-  '@prisma/get-platform@6.5.0-dev.56':
-    resolution: {integrity: sha512-Vt88yosdM14z/tv0BwuYy64sTz+LOYQNa79GbTY5IRKoqHQUKzb/aTI/WYBD6amIVWyMjRtb7JltOX3fXCs69Q==}
+  '@prisma/get-platform@6.5.0-dev.57':
+    resolution: {integrity: sha512-jMNeEF0P4f12KMwLEHszBt7g4hWOsPM7harqQRyAgtNpH8rrgc2RZLmN5CmN2pKcYd96E/E/xc8KZIoF8YcX3g==}
 
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -1342,8 +1342,8 @@ packages:
     resolution: {integrity: sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  prisma@6.5.0-dev.56:
-    resolution: {integrity: sha512-yAs0j8FlRclYAFEL2d+8/dD4+tgzNkppb2JlsrjgnTo9NuQjA+CZitcY84uunOVTxItzR2RskfF9a6Pd+abubw==}
+  prisma@6.5.0-dev.57:
+    resolution: {integrity: sha512-/tmmICoE/RIVnUyfMWbTe2kYoKsHUTrTaBh4SOb34lSv5eO13eZZtncXGixGMUz47rNJEfKPV8e8KsG/SdUOKw==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -2290,31 +2290,31 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  '@prisma/client@6.5.0-dev.56(prisma@6.5.0-dev.56(typescript@5.8.2))(typescript@5.8.2)':
+  '@prisma/client@6.5.0-dev.57(prisma@6.5.0-dev.57(typescript@5.8.2))(typescript@5.8.2)':
     optionalDependencies:
-      prisma: 6.5.0-dev.56(typescript@5.8.2)
+      prisma: 6.5.0-dev.57(typescript@5.8.2)
       typescript: 5.8.2
 
-  '@prisma/debug@6.5.0-dev.56': {}
+  '@prisma/debug@6.5.0-dev.57': {}
 
-  '@prisma/engines-version@6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a': {}
+  '@prisma/engines-version@6.5.0-43.56bd63f620196b375ea597255b04817886e98eca': {}
 
-  '@prisma/engines@6.5.0-dev.56':
+  '@prisma/engines@6.5.0-dev.57':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.56
-      '@prisma/engines-version': 6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a
-      '@prisma/fetch-engine': 6.5.0-dev.56
-      '@prisma/get-platform': 6.5.0-dev.56
+      '@prisma/debug': 6.5.0-dev.57
+      '@prisma/engines-version': 6.5.0-43.56bd63f620196b375ea597255b04817886e98eca
+      '@prisma/fetch-engine': 6.5.0-dev.57
+      '@prisma/get-platform': 6.5.0-dev.57
 
-  '@prisma/fetch-engine@6.5.0-dev.56':
+  '@prisma/fetch-engine@6.5.0-dev.57':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.56
-      '@prisma/engines-version': 6.5.0-42.ebe92748df38ea968da11e62e111f2596014342a
-      '@prisma/get-platform': 6.5.0-dev.56
+      '@prisma/debug': 6.5.0-dev.57
+      '@prisma/engines-version': 6.5.0-43.56bd63f620196b375ea597255b04817886e98eca
+      '@prisma/get-platform': 6.5.0-dev.57
 
-  '@prisma/get-platform@6.5.0-dev.56':
+  '@prisma/get-platform@6.5.0-dev.57':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.56
+      '@prisma/debug': 6.5.0-dev.57
 
   '@sinclair/typebox@0.27.8': {}
 
@@ -3292,9 +3292,9 @@ snapshots:
       ansi-styles: 5.2.0
       react-is: 18.2.0
 
-  prisma@6.5.0-dev.56(typescript@5.8.2):
+  prisma@6.5.0-dev.57(typescript@5.8.2):
     dependencies:
-      '@prisma/engines': 6.5.0-dev.56
+      '@prisma/engines': 6.5.0-dev.57
       esbuild: 0.25.0
       esbuild-register: 3.6.0(esbuild@0.25.0)
     optionalDependencies:
