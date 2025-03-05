@@ -6,7 +6,7 @@
   "devDependencies": {
     "prisma": "6.5.0-dev.54",
     "ts-node": "10.9.2",
-    "vercel": "34.4.0"
+    "vercel": "41.3.1"
   },
   "dependencies": {
     "@prisma/client": "6.5.0-dev.54",
@@ -19,6 +19,6 @@
     "postinstall": "pnpm prisma generate"
   },
   "engines": {
-    "node": "22.x"
+    "node": "23.x"
   }
 }
