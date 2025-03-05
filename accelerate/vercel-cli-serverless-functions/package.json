@@ -27,6 +27,6 @@
     "postinstall": "prisma generate --data-proxy"
   },
   "engines": {
-    "node": "23.x"
+    "node": "22.x"
   }
 }

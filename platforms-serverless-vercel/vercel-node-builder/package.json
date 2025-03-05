@@ -19,6 +19,6 @@
     "postinstall": "pnpm prisma generate"
   },
   "engines": {
-    "node": "23.x"
+    "node": "22.x"
   }
 }

@@ -24,7 +24,7 @@ echo "Deployed to ${DEPLOYED_URL}"
 
 sleep 15
 
-OUTPUT=$(pnpm vercel logs $DEPLOYED_URL --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID)
+OUTPUT=$(pnpm vercel inspect --logs $DEPLOYED_URL --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID)
 echo "${OUTPUT}"
 
 # Check the Vercel Build Logs for "Generated Prisma Client"

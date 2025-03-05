@@ -29,7 +29,7 @@ sleep 15
 
 pnpm test index.test
 
-OUTPUT=$(pnpm vercel logs "$DEPLOYED_URL" --token="$VERCEL_TOKEN" --scope="$VERCEL_ORG_ID")
+OUTPUT=$(pnpm vercel inspect --logs "$DEPLOYED_URL" --token="$VERCEL_TOKEN" --scope="$VERCEL_ORG_ID")
 
 # 2. Deploy the project with the updated schema
 
@@ -58,4 +58,4 @@ sleep 15
 
 pnpm test index.test
 
-OUTPUT=$(pnpm vercel logs "$DEPLOYED_URL" --token="$VERCEL_TOKEN" --scope="$VERCEL_ORG_ID")
+OUTPUT=$(pnpm vercel inspect --logs "$DEPLOYED_URL" --token="$VERCEL_TOKEN" --scope="$VERCEL_ORG_ID")
