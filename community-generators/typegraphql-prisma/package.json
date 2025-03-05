@@ -5,14 +5,14 @@
   "license": "MIT",
   "devDependencies": {
     "@types/graphql-fields": "1.3.9",
-    "prisma": "6.5.0-dev.65",
+    "prisma": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "ts-node": "10.9.2",
     "typegraphql-prisma": "0.28.0",
     "typescript": "5.8.2",
     "@types/node": "18.19.79"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.65",
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "@apollo/server": "4.11.3",
     "class-validator": "0.14.1",
     "graphql": "16.8.1",

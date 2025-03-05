@@ -5,7 +5,7 @@
   "author": "Divyendu Singh <singh@prisma.io>",
   "license": "MIT",
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.65",
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "express": "^4.17.1"
   },
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "heroku": "8.11.5",
-    "prisma": "6.5.0-dev.65",
+    "prisma": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "ts-node": "10.9.2"
   }
 }

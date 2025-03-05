@@ -13,7 +13,7 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "2.1.1",
     "@sveltejs/kit": "1.30.4",
-    "prisma": "6.5.0-dev.65",
+    "prisma": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "svelte": "4.2.19",
     "svelte-check": "3.8.6",
     "svelte-preprocess": "5.1.4",
@@ -23,6 +23,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.65"
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2"
   }
 }

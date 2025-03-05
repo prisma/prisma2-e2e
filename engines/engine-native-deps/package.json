@@ -8,7 +8,7 @@
     "update-snapshots": "pnpm test -- --update"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.65",
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "zx": "8.3.2"
   }
 }

@@ -6,12 +6,12 @@
     "@azure/functions": "3.5.1",
     "azure-functions-core-tools": "4.0.6821",
     "npm-run-all2": "6.2.6",
-    "prisma": "6.5.0-dev.65",
+    "prisma": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "ts-node": "10.9.2",
     "typescript": "5.8.2"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.65",
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-46-integration-84a848328b0a8928e7495826cfe347b3bb40361c-2e8776a81f94f60e8cd63a61fa6f1d0c2aa4b5d2.2",
     "@types/node": "18.19.79"
   }
 }
