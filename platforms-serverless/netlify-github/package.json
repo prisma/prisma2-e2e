@@ -6,7 +6,7 @@
   "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab",
   "devDependencies": {
     "@types/node": "18.19.79",
-    "prisma": "6.5.0-dev.61",
+    "prisma": "6.5.0-dev.62",
     "ts-node": "10.9.2"
   },
   "scripts": {
@@ -14,6 +14,6 @@
     "build": "PRISMA_TELEMETRY_INFORMATION='ecosystem-tests platform netlify-github build' && pnpm prisma generate"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.61"
+    "@prisma/client": "6.5.0-dev.62"
   }
 }

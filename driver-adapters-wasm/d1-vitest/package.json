@@ -11,13 +11,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@prisma/adapter-d1": "6.5.0-dev.61",
-    "@prisma/client": "6.5.0-dev.61"
+    "@prisma/adapter-d1": "6.5.0-dev.62",
+    "@prisma/client": "6.5.0-dev.62"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.7.4",
     "@cloudflare/workers-types": "4.20250224.0",
-    "prisma": "6.5.0-dev.61",
+    "prisma": "6.5.0-dev.62",
     "typescript": "^5.5.0",
     "vitest": "1.5.0",
     "wrangler": "3.109.2"
