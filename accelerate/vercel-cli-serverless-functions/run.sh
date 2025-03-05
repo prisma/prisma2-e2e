@@ -27,11 +27,8 @@ sleep 15
 OUTPUT=$(pnpm vercel inspect --logs $DEPLOYED_URL --token=$VERCEL_TOKEN --scope=$VERCEL_ORG_ID)
 echo "${OUTPUT}"
 
-CLEANED_OUTPUT=$(echo "${OUTPUT}" | sed -e 's/\x1B\[[0-9;]*[mGKF]//g' | tr -cd '\11\12\15\40-\176')
-echo $CLEANED_OUTPUT
-
 # Check the Vercel Build Logs for "Generated Prisma Client"
-if echo "${CLEANED_OUTPUT}" | grep -q 'Generated Prisma Client'; then
+if echo "${OUTPUT}" | grep -q 'Generated Prisma Client'; then
   echo 'Prisma Client was successfully generated'
 else
   echo "Prisma Client was NOT GENERATED"
