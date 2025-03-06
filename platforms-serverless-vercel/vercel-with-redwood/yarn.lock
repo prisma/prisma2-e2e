@@ -5041,9 +5041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "@prisma/client@npm:6.5.0-dev.66"
+"@prisma/client@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "@prisma/client@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -5052,17 +5052,17 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 5349c73365585936c0d11df09bce572187c19ce864d63ae57ceb26ff301a51ef739a2ed8404a19e88cee5b21588da60a5f4d145054906654c5327136e364158f
+  checksum: 2b8b6152682b79fb2c1d2a7b73cedc60b6b986873faf68282e5a4293cb98426ed91468004ca23a05b86fa5b30e8f8aa203c619515c6cddfbef44046b5d6c66ca
   languageName: node
   linkType: hard
 
-"@prisma/config@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "@prisma/config@npm:6.5.0-dev.66"
+"@prisma/config@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "@prisma/config@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
   dependencies:
     esbuild: ">=0.12 <1"
     esbuild-register: 3.6.0
-  checksum: e15683bdcc9918250dc2af3cb94031dd0a32ea89febab04c7cdab8f136ed9fcb711be2a1e8825dd63ec1e796997b910f2da845386e9eba5e7a52cf4ae1eb48ca
+  checksum: 77650397bb3653d733313c164090144f7c2e2186ff19a20210d5e80cb317c04e1aa947f391e1b8cc4be7d883dfc978d12ce4b79c959b9914a68f990aba97096a
   languageName: node
   linkType: hard
 
@@ -5073,10 +5073,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "@prisma/debug@npm:6.5.0-dev.66"
-  checksum: 6aff5b2ebb060bb26d9c9d4d9c509383b95ee5a06834322421768b28545685da98b57de559e440b1a6f7c795cd26679a72b1566565fe8e8d7e85a217681caec5
+"@prisma/debug@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "@prisma/debug@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
+  checksum: cf35fbc23b8c280348cdd575c04f2bd9248ef28bfad269a5989d4398fd0ebef23b4db616b4a760a0b072b07bfcd0ee9561c8311655bd67c94de909962b0b6a3f
   languageName: node
   linkType: hard
 
@@ -5106,15 +5106,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "@prisma/engines@npm:6.5.0-dev.66"
+"@prisma/engines@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "@prisma/engines@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.66
+    "@prisma/debug": 6.5.0-integration-fix-dynamic-libsql-import.1
     "@prisma/engines-version": 6.5.0-47.61286205822138f3a5a68d8d508f6aca9d7a268a
-    "@prisma/fetch-engine": 6.5.0-dev.66
-    "@prisma/get-platform": 6.5.0-dev.66
-  checksum: f48abf07bb410c87174840aed88c4c75c631eab24642667bb919a010f10c9522b43a686edf2c6078945934c971f2b3526f2d9ace2363d8648893b21532ba4c41
+    "@prisma/fetch-engine": 6.5.0-integration-fix-dynamic-libsql-import.1
+    "@prisma/get-platform": 6.5.0-integration-fix-dynamic-libsql-import.1
+  checksum: cdf4b38e3f5fdc66217ad56e092d7016e246caee1a2f70933300940c5a29bc91fc298fa92a78a4076478690c0f1360041152ae31986b7a9c116ee64034643a18
   languageName: node
   linkType: hard
 
@@ -5129,14 +5129,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "@prisma/fetch-engine@npm:6.5.0-dev.66"
+"@prisma/fetch-engine@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "@prisma/fetch-engine@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.66
+    "@prisma/debug": 6.5.0-integration-fix-dynamic-libsql-import.1
     "@prisma/engines-version": 6.5.0-47.61286205822138f3a5a68d8d508f6aca9d7a268a
-    "@prisma/get-platform": 6.5.0-dev.66
-  checksum: a4ba2a8fe26e4b2b395ace70f035193b1a12152333bd46d7c403a2ed511f8db88868b55a9963d2b00d58a80183d055c78731037bfb9f58fcda95343c51b85af6
+    "@prisma/get-platform": 6.5.0-integration-fix-dynamic-libsql-import.1
+  checksum: bec619c70b97d28dfe772deb65314a4cfe1fa8a28e7766dfe2a0d99f629575b0a38a0d3487ed26a4581a704513ce54c4c365cdeac38271dc8eb391df7893609a
   languageName: node
   linkType: hard
 
@@ -5158,12 +5158,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "@prisma/get-platform@npm:6.5.0-dev.66"
+"@prisma/get-platform@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "@prisma/get-platform@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.66
-  checksum: 7cb86112dc1635362972f4e90368eb85ab36571b8bbd81d0d5d3a24c8752fe7a068993e8c33799aaa9f79cd12212ba2038f008cd4fb806a58c86e5c920c072c0
+    "@prisma/debug": 6.5.0-integration-fix-dynamic-libsql-import.1
+  checksum: 111f1d65b97319194c39b9695ca301ee2766ba224cc9ccfb0f03ccca5eb1929a888c62a5af338ebdd8d453401b18d1f491df484bb16530c8a6070b2a423eb368
   languageName: node
   linkType: hard
 
@@ -19237,12 +19237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.5.0-dev.66":
-  version: 6.5.0-dev.66
-  resolution: "prisma@npm:6.5.0-dev.66"
+"prisma@npm:6.5.0-integration-fix-dynamic-libsql-import.1":
+  version: 6.5.0-integration-fix-dynamic-libsql-import.1
+  resolution: "prisma@npm:6.5.0-integration-fix-dynamic-libsql-import.1"
   dependencies:
-    "@prisma/config": 6.5.0-dev.66
-    "@prisma/engines": 6.5.0-dev.66
+    "@prisma/config": 6.5.0-integration-fix-dynamic-libsql-import.1
+    "@prisma/engines": 6.5.0-integration-fix-dynamic-libsql-import.1
     fsevents: 2.3.3
   peerDependencies:
     typescript: ">=5.1.0"
@@ -19254,7 +19254,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: a25921330bda8b548cf2ef0b5ad677103fde996d4096160f17ecc4178e2f97aab0046e1e2cd7537a2815b47968b301f6aba0ab21c171751325a2424c252a9715
+  checksum: f6601684ffe0fcfb5fc1fe2d3cdd989de0eec4490529b306ac15e228629ac0add4d6587f4b6fc80fc1e20e5ef2673c58f0536c5465e5a2a7d7e1ad434f2a14a2
   languageName: node
   linkType: hard
 
@@ -20345,11 +20345,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@prisma/client": 6.5.0-dev.66
+    "@prisma/client": 6.5.0-integration-fix-dynamic-libsql-import.1
     "@redwoodjs/core": 7.7.4
     graphql-request: 6.1.0
     jest: 29.7.0
-    prisma: 6.5.0-dev.66
+    prisma: 6.5.0-integration-fix-dynamic-libsql-import.1
     vercel: 41.3.1
   languageName: unknown
   linkType: soft

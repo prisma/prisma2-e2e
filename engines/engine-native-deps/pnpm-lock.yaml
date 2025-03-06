@@ -9,16 +9,16 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.66
-        version: 6.5.0-dev.66
+        specifier: 6.5.0-integration-fix-dynamic-libsql-import.1
+        version: 6.5.0-integration-fix-dynamic-libsql-import.1
       zx:
         specifier: 8.3.2
         version: 8.3.2
 
 packages:
 
-  '@prisma/client@6.5.0-dev.66':
-    resolution: {integrity: sha512-lBNPf6IdL1G8H+cE37w3yV2X7WwOI4MIt3i01yuGoW/S03IWT5FmipBvGK6IQf4tHTlgC++DiBVuU6LUt5c1YA==}
+  '@prisma/client@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-k1fQvY8gXdf3s0gch0iFLr1XX1UlA+xXN9pMbhDb5SMnnasjV+xJdzkPMCOYzrMV8AoX/WoTbXi/qpKUw8irgw==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -48,7 +48,7 @@ packages:
 
 snapshots:
 
-  '@prisma/client@6.5.0-dev.66': {}
+  '@prisma/client@6.5.0-integration-fix-dynamic-libsql-import.1': {}
 
   '@types/fs-extra@11.0.4':
     dependencies:

@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@prisma/adapter-pg':
-        specifier: 6.5.0-dev.66
-        version: 6.5.0-dev.66(pg@8.13.3)
+        specifier: 6.5.0-integration-fix-dynamic-libsql-import.1
+        version: 6.5.0-integration-fix-dynamic-libsql-import.1(pg@8.13.3)
       '@prisma/client':
-        specifier: 6.5.0-dev.66
-        version: 6.5.0-dev.66(prisma@6.5.0-dev.66)
+        specifier: 6.5.0-integration-fix-dynamic-libsql-import.1
+        version: 6.5.0-integration-fix-dynamic-libsql-import.1(prisma@6.5.0-integration-fix-dynamic-libsql-import.1)
       add:
         specifier: ^2.0.6
         version: 2.0.6
@@ -31,8 +31,8 @@ importers:
         specifier: 2.7.0
         version: 2.7.0
       prisma:
-        specifier: 6.5.0-dev.66
-        version: 6.5.0-dev.66
+        specifier: 6.5.0-integration-fix-dynamic-libsql-import.1
+        version: 6.5.0-integration-fix-dynamic-libsql-import.1
       wrangler:
         specifier: 3.109.2
         version: 3.109.2
@@ -650,13 +650,13 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@prisma/adapter-pg@6.5.0-dev.66':
-    resolution: {integrity: sha512-ypi9xpDRVXsxP3FD905r9Uu/phbW/dyO8JzmFKY8k53h0MHXYR1LxlZV5EEu2iajuLt8UxqAXiocQX2Jc+ZEDw==}
+  '@prisma/adapter-pg@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-8C7Eo/AMMnuG1bYDPUxV7/YM4WrQyxZnAFmQjUQOsPPFV1ZHhAb0ElTR/oa6dZWlxqiZ8Olu/Ud42d0UWYSkag==}
     peerDependencies:
       pg: ^8.11.3
 
-  '@prisma/client@6.5.0-dev.66':
-    resolution: {integrity: sha512-lBNPf6IdL1G8H+cE37w3yV2X7WwOI4MIt3i01yuGoW/S03IWT5FmipBvGK6IQf4tHTlgC++DiBVuU6LUt5c1YA==}
+  '@prisma/client@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-k1fQvY8gXdf3s0gch0iFLr1XX1UlA+xXN9pMbhDb5SMnnasjV+xJdzkPMCOYzrMV8AoX/WoTbXi/qpKUw8irgw==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -667,26 +667,26 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/config@6.5.0-dev.66':
-    resolution: {integrity: sha512-YqiMHsRkAjFkAE18OkUaPoE+twjRdDEX38xYp9S5wTtGwcKng9VANlcJMZsAWOSw/EUKy+Pz5nidIxFS6sSNnw==}
+  '@prisma/config@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-R9XJDtL5tMlYvR1PnMt7hFvFx8fvEKDTaXDcZ6UGarKb7Hz3PsAiN8QVYX0aoEn0zb9bMDeg4rfBGz9cPw79eA==}
 
-  '@prisma/debug@6.5.0-dev.66':
-    resolution: {integrity: sha512-3xwS49hN5be6ZJVjEO7L36W7HfaNU4xxpb9qOXMaLq+VVA8hBzw0j2cvaeqtaJ6bH6jPI6GE38uZk1/6RyPJCQ==}
+  '@prisma/debug@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-mOI41tfk7C/q6lUmw9UwufC7bJU4+TjEUbSxeEapWoZL+Te7h8IfMWUFG94Bkx78/hgpwLuSUyoDGXVmnOqmQw==}
 
-  '@prisma/driver-adapter-utils@6.5.0-dev.66':
-    resolution: {integrity: sha512-EpJiQCf/mij/Kfn/91VShEJ/tJo1qJSZ59awzPyxl8S0Q01+Nz9sNK2+ztGUfzgaE+CjDyDoTbM+AXC35NifKQ==}
+  '@prisma/driver-adapter-utils@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-kNq1ahCs63vw0rW4OS8UMucWr6RYJvnlFNeKC64YzNVRW1Vp0ssOu6wG8LzhxijCPHchfA7o1J6jZx6BBdRh6g==}
 
   '@prisma/engines-version@6.5.0-47.61286205822138f3a5a68d8d508f6aca9d7a268a':
     resolution: {integrity: sha512-fsHQtIHzOMEuyfCwSB2n39DI6TDLGa5AdkGhNlpNX7jpS8u9MvYnw5xwNPzYcy0uwx+RnqleqXUTpwsbv+o2nA==}
 
-  '@prisma/engines@6.5.0-dev.66':
-    resolution: {integrity: sha512-XMILW3Ue85rPm0ozJBDxEDCTzMt0GeUH+WfcvLPvTuWApq/Pqitkq+GE5bq6RExHBaKGM0rLqja2BU0Bih/vUw==}
+  '@prisma/engines@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-alqAdya/j5V8JCOAY6t8rqm2GwQ1mxj7eu0ZyIyuMQ8GJomWVrNZajeLwP7qYgE3h/As7ICn3Zq+w24JGU4A5w==}
 
-  '@prisma/fetch-engine@6.5.0-dev.66':
-    resolution: {integrity: sha512-Ba2qr02yEww1qBZ2Cw0gG6E/pgYObRwzP0bs7ra+o1NEUrvOO/SPysx1qLzWIEuAAF2IZlVJHoAz7IW9lo+c4A==}
+  '@prisma/fetch-engine@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-5XiwZNdagEWUVWUTqcSKtGRR4aZk6Ez8jmSnSLMcqABysKD5ppQeoiF19wGczwOAA7cvEnGiwdEbvuOonz4ykA==}
 
-  '@prisma/get-platform@6.5.0-dev.66':
-    resolution: {integrity: sha512-p4hio8v0e3iDjnMpFCgRdTbDJRd55ozCDOmrQLHqa7J700UJe7HOdE+7cATVQMSrT/SiMWCm7UeZSubdRxmxnQ==}
+  '@prisma/get-platform@6.5.0-integration-fix-dynamic-libsql-import.1':
+    resolution: {integrity: sha512-0K6BYUInJyy0VMD4HS+XfJTi74NyhVHT9K6ApKiS2WTZ4oH4FEwbhThKjePxQqdmkWSQb74ZevzZ9MS01NeXjA==}
 
   '@sinclair/typebox@0.27.8':
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
@@ -1546,8 +1546,8 @@ packages:
   printable-characters@1.0.42:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
 
-  prisma@6.5.0-dev.66:
-    resolution: {integrity: sha512-vMsXYFwSpX8Uoa/6OHTHsa6DqE7QQ1U6aICbWkTjE2xwyfu7da6XOw4QOKK+M60tQd5y1RivDQt4VS3oT5aPEQ==}
+  prisma@6.5.0-integration-fix-dynamic-libsql-import.1:
+    resolution: {integrity: sha512-w/jJBKoTUhQAOXia/00M4bx8Iyumhgq/OIHgdlXyalPSrO5zdSj3nnOgPUHG31x+J/qwsBBagm2U5OOU05NKPw==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -2521,47 +2521,47 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@prisma/adapter-pg@6.5.0-dev.66(pg@8.13.3)':
+  '@prisma/adapter-pg@6.5.0-integration-fix-dynamic-libsql-import.1(pg@8.13.3)':
     dependencies:
-      '@prisma/driver-adapter-utils': 6.5.0-dev.66
+      '@prisma/driver-adapter-utils': 6.5.0-integration-fix-dynamic-libsql-import.1
       pg: 8.13.3
       postgres-array: 3.0.2
 
-  '@prisma/client@6.5.0-dev.66(prisma@6.5.0-dev.66)':
+  '@prisma/client@6.5.0-integration-fix-dynamic-libsql-import.1(prisma@6.5.0-integration-fix-dynamic-libsql-import.1)':
     optionalDependencies:
-      prisma: 6.5.0-dev.66
+      prisma: 6.5.0-integration-fix-dynamic-libsql-import.1
 
-  '@prisma/config@6.5.0-dev.66':
+  '@prisma/config@6.5.0-integration-fix-dynamic-libsql-import.1':
     dependencies:
       esbuild: 0.17.19
       esbuild-register: 3.6.0(esbuild@0.17.19)
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/debug@6.5.0-dev.66': {}
+  '@prisma/debug@6.5.0-integration-fix-dynamic-libsql-import.1': {}
 
-  '@prisma/driver-adapter-utils@6.5.0-dev.66':
+  '@prisma/driver-adapter-utils@6.5.0-integration-fix-dynamic-libsql-import.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.66
+      '@prisma/debug': 6.5.0-integration-fix-dynamic-libsql-import.1
 
   '@prisma/engines-version@6.5.0-47.61286205822138f3a5a68d8d508f6aca9d7a268a': {}
 
-  '@prisma/engines@6.5.0-dev.66':
+  '@prisma/engines@6.5.0-integration-fix-dynamic-libsql-import.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.66
+      '@prisma/debug': 6.5.0-integration-fix-dynamic-libsql-import.1
       '@prisma/engines-version': 6.5.0-47.61286205822138f3a5a68d8d508f6aca9d7a268a
-      '@prisma/fetch-engine': 6.5.0-dev.66
-      '@prisma/get-platform': 6.5.0-dev.66
+      '@prisma/fetch-engine': 6.5.0-integration-fix-dynamic-libsql-import.1
+      '@prisma/get-platform': 6.5.0-integration-fix-dynamic-libsql-import.1
 
-  '@prisma/fetch-engine@6.5.0-dev.66':
+  '@prisma/fetch-engine@6.5.0-integration-fix-dynamic-libsql-import.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.66
+      '@prisma/debug': 6.5.0-integration-fix-dynamic-libsql-import.1
       '@prisma/engines-version': 6.5.0-47.61286205822138f3a5a68d8d508f6aca9d7a268a
-      '@prisma/get-platform': 6.5.0-dev.66
+      '@prisma/get-platform': 6.5.0-integration-fix-dynamic-libsql-import.1
 
-  '@prisma/get-platform@6.5.0-dev.66':
+  '@prisma/get-platform@6.5.0-integration-fix-dynamic-libsql-import.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.66
+      '@prisma/debug': 6.5.0-integration-fix-dynamic-libsql-import.1
 
   '@sinclair/typebox@0.27.8': {}
 
@@ -3593,10 +3593,10 @@ snapshots:
 
   printable-characters@1.0.42: {}
 
-  prisma@6.5.0-dev.66:
+  prisma@6.5.0-integration-fix-dynamic-libsql-import.1:
     dependencies:
-      '@prisma/config': 6.5.0-dev.66
-      '@prisma/engines': 6.5.0-dev.66
+      '@prisma/config': 6.5.0-integration-fix-dynamic-libsql-import.1
+      '@prisma/engines': 6.5.0-integration-fix-dynamic-libsql-import.1
     optionalDependencies:
       fsevents: 2.3.3
     transitivePeerDependencies:
