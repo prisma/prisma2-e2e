@@ -1150,57 +1150,6 @@ jobs:
         if: failure()
         run: bash .github/slack/notify-failure.sh generic basic "node ${{ matrix.node }}"
 
-  binaries:
-    needs: [detect_jobs_to_run]
-    if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'binaries')
-
-    strategy:
-      fail-fast: false
-      matrix:
-        binary: [pkg]
-        clientEngine: ['library', 'binary']
-        os: [ubuntu-22.04, macos-latest, windows-latest]
-    runs-on: ${{ matrix.os }}
-
-    env:
-      OS: ${{ matrix.os }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Define Client Engine Type to test
-        run: echo "PRISMA_CLIENT_ENGINE_TYPE=${{ matrix.clientEngine }}" >> $GITHUB_ENV
-
-      - uses: pnpm/action-setup@v4.0.0
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: 'pnpm'
-          cache-dependency-path: ${{ github.job }}/${{ matrix.binary }}/pnpm-lock.yaml
-
-      - name: Install Dependencies
-        run: pnpm install
-
-      # no database used in existing binaries tests
-      # - name: Set test specific DATABASE_URL
-      #   run: |
-      #     string=${{ env.DATABASE_URL_POSTGRES_TEMPLATE }}
-      #     search=database
-      #     replace=${{ github.job }}_${{ matrix.binary }}_${{ matrix.os }}_${{ matrix.clientEngine }}
-      #     replaced=${string/$search/$replace}
-      #     echo "DATABASE_URL=$replaced" >> $GITHUB_ENV
-
-      - name: test ${{ matrix.binary }} binary on ${{ matrix.os }} using ${{ matrix.clientEngine }}
-        uses: nick-invision/retry@v3
-        with:
-          timeout_minutes: 10
-          max_attempts: 3
-          command: bash .github/scripts/test-project.sh ${{ github.job }} ${{ matrix.binary }} ${{ matrix.os }}
-
-      - name: notify-slack
-        if: failure()
-        run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.binary }} ${{ matrix.os }}
-
   # TODO databases are shared between the steps (DP2, DP2+Accelerate), so we run them in sequence
   # it would be great if we could run them in parallel by letting them use the db provided by E2E
   accelerate:
