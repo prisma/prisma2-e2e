@@ -21,7 +21,7 @@ docker buildx build --load \
 
 docker run -p 3000:3000 \
   -e DEBUG=${DEBUG} \
-  -e DATABASE_URL=${DATABASE_URL} \
+  -e DATABASE_URL="${DATABASE_URL}&sslmode=disable" \
   -e CI=${CI} \
   -e PRISMA_CLIENT_ENGINE_TYPE=${PRISMA_CLIENT_ENGINE_TYPE} \
   -e PRISMA_CLI_QUERY_ENGINE_TYPE=${PRISMA_CLIENT_ENGINE_TYPE} \
