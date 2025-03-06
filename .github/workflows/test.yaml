@@ -92,7 +92,6 @@ jobs:
       - engines
       - os
       - node
-      - binaries
       - packagers
       - frameworks
       - platforms
@@ -124,7 +123,6 @@ jobs:
       - engines
       - os
       - node
-      - binaries
       - packagers
       - frameworks
       - platforms
@@ -164,7 +162,6 @@ jobs:
       - engines
       - os
       - node
-      - binaries
       - packagers
       - frameworks
       - platforms
