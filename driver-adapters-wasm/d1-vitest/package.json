@@ -11,13 +11,13 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@prisma/adapter-d1": "6.5.0-dev.73",
-    "@prisma/client": "6.5.0-dev.73"
+    "@prisma/adapter-d1": "6.5.0-integration-engines-6-5-0-61-push-mwuxysxvlnqz-cf0a5062f0eda56dfaac329aea4833bc985a7155.1",
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-61-push-mwuxysxvlnqz-cf0a5062f0eda56dfaac329aea4833bc985a7155.1"
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.7.4",
     "@cloudflare/workers-types": "4.20250224.0",
-    "prisma": "6.5.0-dev.73",
+    "prisma": "6.5.0-integration-engines-6-5-0-61-push-mwuxysxvlnqz-cf0a5062f0eda56dfaac329aea4833bc985a7155.1",
     "typescript": "^5.5.0",
     "vitest": "1.5.0",
     "wrangler": "3.109.2"

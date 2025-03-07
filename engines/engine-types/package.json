@@ -7,7 +7,7 @@
     "test": "jest --verbose"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.73",
+    "@prisma/client": "6.5.0-integration-engines-6-5-0-61-push-mwuxysxvlnqz-cf0a5062f0eda56dfaac329aea4833bc985a7155.1",
     "execa": "^5.0.1",
     "fs-extra": "^11.0.0"
   },
@@ -16,7 +16,7 @@
     "@types/jest": "29.5.14",
     "@types/node": "18.19.79",
     "jest": "29.7.0",
-    "prisma": "6.5.0-dev.73",
+    "prisma": "6.5.0-integration-engines-6-5-0-61-push-mwuxysxvlnqz-cf0a5062f0eda56dfaac329aea4833bc985a7155.1",
     "ts-jest": "29.2.6",
     "typescript": "5.8.2"
   }
