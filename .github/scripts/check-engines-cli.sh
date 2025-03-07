@@ -60,11 +60,14 @@ if [ $CLI_QUERY_ENGINE_TYPE == "binary" ]; then
   echo "Binary: Enabled"
   case $os_name in
     linux)
-      qe_location="$ENGINES_PACKAGE/query-engine-debian-openssl-1.1.x"
+      if [ "$os_architecture" = "aarch64" ]; then
+        qe_location="$ENGINES_PACKAGE/query-engine-linux-arm64-openssl-3.0.x"
+      else
+        qe_location="$ENGINES_PACKAGE/query-engine-debian-openssl-1.1.x"
+      fi
       ;;
     osx)
-      if [ "$os_architecture" = "arm64" ]
-      then
+      if [ "$os_architecture" = "arm64" ]; then
         qe_location="$ENGINES_PACKAGE/query-engine-darwin-arm64"
       else
         qe_location="$ENGINES_PACKAGE/query-engine-darwin"
@@ -78,7 +81,11 @@ elif [ $CLI_QUERY_ENGINE_TYPE == "library" ]; then
   echo "Library: Enabled"
   case $os_name in
     linux)
-      qe_location="$ENGINES_PACKAGE/libquery_engine-debian-openssl-1.1.x.so.node"
+      if [ "$os_architecture" = "aarch64" ]; then
+        qe_location="$ENGINES_PACKAGE/libquery_engine-linux-arm64-openssl-3.0.x.so.node"
+      else
+        qe_location="$ENGINES_PACKAGE/libquery_engine-debian-openssl-1.1.x.so.node"
+      fi
       ;;
     osx)
       if [ "$os_architecture" = "arm64" ]

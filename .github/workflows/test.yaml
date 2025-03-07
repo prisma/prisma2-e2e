@@ -86,6 +86,7 @@ jobs:
     needs:
       - process-managers
       - docker
+      - docker-arm64
       - docker-unsupported
       - core-features
       - migrate
@@ -117,6 +118,7 @@ jobs:
     needs:
       - process-managers
       - docker
+      - docker-arm64
       - docker-unsupported
       - core-features
       - migrate
@@ -156,6 +158,7 @@ jobs:
     needs:
       - process-managers
       - docker
+      - docker-arm64
       - docker-unsupported
       - core-features
       - migrate
@@ -1639,37 +1642,27 @@ jobs:
       matrix:
         feature:
           - almalinux-8-amd64-openssl-1.1.x
-          - almalinux-8-arm64-openssl-1.1.x
           - almalinux-latest-amd64-openssl-3.0.x
-          - almalinux-latest-arm64-openssl-3.0.x
           - alpine-3.17-amd64-openssl-1.1.x
           - alpine-3.17-amd64-openssl-3.0.x
-          - alpine-3.17-arm64-openssl-3.0.x
-          - alpine-3.17-arm64-openssl-3.0.x-with-libc
           - alpine-3.17-amd64-openssl-3.0.x
-          - alpine-3.21-arm64-openssl-3.0.x
           - alpine-3.21-amd64-openssl-3.0.x
           - alpine-latest-amd64-openssl-3.0.x
-          - alpine-latest-arm64-openssl-3.0.x
           - amazonlinux-2022-amd64-openssl-3.0.x
-          - amazonlinux-2022-arm64-openssl-3.0.x
           - archlinux-latest-amd64-openssl-3.0.x
           - debian-bullseye-amd64-openssl-1.1.x
           - debian-bullseye-amd64-openssl-1.1.x-tls
           - debian-buster-amd64-no-openssl
           - debian-buster-amd64-openssl-1.1.x
           - debian-latest-amd64-openssl-3.0.x
-          - debian-latest-arm64-openssl-3.0.x
           - opensuse-tumbleweed-amd64-openssl-3.0.x
           - redhat-ubi9-amd64-openssl-3.0.x
           - ubuntu-20.04-amd64-openssl-1.1.x
           - ubuntu-22.04-amd64-openssl-3.0.x
           - ubuntu-22.04-amd64-openssl-1.1.x
           - ubuntu-latest-amd64-openssl-3.0.x
-          - ubuntu-latest-arm64-openssl-3.0.x
         clientEngine: [library, binary]
-        os: [ubuntu-22.04]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-22.04
 
     env:
       GCP_POSTGRESQL_SSL_DB_URL: ${{ secrets.GCP_POSTGRESQL_SSL_DB_URL }}
@@ -1680,10 +1673,71 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Define Client Engine Type to test
+        run: echo "PRISMA_CLIENT_ENGINE_TYPE=${{ matrix.clientEngine }}" >> $GITHUB_ENV
+
+      - uses: pnpm/action-setup@v4.1.0
+
+      - uses: actions/setup-node@v4
         with:
-          platforms: 'arm64'
+          node-version: 18
+          cache: 'pnpm'
+          cache-dependency-path: ${{ github.job }}/${{ matrix.feature }}/pnpm-lock.yaml
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Set test specific DATABASE_URL
+        run: |
+          string=${{ env.DATABASE_URL_POSTGRES_TEMPLATE }}
+          search=database
+          replace=${{ github.job }}_${{ matrix.feature }}_${{ matrix.os }}_${{ matrix.clientEngine }}
+          replaced=${string/$search/$replace}
+          echo "DATABASE_URL=$replaced" >> $GITHUB_ENV
+
+      - name: test feature - ${{ matrix.feature }} - ${{ matrix.clientEngine }}
+        uses: nick-invision/retry@v3
+        with:
+          timeout_minutes: 20
+          max_attempts: 3
+          command: bash .github/scripts/test-project.sh ${{ github.job }} ${{ matrix.feature }}
+
+      - name: notify-slack
+        if: failure()
+        run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.feature }}
+
+  docker-arm64:
+    needs: [detect_jobs_to_run]
+    if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'docker-arm64')
+
+    strategy:
+      fail-fast: false
+      matrix:
+        feature:
+          - almalinux-8-arm64-openssl-1.1.x
+          - almalinux-latest-arm64-openssl-3.0.x
+          - alpine-3.17-arm64-openssl-3.0.x
+          - alpine-3.17-arm64-openssl-3.0.x-with-libc
+          - alpine-3.21-arm64-openssl-3.0.x
+          - alpine-latest-arm64-openssl-3.0.x
+          - amazonlinux-2022-arm64-openssl-3.0.x
+          - debian-latest-arm64-openssl-3.0.x
+          - ubuntu-latest-arm64-openssl-3.0.x
+        clientEngine: [library, binary]
+    runs-on: ubuntu-24.04-arm
+
+    env:
+      GCP_POSTGRESQL_SSL_DB_URL: ${{ secrets.GCP_POSTGRESQL_SSL_DB_URL }}
+      GCP_POSTGRESQL_SSL_CLIENT_CERT: ${{ secrets.GCP_POSTGRESQL_SSL_CLIENT_CERT }}
+      GCP_POSTGRESQL_SSL_CLIENT_KEY: ${{ secrets.GCP_POSTGRESQL_SSL_CLIENT_KEY }}
+      GCP_POSTGRESQL_SSL_SERVER_CA: ${{ secrets.GCP_POSTGRESQL_SSL_SERVER_CA }}
+
+    steps:
+      - uses: actions/checkout@v4
 
       - name: Set up Docker Buildx
         id: buildx

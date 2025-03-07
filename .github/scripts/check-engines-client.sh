@@ -87,11 +87,14 @@ if [ $CLIENT_ENGINE_TYPE == "binary" ]; then
   echo "Binary: Enabled"
   case $os_name in
     linux)
-      qe_location="$GENERATED_CLIENT/query-engine-debian-openssl-1.1.x"
+      if [ "$os_architecture" = "aarch64" ]; then
+        qe_location="$GENERATED_CLIENT/query-engine-linux-arm64-openssl-3.0.x"
+      else
+        qe_location="$GENERATED_CLIENT/query-engine-debian-openssl-1.1.x"
+      fi
       ;;
     osx)
-      if [ "$os_architecture" = "arm64" ]
-      then
+      if [ "$os_architecture" = "arm64" ]; then
         qe_location="$GENERATED_CLIENT/query-engine-darwin-arm64"
       else
         qe_location="$GENERATED_CLIENT/query-engine-darwin"
@@ -105,11 +108,14 @@ elif [ $CLIENT_ENGINE_TYPE == "library" ]; then
   echo "Library: Enabled"
   case $os_name in
     linux)
-      qe_location="$GENERATED_CLIENT/libquery_engine-debian-openssl-1.1.x.so.node"
+      if [ "$os_architecture" = "aarch64" ]; then
+        qe_location="$GENERATED_CLIENT/libquery_engine-linux-arm64-openssl-3.0.x.so.node"
+      else
+        qe_location="$GENERATED_CLIENT/libquery_engine-debian-openssl-1.1.x.so.node"
+      fi
       ;;
     osx)
-      if [ "$os_architecture" = "arm64" ]
-      then
+      if [ "$os_architecture" = "arm64" ]; then
         qe_location="$GENERATED_CLIENT/libquery_engine-darwin-arm64.dylib.node"
       else
         qe_location="$GENERATED_CLIENT/libquery_engine-darwin.dylib.node"
