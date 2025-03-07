@@ -9,16 +9,16 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.71
-        version: 6.5.0-dev.71
+        specifier: 6.5.0-dev.72
+        version: 6.5.0-dev.72
       zx:
         specifier: 8.3.2
         version: 8.3.2
 
 packages:
 
-  '@prisma/client@6.5.0-dev.71':
-    resolution: {integrity: sha512-s9whqucn0E4lwWnS0sKaLL2OIY49+1kKDJqUnMptea2OTtOnmGsQ96wWj5SlicnEo1LZ0jiTfubdI2OwX0g+WQ==}
+  '@prisma/client@6.5.0-dev.72':
+    resolution: {integrity: sha512-APWSCTt/KIyxn3Lstd8h+oGJ0dfKYkOxc3WRUPV4LGjRq5J6nw6o7M3i8qs/IiYsKN8YG+ux3rSQc7N+t5BaVQ==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -48,7 +48,7 @@ packages:
 
 snapshots:
 
-  '@prisma/client@6.5.0-dev.71': {}
+  '@prisma/client@6.5.0-dev.72': {}
 
   '@types/fs-extra@11.0.4':
     dependencies:
