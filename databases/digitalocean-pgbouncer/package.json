@@ -11,10 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prisma": "6.5.0-dev.73"
+    "prisma": "6.5.0-dev.74"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.73",
+    "@prisma/client": "6.5.0-dev.74",
     "jest": "29.7.0"
   }
 }
