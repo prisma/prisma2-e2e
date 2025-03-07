@@ -19,6 +19,7 @@ fi
 
 cd functions/ && sh prepare_in_project.sh "$func" && cd ..
 
-GOOGLE_APPLICATION_CREDENTIALS="./privateKey.json" pnpm firebase functions:config:set prisma.db="$DATABASE_URL"
+echo "$DATABASE_URL" > db_credentials.txt
+GOOGLE_APPLICATION_CREDENTIALS="./privateKey.json" pnpm firebase functions:secrets:set PRISMA_DB --data-file db_credentials.txt
 
 GOOGLE_APPLICATION_CREDENTIALS="./privateKey.json" pnpm firebase deploy --only "functions:firebase-functions:$func"
