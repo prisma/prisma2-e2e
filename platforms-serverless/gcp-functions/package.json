@@ -12,6 +12,6 @@
   "dependencies": {
     "@google-cloud/functions-framework": "3.4.6",
     "@prisma/client": "6.5.0-dev.78",
-    "@types/node": "18.19.79"
+    "@types/node": "18.19.80"
   }
 }
