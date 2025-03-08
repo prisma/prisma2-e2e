@@ -58,7 +58,7 @@ jobs:
   # Depending on the output we will run some or all tests as fallback
   detect_jobs_to_run:
     name: Detect jobs to run
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     outputs:
       jobs: ${{ steps.detect.outputs.jobs }}
     steps:
@@ -80,7 +80,7 @@ jobs:
 
   confirm_all_jobs_have_run:
     name: Confirm all jobs have run
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     # One-liner to extract updated list to update this:
     # python -c "import yaml; print('\n'.join(['      - ' + job for job in yaml.safe_load(open('test.yaml'))['jobs'] if job not in ['confirm_all_jobs_have_run', 'report-to-slack-success', 'report-to-slack-failure', 'detect_jobs_to_run']]))"
     needs:
@@ -112,7 +112,7 @@ jobs:
       - run: echo "Ok"
 
   report-to-slack-success:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     # One-liner to extract updated list to update this:
     # python -c "import yaml; print('\n'.join(['      - ' + job for job in yaml.safe_load(open('test.yaml'))['jobs'] if job not in ['confirm_all_jobs_have_run', 'report-to-slack-success', 'report-to-slack-failure', 'detect_jobs_to_run']]))"
     needs:
@@ -152,7 +152,7 @@ jobs:
         run: bash .github/scripts/slack-workflow-status.sh ":white_check_mark:"
 
   report-to-slack-failure:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     # One-liner to extract updated list to update this:
     # python -c "import yaml; print('\n'.join(['      - ' + job for job in yaml.safe_load(open('test.yaml'))['jobs'] if job not in ['confirm_all_jobs_have_run', 'report-to-slack-success', 'report-to-slack-failure', 'detect_jobs_to_run']]))"
     needs:
@@ -1662,7 +1662,7 @@ jobs:
           - ubuntu-22.04-amd64-openssl-1.1.x
           - ubuntu-latest-amd64-openssl-3.0.x
         clientEngine: [library, binary]
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     env:
       GCP_POSTGRESQL_SSL_DB_URL: ${{ secrets.GCP_POSTGRESQL_SSL_DB_URL }}
