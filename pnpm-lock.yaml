@@ -31,8 +31,8 @@ importers:
         version: 2.7.0
     devDependencies:
       '@antfu/ni':
-        specifier: 0.23.2
-        version: 0.23.2
+        specifier: 23.3.1
+        version: 23.3.1
       '@slack/webhook':
         specifier: 6.1.0
         version: 6.1.0
@@ -52,8 +52,8 @@ packages:
     resolution: {integrity: sha512-lFMjJTrFL3j7L9yBxwYfCq2k6qqwHyzuUl/XBnif78PWTJYyL/dfowQHWE3sp6U6ZzqWiiIZnpTMO96zhkjwtg==}
     engines: {node: '>=6.0.0'}
 
-  '@antfu/ni@0.23.2':
-    resolution: {integrity: sha512-FSEVWXvwroExDXUu8qV6Wqp2X3D1nJ0Li4LFymCyvCVrm7I3lNfG0zZWSWvGU1RE7891eTnFTyh31L3igOwNKQ==}
+  '@antfu/ni@23.3.1':
+    resolution: {integrity: sha512-C90iyzm/jLV7Lomv2UzwWUzRv9WZr1oRsFRKsX5HjQL4EXrbi9H/RtBkjCP+NF+ABZXUKpAa4F1dkoTaea4zHg==}
     hasBin: true
 
   '@babel/code-frame@7.21.4':
@@ -1494,7 +1494,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
 
-  '@antfu/ni@0.23.2': {}
+  '@antfu/ni@23.3.1': {}
 
   '@babel/code-frame@7.21.4':
     dependencies:
