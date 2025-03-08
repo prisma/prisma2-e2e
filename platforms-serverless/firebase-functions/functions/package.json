@@ -16,7 +16,7 @@
     "firebase-functions": "6.3.2"
   },
   "devDependencies": {
-    "@types/node": "18.19.80",
+    "@types/node": "18.19.79",
     "firebase-functions-test": "3.4.0",
     "prisma": "6.5.0-dev.78",
     "ts-node": "10.9.2",

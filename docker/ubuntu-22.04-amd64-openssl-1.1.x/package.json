@@ -2,7 +2,7 @@
   "name": "@prisma/ubuntu-22.04-amd64-openssl-1.1.x",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "18.19.80",
+    "@types/node": "18.19.79",
     "prisma": "6.5.0-dev.78",
     "ts-node": "10.9.2",
     "typescript": "5.8.2"
