@@ -1,0 +1,53 @@
+name: Cleanup Left Over Azure and Google Cloud / Firebase Resources
+description: |
+  This workflow cleans up left over Azure and Google Cloud / Firebase resources that were not deleted by the test teardown themselves.
+  This is necessary because otherwise we might eventually hit the resource cap for functions or other resources in azure.
+  Also we should not clutter our accounts with unused stuff. ;)
+  We keep failed resources alive for up to 7 days to allow investigation of the failure.
+
+on:
+  schedule:
+    - cron: '0 7 * * 1' # Run at 07:00 UTC every Monday
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+jobs:
+  cleanup-azure:
+    runs-on: ubuntu-latest
+    env:
+      AZURE_SP_TENANT: ${{ vars.AZURE_SP_TENANT }}
+      AZURE_SP_PASSWORD: ${{ secrets.AZURE_SP_PASSWORD }}
+      AZURE_SP_NAME: ${{ vars.AZURE_SP_NAME }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Azure CLI
+        run: |
+          curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+      - name: Azure Login
+        run: |
+          az login --service-principal \
+            -u "${{ secrets.AZURE_SP_NAME }}" \
+            -p "${{ secrets.AZURE_SP_PASSWORD }}" \
+            --tenant "${{ secrets.AZURE_SP_TENANT }}"
+
+      - name: Cleanup Windows resources
+        run: .github/scripts/wipe-azure.sh prisma-e2e-windows
+
+      - name: Cleanup Linux resources
+        run: .github/scripts/wipe-azure.sh prisma-e2e-linux
+
+  cleanup-gcloud:
+    runs-on: ubuntu-latest
+    env:
+      FIREBASE_PRIVATE_KEY: ${{ secrets.FIREBASE_PRIVATE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Google Cloud CLI
+        run: |
+          curl -sL https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+          sudo apt-get update && sudo apt-get install -y google-cloud-cli
+
+      - name: Cleanup Google Cloud resources
+        run: .github/scripts/wipe-gcloud.sh
