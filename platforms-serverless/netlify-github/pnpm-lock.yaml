@@ -13,14 +13,14 @@ importers:
         version: 6.5.0-dev.79(prisma@6.5.0-dev.79(typescript@5.1.6))(typescript@5.1.6)
     devDependencies:
       '@types/node':
-        specifier: 18.19.79
-        version: 18.19.79
+        specifier: 18.19.80
+        version: 18.19.80
       prisma:
         specifier: 6.5.0-dev.79
         version: 6.5.0-dev.79(typescript@5.1.6)
       ts-node:
         specifier: 10.9.2
-        version: 10.9.2(@types/node@18.19.79)(typescript@5.1.6)
+        version: 10.9.2(@types/node@18.19.80)(typescript@5.1.6)
 
 packages:
 
@@ -230,8 +230,8 @@ packages:
   '@tsconfig/node16@1.0.3':
     resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
 
-  '@types/node@18.19.79':
-    resolution: {integrity: sha512-90K8Oayimbctc5zTPHPfZloc/lGVs7f3phUAAMcTgEPtg8kKquGZDERC8K4vkBYkQQh48msiYUslYtxTWvqcAg==}
+  '@types/node@18.19.80':
+    resolution: {integrity: sha512-kEWeMwMeIvxYkeg1gTc01awpwLbfMRZXdIhwRcakd/KlK53jmRC26LqcbIt7fnAQTu5GzlnWmzA3H6+l1u6xxQ==}
 
   acorn-walk@8.2.0:
     resolution: {integrity: sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==}
@@ -452,7 +452,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.3': {}
 
-  '@types/node@18.19.79':
+  '@types/node@18.19.80':
     dependencies:
       undici-types: 5.26.5
 
@@ -522,14 +522,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  ts-node@10.9.2(@types/node@18.19.79)(typescript@5.1.6):
+  ts-node@10.9.2(@types/node@18.19.80)(typescript@5.1.6):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.19.79
+      '@types/node': 18.19.80
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
