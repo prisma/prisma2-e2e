@@ -1361,6 +1361,52 @@ jobs:
         if: failure()
         run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.library }}
 
+  prisma-postgres:
+    needs: [detect_jobs_to_run]
+    if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'prisma-postgres')
+
+    strategy:
+      fail-fast: false
+      matrix:
+        tests:
+          - migrate
+        clientEngine: ['<accelerate>']
+        os: [ubuntu-22.04]
+
+    runs-on: ${{ matrix.os }}
+
+    env:
+      DATABASE_URL_PRISMA_POSTGRES: ${{ secrets.DATABASE_URL_PRISMA_POSTGRES }}
+      PRISMA_CLIENT_ENGINE_TYPE: '<accelerate>' # no engine checks needed for PPg
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Define Client Engine Type to test
+        run: echo "PRISMA_CLIENT_ENGINE_TYPE=${{ matrix.clientEngine }}" >> $GITHUB_ENV
+
+      - uses: pnpm/action-setup@v4.0.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'pnpm'
+          cache-dependency-path: ${{ github.job }}/${{ matrix.tests }}/pnpm-lock.yaml
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: test ${{ matrix.tests }} - ${{ matrix.clientEngine }}
+        uses: nick-invision/retry@v3
+        with:
+          timeout_minutes: 10
+          max_attempts: 3
+          command: bash .github/scripts/test-project.sh ${{ github.job }} ${{ matrix.tests }}
+
+      - name: notify-slack
+        if: failure()
+        run: bash .github/slack/notify-failure.sh ${{ github.job }} ${{ matrix.tests }}
+
   databases:
     needs: [detect_jobs_to_run]
     if: contains(fromJSON(needs.detect_jobs_to_run.outputs.jobs), 'databases')

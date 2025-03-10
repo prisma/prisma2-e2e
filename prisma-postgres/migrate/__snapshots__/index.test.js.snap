@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests for prisma postgres should query the database 1`] = `
+[
+  {
+    "email": "alice@prisma.io",
+    "name": "Alice",
+  },
+]
+`;
