@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {},
   "devDependencies": {
-    "@azure/functions": "3.5.1",
+    "@azure/functions": "4.7.0",
     "azure-functions-core-tools": "4.0.6821",
     "npm-run-all2": "7.0.2",
     "prisma": "6.5.0-dev.79",
