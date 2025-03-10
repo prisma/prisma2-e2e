@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       firebase-tools:
-        specifier: 13.32.0
-        version: 13.32.0
+        specifier: 13.33.0
+        version: 13.33.0(encoding@0.1.13)
 
 packages:
 
@@ -831,8 +831,8 @@ packages:
     resolution: {integrity: sha512-5uXcUVftlQMFnWC9qu/svkWv3GTd2PfUhK/3PLkYNAe7FbqJMt3515HaxE6eRL74GdsriiwujiawdaB1BpEISg==}
     engines: {node: '>= 0.8'}
 
-  firebase-tools@13.32.0:
-    resolution: {integrity: sha512-KkrZ4+Mlj4aV81cJsgXmabWfbanmYSiSONv2B0m/bVpMcVhKCcT0DupBYcD7WOTyNA6f6M8m6E8yPOO/acwchA==}
+  firebase-tools@13.33.0:
+    resolution: {integrity: sha512-CtGaon+WlAGBCABB3UhzCr+crD3qOE0WUt8c0itPzvB619RbtG/jom6QaM9RvBsY9s4VH5ZqcH+/6g1jz0EXTg==}
     engines: {node: '>=18.0.0 || >=20.0.0 || >=22.0.0'}
     hasBin: true
 
@@ -2274,11 +2274,11 @@ snapshots:
   '@gar/promisify@1.1.3':
     optional: true
 
-  '@google-cloud/cloud-sql-connector@1.3.4':
+  '@google-cloud/cloud-sql-connector@1.3.4(encoding@0.1.13)':
     dependencies:
-      '@googleapis/sqladmin': 19.0.0
-      gaxios: 6.7.1
-      google-auth-library: 9.14.0
+      '@googleapis/sqladmin': 19.0.0(encoding@0.1.13)
+      gaxios: 6.7.1(encoding@0.1.13)
+      google-auth-library: 9.14.0(encoding@0.1.13)
       p-throttle: 5.1.0
     transitivePeerDependencies:
       - encoding
@@ -2295,7 +2295,7 @@ snapshots:
 
   '@google-cloud/promisify@4.0.0': {}
 
-  '@google-cloud/pubsub@4.6.0':
+  '@google-cloud/pubsub@4.6.0(encoding@0.1.13)':
     dependencies:
       '@google-cloud/paginator': 5.0.2
       '@google-cloud/precise-date': 4.0.0
@@ -2305,8 +2305,8 @@ snapshots:
       '@opentelemetry/semantic-conventions': 1.21.0
       arrify: 2.0.1
       extend: 3.0.2
-      google-auth-library: 9.14.0
-      google-gax: 4.3.9
+      google-auth-library: 9.14.0(encoding@0.1.13)
+      google-gax: 4.3.9(encoding@0.1.13)
       heap-js: 2.2.0
       is-stream-ended: 0.1.4
       lodash.snakecase: 4.1.1
@@ -2315,9 +2315,9 @@ snapshots:
       - encoding
       - supports-color
 
-  '@googleapis/sqladmin@19.0.0':
+  '@googleapis/sqladmin@19.0.0(encoding@0.1.13)':
     dependencies:
-      googleapis-common: 7.2.0
+      googleapis-common: 7.2.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -2466,11 +2466,11 @@ snapshots:
     optional: true
 
   ajv-formats@2.1.1(ajv@8.17.1):
-    dependencies:
+    optionalDependencies:
       ajv: 8.17.1
 
   ajv-formats@3.0.1(ajv@8.17.1):
-    dependencies:
+    optionalDependencies:
       ajv: 8.17.1
 
   ajv@8.17.1:
@@ -3175,11 +3175,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  firebase-tools@13.32.0:
+  firebase-tools@13.33.0(encoding@0.1.13):
     dependencies:
       '@electric-sql/pglite': 0.2.16
-      '@google-cloud/cloud-sql-connector': 1.3.4
-      '@google-cloud/pubsub': 4.6.0
+      '@google-cloud/cloud-sql-connector': 1.3.4(encoding@0.1.13)
+      '@google-cloud/pubsub': 4.6.0(encoding@0.1.13)
       abort-controller: 3.0.0
       ajv: 8.17.1
       ajv-formats: 3.0.1(ajv@8.17.1)
@@ -3204,9 +3204,9 @@ snapshots:
       form-data: 4.0.2
       fs-extra: 10.1.0
       fuzzy: 0.1.3
-      gaxios: 6.7.1
+      gaxios: 6.7.1(encoding@0.1.13)
       glob: 10.4.5
-      google-auth-library: 9.14.0
+      google-auth-library: 9.14.0(encoding@0.1.13)
       inquirer: 8.2.6
       inquirer-autocomplete-prompt: 2.0.1(inquirer@8.2.6)
       js-yaml: 3.14.1
@@ -3220,7 +3220,7 @@ snapshots:
       mime: 2.6.0
       minimatch: 3.1.2
       morgan: 1.10.0
-      node-fetch: 2.7.0
+      node-fetch: 2.7.0(encoding@0.1.13)
       open: 6.4.0
       ora: 5.4.1
       p-limit: 3.1.0
@@ -3233,13 +3233,13 @@ snapshots:
       sql-formatter: 15.4.0
       stream-chain: 2.2.5
       stream-json: 1.7.5
-      superstatic: 9.2.0
+      superstatic: 9.2.0(encoding@0.1.13)
       tar: 6.1.13
       tcp-port-used: 1.0.2
       tmp: 0.2.3
       triple-beam: 1.3.0
       universal-analytics: 0.5.3
-      update-notifier-cjs: 5.1.6
+      update-notifier-cjs: 5.1.6(encoding@0.1.13)
       uuid: 8.3.2
       winston: 3.8.2
       winston-transport: 4.5.0
@@ -3315,20 +3315,20 @@ snapshots:
       wide-align: 1.1.5
     optional: true
 
-  gaxios@6.7.1:
+  gaxios@6.7.1(encoding@0.1.13):
     dependencies:
       extend: 3.0.2
       https-proxy-agent: 7.0.1
       is-stream: 2.0.1
-      node-fetch: 2.7.0
+      node-fetch: 2.7.0(encoding@0.1.13)
       uuid: 9.0.1
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  gcp-metadata@6.1.0:
+  gcp-metadata@6.1.0(encoding@0.1.13):
     dependencies:
-      gaxios: 6.7.1
+      gaxios: 6.7.1(encoding@0.1.13)
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - encoding
@@ -3409,41 +3409,41 @@ snapshots:
     dependencies:
       ini: 2.0.0
 
-  google-auth-library@9.14.0:
+  google-auth-library@9.14.0(encoding@0.1.13):
     dependencies:
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
-      gaxios: 6.7.1
-      gcp-metadata: 6.1.0
-      gtoken: 7.1.0
+      gaxios: 6.7.1(encoding@0.1.13)
+      gcp-metadata: 6.1.0(encoding@0.1.13)
+      gtoken: 7.1.0(encoding@0.1.13)
       jws: 4.0.0
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  google-gax@4.3.9:
+  google-gax@4.3.9(encoding@0.1.13):
     dependencies:
       '@grpc/grpc-js': 1.11.1
       '@grpc/proto-loader': 0.7.13
       '@types/long': 4.0.2
       abort-controller: 3.0.0
       duplexify: 4.1.2
-      google-auth-library: 9.14.0
-      node-fetch: 2.7.0
+      google-auth-library: 9.14.0(encoding@0.1.13)
+      node-fetch: 2.7.0(encoding@0.1.13)
       object-hash: 3.0.0
       proto3-json-serializer: 2.0.2
       protobufjs: 7.4.0
-      retry-request: 7.0.2
+      retry-request: 7.0.2(encoding@0.1.13)
       uuid: 9.0.1
     transitivePeerDependencies:
       - encoding
       - supports-color
 
-  googleapis-common@7.2.0:
+  googleapis-common@7.2.0(encoding@0.1.13):
     dependencies:
       extend: 3.0.2
-      gaxios: 6.7.1
-      google-auth-library: 9.14.0
+      gaxios: 6.7.1(encoding@0.1.13)
+      google-auth-library: 9.14.0(encoding@0.1.13)
       qs: 6.11.1
       url-template: 2.0.8
       uuid: 9.0.1
@@ -3457,9 +3457,9 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  gtoken@7.1.0:
+  gtoken@7.1.0(encoding@0.1.13):
     dependencies:
-      gaxios: 6.7.1
+      gaxios: 6.7.1(encoding@0.1.13)
       jws: 4.0.0
     transitivePeerDependencies:
       - encoding
@@ -3672,9 +3672,9 @@ snapshots:
 
   isexe@2.0.0: {}
 
-  isomorphic-fetch@3.0.0:
+  isomorphic-fetch@3.0.0(encoding@0.1.13):
     dependencies:
-      node-fetch: 2.7.0
+      node-fetch: 2.7.0(encoding@0.1.13)
       whatwg-fetch: 3.6.2
     transitivePeerDependencies:
       - encoding
@@ -3986,9 +3986,11 @@ snapshots:
       emojilib: 2.4.0
       skin-tone: 2.0.0
 
-  node-fetch@2.7.0:
+  node-fetch@2.7.0(encoding@0.1.13):
     dependencies:
       whatwg-url: 5.0.0
+    optionalDependencies:
+      encoding: 0.1.13
 
   node-gyp@9.3.1:
     dependencies:
@@ -4359,11 +4361,11 @@ snapshots:
 
   ret@0.1.15: {}
 
-  retry-request@7.0.2:
+  retry-request@7.0.2(encoding@0.1.13):
     dependencies:
       '@types/request': 2.48.12
       extend: 3.0.2
-      teeny-request: 9.0.0
+      teeny-request: 9.0.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4572,7 +4574,7 @@ snapshots:
 
   stubs@3.0.0: {}
 
-  superstatic@9.2.0:
+  superstatic@9.2.0(encoding@0.1.13):
     dependencies:
       basic-auth-connect: 1.1.0
       commander: 10.0.0
@@ -4590,7 +4592,7 @@ snapshots:
       on-headers: 1.0.2
       path-to-regexp: 1.9.0
       router: 2.0.0
-      update-notifier-cjs: 5.1.6
+      update-notifier-cjs: 5.1.6(encoding@0.1.13)
     optionalDependencies:
       re2: 1.18.0
     transitivePeerDependencies:
@@ -4629,11 +4631,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  teeny-request@9.0.0:
+  teeny-request@9.0.0(encoding@0.1.13):
     dependencies:
       http-proxy-agent: 5.0.0
       https-proxy-agent: 5.0.1
-      node-fetch: 2.7.0
+      node-fetch: 2.7.0(encoding@0.1.13)
       stream-events: 1.0.5
       uuid: 9.0.1
     transitivePeerDependencies:
@@ -4727,7 +4729,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  update-notifier-cjs@5.1.6:
+  update-notifier-cjs@5.1.6(encoding@0.1.13):
     dependencies:
       boxen: 5.1.2
       chalk: 4.1.2
@@ -4738,7 +4740,7 @@ snapshots:
       is-installed-globally: 0.4.0
       is-npm: 5.0.0
       is-yarn-global: 0.3.0
-      isomorphic-fetch: 3.0.0
+      isomorphic-fetch: 3.0.0(encoding@0.1.13)
       pupa: 2.1.1
       registry-auth-token: 5.0.2
       registry-url: 5.1.0
