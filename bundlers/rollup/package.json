@@ -5,11 +5,11 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "29.7.0",
-    "prisma": "6.5.0-dev.79",
+    "prisma": "6.5.0-integration-feat-get-rid-of-patches.1",
     "rollup": "4.35.0"
   },
   "dependencies": {
-    "@prisma/client": "6.5.0-dev.79"
+    "@prisma/client": "6.5.0-integration-feat-get-rid-of-patches.1"
   },
   "scripts": {
     "test": "jest"

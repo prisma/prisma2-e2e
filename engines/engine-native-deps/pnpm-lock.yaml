@@ -9,16 +9,16 @@ importers:
   .:
     dependencies:
       '@prisma/client':
-        specifier: 6.5.0-dev.79
-        version: 6.5.0-dev.79
+        specifier: 6.5.0-integration-feat-get-rid-of-patches.1
+        version: 6.5.0-integration-feat-get-rid-of-patches.1
       zx:
         specifier: 8.3.2
         version: 8.3.2
 
 packages:
 
-  '@prisma/client@6.5.0-dev.79':
-    resolution: {integrity: sha512-cUUyqlacBBconG78vPJtzAVneTEpCTMLuFGdzgmJIYPOE9bBKzfBm/SuGTilgSJswZv9jWuBO0ego5RFrPmE3Q==}
+  '@prisma/client@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-dXLXEHWfT5TwAAbRbfOazk8sOiLeFQWhm2vL00Y4LSmJerJlki3xW8JyQfs/dUdViW0tIcOf7OpLdYDa4+JwZA==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -48,7 +48,7 @@ packages:
 
 snapshots:
 
-  '@prisma/client@6.5.0-dev.79': {}
+  '@prisma/client@6.5.0-integration-feat-get-rid-of-patches.1': {}
 
   '@types/fs-extra@11.0.4':
     dependencies:

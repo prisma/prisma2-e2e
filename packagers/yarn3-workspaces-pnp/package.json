@@ -5,7 +5,7 @@
     ],
     "packageManager": "yarn@3.8.7",
     "dependencies": {
-        "@prisma/client": "6.5.0-dev.79",
-        "prisma": "6.5.0-dev.79"
+        "@prisma/client": "6.5.0-integration-feat-get-rid-of-patches.1",
+        "prisma": "6.5.0-integration-feat-get-rid-of-patches.1"
     }
 }

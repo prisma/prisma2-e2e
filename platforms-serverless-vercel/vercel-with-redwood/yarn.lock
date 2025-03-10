@@ -5041,9 +5041,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "@prisma/client@npm:6.5.0-dev.79"
+"@prisma/client@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "@prisma/client@npm:6.5.0-integration-feat-get-rid-of-patches.1"
   peerDependencies:
     prisma: "*"
     typescript: ">=5.1.0"
@@ -5052,17 +5052,17 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 9191e0ed7720138a5ca9e40618128a57b52a68dd710832043d80b90688116465e1ccd31237d11ff3f0950a8816219e47e377a3c885412835fc2477861e3789e5
+  checksum: 5573a39c320a61264ad7af6a2d5afb0edb3c72f208e766c43f9f15857a28839bc53a47cb0a5dd399e9e558cb43cec490d2e7c5787c51fa1d6a1f9f83b1c2b67f
   languageName: node
   linkType: hard
 
-"@prisma/config@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "@prisma/config@npm:6.5.0-dev.79"
+"@prisma/config@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "@prisma/config@npm:6.5.0-integration-feat-get-rid-of-patches.1"
   dependencies:
     esbuild: ">=0.12 <1"
     esbuild-register: 3.6.0
-  checksum: b4c85cd0ed521724cbd890a5b3ca57685bf1fbc306aec05723bbd566f4a7d6699a571679c9f998123479ca244ded065dbb3dbaadb1fe1c28341330167d97c324
+  checksum: eba82705fb43a96e141421df591a4c5cdc4cc3f8f25cc9ecb3cf5697be034cb02edb60441a491969971dff483fc0a737f24f464d464b39f46af83a57e38ef85d
   languageName: node
   linkType: hard
 
@@ -5073,10 +5073,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/debug@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "@prisma/debug@npm:6.5.0-dev.79"
-  checksum: 69601330bed7c66a252c831f8a42d3ca27242609e753be67a740cb56b64b82bf7d2739729e29b140bd687613f4d1c08f1d8af9dcbd0a6180cddf146e906c92a1
+"@prisma/debug@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "@prisma/debug@npm:6.5.0-integration-feat-get-rid-of-patches.1"
+  checksum: 9a05a956edcc64c63a2132ea108029b44adcdfa964e60732c132267ffb978397a07c60ebb69732f20935b8d8bc1a7a9d3ece19dc5b873abe65086a05468bc154
   languageName: node
   linkType: hard
 
@@ -5087,10 +5087,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines-version@npm:6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d":
-  version: 6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d
-  resolution: "@prisma/engines-version@npm:6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d"
-  checksum: eca0ddbcabb07fb3e07fdaf5c25b7f15f52905fe457b239a6a948c7099881c2e1db8b82552449fb8f621b743bcf5bef7ccb271329dcbca35e1227017064ff968
+"@prisma/engines-version@npm:6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe":
+  version: 6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe
+  resolution: "@prisma/engines-version@npm:6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe"
+  checksum: ac37d3fc5d53b631ac060f95631b7b5052b744fc9a120a64870dab9fcb70d535582f6b96200dd658d544b0b2a612722ca0981e5f350433979bdaaa483f228db1
   languageName: node
   linkType: hard
 
@@ -5106,15 +5106,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "@prisma/engines@npm:6.5.0-dev.79"
+"@prisma/engines@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "@prisma/engines@npm:6.5.0-integration-feat-get-rid-of-patches.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.79
-    "@prisma/engines-version": 6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d
-    "@prisma/fetch-engine": 6.5.0-dev.79
-    "@prisma/get-platform": 6.5.0-dev.79
-  checksum: 9674d43cc36ff686e1ea7099613e49602983bc9d3e6fc06d3cbbe5f72975a1011ed574ef6c2519ddfbb8d6687cc0ff855d8087a3efacb8ef47286d1f94f3787e
+    "@prisma/debug": 6.5.0-integration-feat-get-rid-of-patches.1
+    "@prisma/engines-version": 6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe
+    "@prisma/fetch-engine": 6.5.0-integration-feat-get-rid-of-patches.1
+    "@prisma/get-platform": 6.5.0-integration-feat-get-rid-of-patches.1
+  checksum: ff9e89b6c0912d961423ec204408537f06f30787368637b9d9080bc3332cc0a83fbee4d1cb3a2d42e05c67e5943136aa3b612b33cccdaf3502858c188eb2b90d
   languageName: node
   linkType: hard
 
@@ -5129,14 +5129,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/fetch-engine@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "@prisma/fetch-engine@npm:6.5.0-dev.79"
+"@prisma/fetch-engine@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "@prisma/fetch-engine@npm:6.5.0-integration-feat-get-rid-of-patches.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.79
-    "@prisma/engines-version": 6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d
-    "@prisma/get-platform": 6.5.0-dev.79
-  checksum: 0abd28fa8aa128a4a309408dd48f8570c2c620345e17c015859f124005f3fbe9b4951969c916666e2f6386093600f3b27172af205049bd12d774e7ffc0799aa1
+    "@prisma/debug": 6.5.0-integration-feat-get-rid-of-patches.1
+    "@prisma/engines-version": 6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe
+    "@prisma/get-platform": 6.5.0-integration-feat-get-rid-of-patches.1
+  checksum: 87c64fecb0388a5235ac30328422b3f6bbd24fed5712149e9f7e93c53508a5dc87f24aac3ec133b459c3c1047ad72e40e3b52e10d91d632fa8095673455af3b8
   languageName: node
   linkType: hard
 
@@ -5158,12 +5158,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/get-platform@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "@prisma/get-platform@npm:6.5.0-dev.79"
+"@prisma/get-platform@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "@prisma/get-platform@npm:6.5.0-integration-feat-get-rid-of-patches.1"
   dependencies:
-    "@prisma/debug": 6.5.0-dev.79
-  checksum: 1f4836b8cc6b26645dc619646df7ee156cad9a5d9c2e7dd373e794545d8f63e05c2b92f0bd659fbd4974b63bf33d47d013a8529e435cbb8e8fd6015a5b0fa1b2
+    "@prisma/debug": 6.5.0-integration-feat-get-rid-of-patches.1
+  checksum: 791015227e58e76481e7b16538a0dfcc141cc146abff3bfa191ab9a722c1cb29d01aa52358b9e34111d0bb4782003b8d6dc4cbec321c3e8182ac1f2edc9d845f
   languageName: node
   linkType: hard
 
@@ -19237,12 +19237,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:6.5.0-dev.79":
-  version: 6.5.0-dev.79
-  resolution: "prisma@npm:6.5.0-dev.79"
+"prisma@npm:6.5.0-integration-feat-get-rid-of-patches.1":
+  version: 6.5.0-integration-feat-get-rid-of-patches.1
+  resolution: "prisma@npm:6.5.0-integration-feat-get-rid-of-patches.1"
   dependencies:
-    "@prisma/config": 6.5.0-dev.79
-    "@prisma/engines": 6.5.0-dev.79
+    "@prisma/config": 6.5.0-integration-feat-get-rid-of-patches.1
+    "@prisma/engines": 6.5.0-integration-feat-get-rid-of-patches.1
     fsevents: 2.3.3
   peerDependencies:
     typescript: ">=5.1.0"
@@ -19254,7 +19254,7 @@ __metadata:
       optional: true
   bin:
     prisma: build/index.js
-  checksum: 05c9f818a142acf1679b64bfa3066f14f99168c6629e2c6842e8307d082efcc41eb2ce1b1223cb60bce217afb4def20d2da80150bcd0282df527b394f56e4618
+  checksum: 8a25ca056c8492a244c3950c4b88a6bf21f8ae4d7cd5469c562f28eca19021c22d3fc315db8e7ac496daa61a4444c7f4f304f41e017c4c9eadbd0c70d4f3b61b
   languageName: node
   linkType: hard
 
@@ -20345,11 +20345,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@prisma/client": 6.5.0-dev.79
+    "@prisma/client": 6.5.0-integration-feat-get-rid-of-patches.1
     "@redwoodjs/core": 7.7.4
     graphql-request: 6.1.0
     jest: 29.7.0
-    prisma: 6.5.0-dev.79
+    prisma: 6.5.0-integration-feat-get-rid-of-patches.1
     vercel: 41.3.1
   languageName: unknown
   linkType: soft

@@ -1,1 +1,1 @@
-6.5.0-dev.79
+6.5.0-integration-feat-get-rid-of-patches.1

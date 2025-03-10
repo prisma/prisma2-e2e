@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@prisma/adapter-d1':
-        specifier: 6.5.0-dev.79
-        version: 6.5.0-dev.79
+        specifier: 6.5.0-integration-feat-get-rid-of-patches.1
+        version: 6.5.0-integration-feat-get-rid-of-patches.1
       '@prisma/client':
-        specifier: 6.5.0-dev.79
-        version: 6.5.0-dev.79(prisma@6.5.0-dev.79(typescript@5.8.2))(typescript@5.8.2)
+        specifier: 6.5.0-integration-feat-get-rid-of-patches.1
+        version: 6.5.0-integration-feat-get-rid-of-patches.1(prisma@6.5.0-integration-feat-get-rid-of-patches.1(typescript@5.8.2))(typescript@5.8.2)
       nuxt:
         specifier: ^3.11.2
         version: 3.15.4(@parcel/watcher@2.5.1)(@types/node@20.12.12)(db0@0.2.3)(ioredis@5.5.0)(magicast@0.3.5)(rollup@4.34.6)(terser@5.38.1)(typescript@5.8.2)(vite@6.1.0(@types/node@20.12.12)(jiti@2.4.2)(terser@5.38.1)(yaml@2.7.0))(yaml@2.7.0)
@@ -37,8 +37,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.1
       prisma:
-        specifier: 6.5.0-dev.79
-        version: 6.5.0-dev.79(typescript@5.8.2)
+        specifier: 6.5.0-integration-feat-get-rid-of-patches.1
+        version: 6.5.0-integration-feat-get-rid-of-patches.1(typescript@5.8.2)
       wrangler:
         specifier: ^3.57.1
         version: 3.109.2(@cloudflare/workers-types@4.20250224.0)
@@ -1068,11 +1068,11 @@ packages:
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
-  '@prisma/adapter-d1@6.5.0-dev.79':
-    resolution: {integrity: sha512-NH4JC+bTOsz80a0Jz3RmjeWabq4Txdy8Y6SVgG4ifIayno9V0PdDZQ6Vti0ES9Ymk9CziVZ+ECikmkSOJKLkVQ==}
+  '@prisma/adapter-d1@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-M4NW4lxIx03ygv8A/HsSj+pFmn7/rIeTQmSKmWbxSrjE/4sz8vVRdWug4TkLgfVovpdNp3nOI4Fs6MY0nzchAg==}
 
-  '@prisma/client@6.5.0-dev.79':
-    resolution: {integrity: sha512-cUUyqlacBBconG78vPJtzAVneTEpCTMLuFGdzgmJIYPOE9bBKzfBm/SuGTilgSJswZv9jWuBO0ego5RFrPmE3Q==}
+  '@prisma/client@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-dXLXEHWfT5TwAAbRbfOazk8sOiLeFQWhm2vL00Y4LSmJerJlki3xW8JyQfs/dUdViW0tIcOf7OpLdYDa4+JwZA==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -1083,26 +1083,26 @@ packages:
       typescript:
         optional: true
 
-  '@prisma/config@6.5.0-dev.79':
-    resolution: {integrity: sha512-1Nw3O0CQ54vXZI9cUVPfjASjPmgtWmL3fGusj55VAB4YFeMViLKkKd2Gw1X2DXxnjbgUbQ3ZQK+emoDC2F2/+Q==}
+  '@prisma/config@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-DtiYZKRMSDvAlCmEIXgOqqx+dbqKicqeh3Kzd0kc+S0yuFh2IeWJcoFX2sYqAQLOtV/BhWaVT0lkVeVZEtUpVQ==}
 
-  '@prisma/debug@6.5.0-dev.79':
-    resolution: {integrity: sha512-g0J7/4jIJ2JHdp5HjgYCm5QyZoXOWjCHeJw+bDAflIVXKhrIKoJ2L3OODXJkS9j63dJoJ0KfxdBJMYZYrnAUzg==}
+  '@prisma/debug@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-XmV9n3jZ4HgwX/C4XAeC7vfBSbwX0chwczRc8bYlJS7o54qaRstEYMORYUA8ACEdMNx9Dsu9rw00QU/PZDvmAQ==}
 
-  '@prisma/driver-adapter-utils@6.5.0-dev.79':
-    resolution: {integrity: sha512-EkbqJl3qnhCo/abk7YTQ3IVkDn8EW/O1sYEGL047ZxmHRQZWl2OFT3/AEgBU5hRBzOgTPpkDXl3jCyo8ojBKeg==}
+  '@prisma/driver-adapter-utils@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-IKvQTnaaStA/G45ezf8OzECGnBpyVw5T09KyMp9IUm1aSTRtqjHsfZOaWsB11wWJKi4EdJmhGzBrS3OS0+EP9g==}
 
-  '@prisma/engines-version@6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d':
-    resolution: {integrity: sha512-Cgal8Mgf9GeYqaO2fLYf+ib0d9uqUmaSnwFeiTGZwvNxNu72eCX03G0YVGRF4tVia6uj2OjJ0fLQ+viq7IeMqg==}
+  '@prisma/engines-version@6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe':
+    resolution: {integrity: sha512-FMNakFsyTWnoc1MEqioCYdGB0DjiO89r4CdDayAZ2QBMLDKWZJQ9lHbJ3lwGS7ZuCnHE0rSxKUcBetWFzxGDFQ==}
 
-  '@prisma/engines@6.5.0-dev.79':
-    resolution: {integrity: sha512-Zxm9XPY27DdM4fUWw3hl7HzC9xs2H77lJOiLcEoq9zxtOD/OXbAHNcqeu5xuLqbBUapdOcwvseGa820fPhFI5Q==}
+  '@prisma/engines@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-WGC9M6/UpZgca473rmSIdL+jBudJHqM23RbIVpJ2opjh1squuyMh2PV34at1aWdj/Fh6pL3DOIiTsIxIzoYGyg==}
 
-  '@prisma/fetch-engine@6.5.0-dev.79':
-    resolution: {integrity: sha512-fv9oIdjhb7Cxy7NwiztsqCwBuBT3GplY+R8azvJ88Pgc/f7jQMcuVN2A1Wh9LvcuejJpZ0LUqQ79Mfz1gKPr1g==}
+  '@prisma/fetch-engine@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-M1cWsmRBG9vcpWZAnF18pArdd2Zg2+FQpBf0WtWmLI3V9xRodhUPYHjJXVK0hovkDRnlcNCeZQpMgOBYkUuoEw==}
 
-  '@prisma/get-platform@6.5.0-dev.79':
-    resolution: {integrity: sha512-BjM692nUWi3D50+qPvHOrPYSimEyWlEKd754NMLWcugVFOLbd3wmWJhG6cBAnw4W+q9kCfgW9ahX4Ud/spxg+w==}
+  '@prisma/get-platform@6.5.0-integration-feat-get-rid-of-patches.1':
+    resolution: {integrity: sha512-QsqcftqrAJPgca3X/ldooIdX7Jn+K14Rk3Zb0jeE+SP0tfsBcMiYeDknziK6Q38dYX8DlY0SnCRsGre5wvtCAA==}
 
   '@redocly/ajv@8.11.2':
     resolution: {integrity: sha512-io1JpnwtIcvojV7QKDUSIuMN/ikdOUd1ReEnUnMKGfDVridQZ31J0MmIuqwuRjWDZfmvr+Q0MqCcfHM2gTivOg==}
@@ -3366,8 +3366,8 @@ packages:
   printable-characters@1.0.42:
     resolution: {integrity: sha512-dKp+C4iXWK4vVYZmYSd0KBH5F/h1HoZRsbJ82AVKRO3PEo8L4lBS/vLwhVtpwwuYcoIsVY+1JYKR268yn480uQ==}
 
-  prisma@6.5.0-dev.79:
-    resolution: {integrity: sha512-pDrqBW7kcQfBh3kLUhxnkQHgKzqJLPfcr5lxBb9ImiTuuKtlrJeFC03RnqSiBgw3w+YUq8DELlzVtu+7cN0ewg==}
+  prisma@6.5.0-integration-feat-get-rid-of-patches.1:
+    resolution: {integrity: sha512-vQN+V6WPIvfQ5wI3/6WeHrw0l9B3pl5FUsiJmmjszZbuhbN2g5RfYY2twyLjd0uqIv3BE1Sr3s2R2FMv1bk35g==}
     engines: {node: '>=18.18'}
     hasBin: true
     peerDependencies:
@@ -5486,51 +5486,51 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
-  '@prisma/adapter-d1@6.5.0-dev.79':
+  '@prisma/adapter-d1@6.5.0-integration-feat-get-rid-of-patches.1':
     dependencies:
       '@cloudflare/workers-types': 4.20250214.0
-      '@prisma/driver-adapter-utils': 6.5.0-dev.79
+      '@prisma/driver-adapter-utils': 6.5.0-integration-feat-get-rid-of-patches.1
       miniflare: 3.20250214.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@prisma/client@6.5.0-dev.79(prisma@6.5.0-dev.79(typescript@5.8.2))(typescript@5.8.2)':
+  '@prisma/client@6.5.0-integration-feat-get-rid-of-patches.1(prisma@6.5.0-integration-feat-get-rid-of-patches.1(typescript@5.8.2))(typescript@5.8.2)':
     optionalDependencies:
-      prisma: 6.5.0-dev.79(typescript@5.8.2)
+      prisma: 6.5.0-integration-feat-get-rid-of-patches.1(typescript@5.8.2)
       typescript: 5.8.2
 
-  '@prisma/config@6.5.0-dev.79':
+  '@prisma/config@6.5.0-integration-feat-get-rid-of-patches.1':
     dependencies:
       esbuild: 0.24.2
       esbuild-register: 3.6.0(esbuild@0.24.2)
     transitivePeerDependencies:
       - supports-color
 
-  '@prisma/debug@6.5.0-dev.79': {}
+  '@prisma/debug@6.5.0-integration-feat-get-rid-of-patches.1': {}
 
-  '@prisma/driver-adapter-utils@6.5.0-dev.79':
+  '@prisma/driver-adapter-utils@6.5.0-integration-feat-get-rid-of-patches.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.79
+      '@prisma/debug': 6.5.0-integration-feat-get-rid-of-patches.1
 
-  '@prisma/engines-version@6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d': {}
+  '@prisma/engines-version@6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe': {}
 
-  '@prisma/engines@6.5.0-dev.79':
+  '@prisma/engines@6.5.0-integration-feat-get-rid-of-patches.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.79
-      '@prisma/engines-version': 6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d
-      '@prisma/fetch-engine': 6.5.0-dev.79
-      '@prisma/get-platform': 6.5.0-dev.79
+      '@prisma/debug': 6.5.0-integration-feat-get-rid-of-patches.1
+      '@prisma/engines-version': 6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe
+      '@prisma/fetch-engine': 6.5.0-integration-feat-get-rid-of-patches.1
+      '@prisma/get-platform': 6.5.0-integration-feat-get-rid-of-patches.1
 
-  '@prisma/fetch-engine@6.5.0-dev.79':
+  '@prisma/fetch-engine@6.5.0-integration-feat-get-rid-of-patches.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.79
-      '@prisma/engines-version': 6.5.0-70.d3fd11690486b166608fd9d9091a0e94f299a99d
-      '@prisma/get-platform': 6.5.0-dev.79
+      '@prisma/debug': 6.5.0-integration-feat-get-rid-of-patches.1
+      '@prisma/engines-version': 6.5.0-54.1ea2fdf6bb4482f4af05b7f54f20273ddb71a8fe
+      '@prisma/get-platform': 6.5.0-integration-feat-get-rid-of-patches.1
 
-  '@prisma/get-platform@6.5.0-dev.79':
+  '@prisma/get-platform@6.5.0-integration-feat-get-rid-of-patches.1':
     dependencies:
-      '@prisma/debug': 6.5.0-dev.79
+      '@prisma/debug': 6.5.0-integration-feat-get-rid-of-patches.1
 
   '@redocly/ajv@8.11.2':
     dependencies:
@@ -8226,10 +8226,10 @@ snapshots:
 
   printable-characters@1.0.42: {}
 
-  prisma@6.5.0-dev.79(typescript@5.8.2):
+  prisma@6.5.0-integration-feat-get-rid-of-patches.1(typescript@5.8.2):
     dependencies:
-      '@prisma/config': 6.5.0-dev.79
-      '@prisma/engines': 6.5.0-dev.79
+      '@prisma/config': 6.5.0-integration-feat-get-rid-of-patches.1
+      '@prisma/engines': 6.5.0-integration-feat-get-rid-of-patches.1
     optionalDependencies:
       fsevents: 2.3.3
       typescript: 5.8.2
