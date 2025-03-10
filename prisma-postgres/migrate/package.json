@@ -1,0 +1,16 @@
+{
+  "name": "supabase",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "29.7.0",
+    "prisma": "6.5.0-dev.79"
+  },
+  "dependencies": {
+    "@prisma/client": "6.5.0-dev.79"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
